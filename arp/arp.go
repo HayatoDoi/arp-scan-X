@@ -151,6 +151,7 @@ func readARP(handle *pcap.Handle, iface *net.Interface, arpTables *arpTables, st
 	in := src.Packets()
 	for {
 		var packet gopacket.Packet
+	pktselect:
 		select {
 		case <-stop:
 			return
@@ -167,6 +168,11 @@ func readARP(handle *pcap.Handle, iface *net.Interface, arpTables *arpTables, st
 			// Note:  we might get some packets here that aren't responses to ones we've sent,
 			// if for example someone else sends US an ARP request.  Doesn't much matter, though...
 			// all information is good information :)
+			for _, arpTable := range *arpTables {
+				if bytes.Compare(arpTable.HardwareAddr, net.HardwareAddr(arp.SourceHwAddress)) == 0 {
+					break pktselect
+				}
+			}
 			*arpTables = append(*arpTables, arpTable{
 				IP:           net.IP(arp.SourceProtAddress),
 				HardwareAddr: net.HardwareAddr(arp.SourceHwAddress),
