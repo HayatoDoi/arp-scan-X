@@ -40,15 +40,18 @@ func main() {
 		fmt.Fprintf(os.Stderr, "%s\n", err)
 		os.Exit(1)
 	}
-	fmt.Println(interfaces)
+
 	for _, interface_ := range interfaces {
 		a, err := arp.New(interface_)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s\n", err)
+			fmt.Fprintf(os.Stderr, "Error(%s) : %s\n", interface_, err)
+			continue
 		}
+		fmt.Printf("Interface: %s, Network range: %v\n", interface_,a.Addr)
 		arpTables, err := a.Scan()
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s\n", err)
+			fmt.Fprintf(os.Stderr, "Error(%s) : %s\n", interface_, err)
+			continue
 		}
 		for _, arpTable := range arpTables {
 			oui := strings.ToUpper(hex.EncodeToString(arpTable.HardwareAddr[:3]))

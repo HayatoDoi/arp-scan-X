@@ -24,6 +24,7 @@ type arpTables []arpTable
 
 type arpStruct struct {
 	iface *net.Interface
+	Addr *net.IPNet
 }
 
 /*
@@ -63,24 +64,19 @@ func IfaceToName(interfaceNames string) ([]string, error) {
  * New is ...
  */
 func New(interfaceName string) (arpStruct, error) {
+	// look for interface.
 	a := arpStruct{}
 	iface, err := net.InterfaceByName(interfaceName)
 	if err != nil {
 		return a, fmt.Errorf("interface %v: unkown", interfaceName)
 	}
 	a.iface = iface
-	return a, nil
-}
 
-// scan scans an individual interface's local network for machines using ARP requests/replies.  scan loops forever, sending packets out regularly.  It returns an error if
-// it's ever unable to write a packet.
-func (a arpStruct) Scan() (arpTables, error) {
-	// We just look for IPv4 addresses, so try to find if the interface has one.
+	// look for IPv4 addresses.
 	var addr *net.IPNet
-	var at arpTables
 	addrs, err := a.iface.Addrs()
 	if err != nil {
-		return at, err
+		return a, err
 	}
 	for _, a := range addrs {
 		if ipnet, ok := a.(*net.IPNet); ok {
@@ -94,17 +90,27 @@ func (a arpStruct) Scan() (arpTables, error) {
 		}
 	}
 	if len(a.iface.HardwareAddr) == 0 {
-		return at, errors.New("Could not obtain MAC address")
+		return a, errors.New("Could not obtain MAC address")
 	}
 	// Sanity-check that the interface has a good address.
 	if addr == nil {
-		return at, errors.New("no good IP network found")
+		return a, errors.New("no good IP network found")
 	} else if addr.IP[0] == 127 {
-		return at, errors.New("skipping localhost")
+		return a, errors.New("skipping localhost")
 	} else if addr.Mask[0] != 0xff || addr.Mask[1] != 0xff {
-		return at, errors.New("mask means network is too large")
+		return a, errors.New("mask means network is too large")
 	}
-	log.Printf("Using network range %v for interface %v", addr, a.iface.Name)
+	a.Addr = addr
+
+	// log.Printf("Using network range %v for interface %v", addr, a.iface.Name)
+
+	return a, nil
+}
+
+// scan scans an individual interface's local network for machines using ARP requests/replies.  scan loops forever, sending packets out regularly.  It returns an error if
+// it's ever unable to write a packet.
+func (a arpStruct) Scan() (arpTables, error) {
+	var at arpTables
 
 	// Open up a pcap handle for packet reads/writes.
 	handle, err := pcap.OpenLive(a.iface.Name, 65536, true, pcap.BlockForever)
@@ -117,7 +123,7 @@ func (a arpStruct) Scan() (arpTables, error) {
 	go readARP(handle, a.iface, &at, stop)
 	defer close(stop)
 	// go readARP(handle, a.iface, &at)
-	if err := writeARP(handle, a.iface, addr); err != nil {
+	if err := writeARP(handle, a.iface, a.Addr); err != nil {
 		log.Printf("error writing packets on %v: %v", a.iface.Name, err)
 		return at, err
 	}
