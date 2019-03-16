@@ -5,7 +5,6 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"log"
 	"net"
 	"strings"
 	"time"
@@ -94,15 +93,13 @@ func New(interfaceName string) (arpStruct, error) {
 	}
 	// Sanity-check that the interface has a good address.
 	if addr == nil {
-		return a, errors.New("no good IP network found")
+		return a, errors.New("Could not find good IP network")
 	} else if addr.IP[0] == 127 {
-		return a, errors.New("skipping localhost")
+		return a, errors.New("This address is localhost")
 	} else if addr.Mask[0] != 0xff || addr.Mask[1] != 0xff {
-		return a, errors.New("mask means network is too large")
+		return a, errors.New("Netmask is too large")
 	}
 	a.Addr = addr
-
-	// log.Printf("Using network range %v for interface %v", addr, a.iface.Name)
 
 	return a, nil
 }
@@ -124,8 +121,7 @@ func (a arpStruct) Scan() (arpTables, error) {
 	defer close(stop)
 	// go readARP(handle, a.iface, &at)
 	if err := writeARP(handle, a.iface, a.Addr); err != nil {
-		log.Printf("error writing packets on %v: %v", a.iface.Name, err)
-		return at, err
+		return at, fmt.Errorf("Could not write packets.\n%v", err)
 	}
 	// We don't know exactly how long it'll take for packets to be
 	// sent back to us, but 2 seconds should be more than enough
@@ -160,7 +156,6 @@ func readARP(handle *pcap.Handle, iface *net.Interface, arpTables *arpTables, st
 				IP:           net.IP(arp.SourceProtAddress),
 				HardwareAddr: net.HardwareAddr(arp.SourceHwAddress),
 			})
-			// log.Printf("IP %v is at %v", net.IP(arp.SourceProtAddress), net.HardwareAddr(arp.SourceHwAddress))
 		}
 	}
 }
