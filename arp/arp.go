@@ -5,6 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"math"
 	"net"
 	"strings"
 	"time"
@@ -14,6 +15,11 @@ import (
 	"github.com/google/gopacket/pcap"
 )
 
+type Config struct {
+	Interface string
+	Timeout   time.Duration
+	Backoff   float64
+}
 type arpTable struct {
 	IP           net.IP
 	HardwareAddr net.HardwareAddr
@@ -22,8 +28,9 @@ type arpTable struct {
 type arpTables []arpTable
 
 type arpStruct struct {
-	iface *net.Interface
-	Addr *net.IPNet
+	config Config
+	iface  *net.Interface
+	Addr   *net.IPNet
 }
 
 /*
@@ -62,12 +69,14 @@ func IfaceToName(interfaceNames string) ([]string, error) {
 /*
  * New is ...
  */
-func New(interfaceName string) (arpStruct, error) {
-	// look for interface.
+func New(config Config) (arpStruct, error) {
 	a := arpStruct{}
-	iface, err := net.InterfaceByName(interfaceName)
+	// set config
+	a.config = config
+	// look for interface.
+	iface, err := net.InterfaceByName(config.Interface)
 	if err != nil {
-		return a, fmt.Errorf("interface %v: unkown", interfaceName)
+		return a, fmt.Errorf("interface %v: unkown", config.Interface)
 	}
 	a.iface = iface
 
@@ -120,13 +129,19 @@ func (a arpStruct) Scan() (arpTables, error) {
 	go readARP(handle, a.iface, &at, stop)
 	defer close(stop)
 	// go readARP(handle, a.iface, &at)
-	if err := writeARP(handle, a.iface, a.Addr); err != nil {
-		return at, fmt.Errorf("Could not write packets.\n%v", err)
+	for i := 0; i < 3; i++ {
+		if err := writeARP(handle, a.iface, a.Addr); err != nil {
+			return at, fmt.Errorf("Could not write packets.\n%v", err)
+		}
+		time.Sleep(
+			time.Duration(
+				float64(a.config.Timeout/time.Millisecond)*
+					math.Pow(a.config.Backoff, float64(i))) *
+				time.Millisecond)
 	}
 	// We don't know exactly how long it'll take for packets to be
 	// sent back to us, but 2 seconds should be more than enough
 	// time ;)
-	time.Sleep(2 * time.Second)
 	stop <- true
 	return at, nil
 }
