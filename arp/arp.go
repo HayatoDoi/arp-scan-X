@@ -3,11 +3,9 @@ package arp
 import (
 	"bytes"
 	"encoding/binary"
-	"errors"
 	"fmt"
 	"math"
 	"net"
-	"strings"
 	"time"
 
 	"github.com/google/gopacket"
@@ -19,6 +17,7 @@ type Config struct {
 	Interface string
 	Timeout   time.Duration
 	Backoff   float64
+	Addr      *net.IPNet
 }
 type arpTable struct {
 	IP           net.IP
@@ -33,38 +32,6 @@ type arpStruct struct {
 	Addr   *net.IPNet
 }
 
-/*
- * IfaceToName is func....
- * INPUT  : interfaceNames
- *        : ex1, "eth1"
- *        : ex2, "eth1,eth2,eth3"
- *        : ex3, "all"
- * OUTPUT : []string
- *        : ex1, []string{"eth1"}
- *        : ex2, []string{"eth1", "eth2", "eth3"}
- *        : ex3, []string{"eth1", "eth2", "eth3", ... all interface}
- */
-func IfaceToName(interfaceNames string) ([]string, error) {
-	var r []string
-	if interfaceNames == "all" {
-		ifaces, err := net.Interfaces()
-		if err != nil {
-			return r, err
-		}
-		for _, iface := range ifaces {
-			r = append(r, iface.Name)
-		}
-		return r, nil
-	}
-	r = strings.Split(interfaceNames, ",")
-	for _, interfaceName := range r {
-		_, err := net.InterfaceByName(interfaceName)
-		if err != nil {
-			return r, fmt.Errorf("interface %v: unkown", interfaceName)
-		}
-	}
-	return r, nil
-}
 
 /*
  * New is ...
@@ -80,35 +47,7 @@ func New(config Config) (arpStruct, error) {
 	}
 	a.iface = iface
 
-	// look for IPv4 addresses.
-	var addr *net.IPNet
-	addrs, err := a.iface.Addrs()
-	if err != nil {
-		return a, err
-	}
-	for _, a := range addrs {
-		if ipnet, ok := a.(*net.IPNet); ok {
-			if ip4 := ipnet.IP.To4(); ip4 != nil {
-				addr = &net.IPNet{
-					IP:   ip4,
-					Mask: ipnet.Mask[len(ipnet.Mask)-4:],
-				}
-				break
-			}
-		}
-	}
-	if len(a.iface.HardwareAddr) == 0 {
-		return a, errors.New("Could not obtain MAC address")
-	}
-	// Sanity-check that the interface has a good address.
-	if addr == nil {
-		return a, errors.New("Could not find good IP network")
-	} else if addr.IP[0] == 127 {
-		return a, errors.New("This address is localhost")
-	} else if addr.Mask[0] != 0xff || addr.Mask[1] != 0xff {
-		return a, errors.New("Netmask is too large")
-	}
-	a.Addr = addr
+	a.Addr = config.Addr
 
 	return a, nil
 }
