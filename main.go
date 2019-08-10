@@ -7,6 +7,7 @@ import (
 	"strings"
 	"time"
 	"github.com/HayatoDoi/arp-scan-X/arp"
+	"github.com/HayatoDoi/arp-scan-X/syslog"
 	flags "github.com/jessevdk/go-flags"
 )
 
@@ -18,6 +19,7 @@ func main() {
 		Version       func()  `short:"v" long:"version" description:"show version"`
 		Copyright     func()  `short:"c" long:"copyright" description:"show copyright"`
 		InterfaceName string  `short:"I" long:"interface" default:"all" description:"Set interface name"`
+		DebugMode     bool    `short:"d" long:"debug" description:"On debug mode"`
 		Timeout       int64   `short:"t" long:"timeout" default:"500" description:"Set initial per host timeout\nThis timeout is for the first packet sent to each host.\nsubsequent timeouts are multiplied by the backoff\nfactor which is set with --backoff"`
 		Backoff       float64 `short:"b" long:"backoff" default:"1.5" description:"Set timeout backoff factor\nThe per-host timeout is multiplied by this factor                                                     \nafter each timeout. So, if the number of retries\nis 3, the initial per-host timeout is 500ms and the\nbackoff factor is 1.5, then the first timeout will be\n500ms, the second 750ms and the third 1125ms."`
 	}
@@ -38,12 +40,15 @@ func main() {
 	}
 	// end opt parse
 
+	slog := syslog.New(opts.DebugMode)
+
 	interfaces, err := arp.IfaceToName(opts.InterfaceName)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%s\n", err)
 		os.Exit(1)
 	}
 
+	success := false
 	for _, interface_ := range interfaces {
 		// make config
 		config := arp.Config{
@@ -53,13 +58,13 @@ func main() {
 		}
 		a, err := arp.New(config)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "Error(%s) : %s\n", interface_, err)
+			slog.Error(fmt.Sprintf("Error(%s) : %s\n", interface_, err))
 			continue
 		}
 		fmt.Printf("Interface: %s, Network range: %v\n", interface_,a.Addr)
 		arpTables, err := a.Scan()
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "Error(%s) : %s\n", interface_, err)
+			slog.Error(fmt.Sprintf("Error(%s) : %s\n", interface_, err))
 			continue
 		}
 		for _, arpTable := range arpTables {
@@ -70,5 +75,10 @@ func main() {
 			}
 			fmt.Printf("%-15v %-20v %s\n", arpTable.IP, arpTable.HardwareAddr, organization)
 		}
+		success = true
+	}
+	if success == false {
+		fmt.Fprintf(os.Stderr, "No valid ip address configuration.\n")
+		os.Exit(1)
 	}
 }
