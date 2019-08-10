@@ -6,9 +6,9 @@ package main
 
 var MacAndOrganization = map[string]string {
 
-	"000000" : "		Hong Kong    000000",
+	"000000" : "XEROX CORPORATION",
 
-	"000001" : "		Kwun Tong  Kowloon  000001",
+	"000001" : "XEROX CORPORATION",
 
 	"000002" : "XEROX CORPORATION",
 
@@ -158,7 +158,7 @@ var MacAndOrganization = map[string]string {
 
 	"00004B" : "ICL DATA OY",
 
-	"00004C" : "NEC CORPORATION",
+	"00004C" : "NEC Corporation",
 
 	"00004D" : "DCI CORPORATION",
 
@@ -220,7 +220,7 @@ var MacAndOrganization = map[string]string {
 
 	"00006A" : "COMPUTER CONSOLES INC.",
 
-	"00006B" : "SILICON GRAPHICS INC./MIPS",
+	"00006B" : "Silicon Graphics",
 
 	"00006C" : "Private",
 
@@ -274,7 +274,7 @@ var MacAndOrganization = map[string]string {
 
 	"000085" : "CANON INC.",
 
-	"000086" : "		    000086",
+	"000086" : "MEGAHERTZ CORPORATION",
 
 	"000087" : "HITACHI, LTD.",
 
@@ -2396,7 +2396,7 @@ var MacAndOrganization = map[string]string {
 
 	"0004AA" : "Jetstream Communications",
 
-	"0004AB" : "Comverse Network Systems, Inc.",
+	"0004AB" : "Mavenir Inc.",
 
 	"0004AC" : "IBM Corp",
 
@@ -2446,7 +2446,7 @@ var MacAndOrganization = map[string]string {
 
 	"0004C3" : "CASTOR Informatique",
 
-	"0004C4" : "Allen & Heath Limited",
+	"0004C4" : "Audiotonix Group Limited",
 
 	"0004C5" : "ASE Technologies, USA",
 
@@ -3766,7 +3766,7 @@ var MacAndOrganization = map[string]string {
 
 	"000757" : "Topcall International AG",
 
-	"000758" : "Dragonwave",
+	"000758" : "DragonWave Inc.",
 
 	"000759" : "Boris Manufacturing Corp.",
 
@@ -3864,7 +3864,7 @@ var MacAndOrganization = map[string]string {
 
 	"000788" : "Clipcomm, Inc.",
 
-	"000789" : "DONGWON SYSTEMS",
+	"000789" : "Allradio Co., Ltd",
 
 	"00078A" : "Mentor Data System Inc.",
 
@@ -4184,7 +4184,7 @@ var MacAndOrganization = map[string]string {
 
 	"000828" : "Koei Engineering Ltd.",
 
-	"000829" : "Aval Nagasaki Corporation",
+	"000829" : "TOKYO ELECTRON DEVICE NAGASAKI LIMITED",
 
 	"00082A" : "Powerwallz Network Security",
 
@@ -5278,7 +5278,7 @@ var MacAndOrganization = map[string]string {
 
 	"000A67" : "OngCorp",
 
-	"000A68" : "Solarflare Communications Inc",
+	"000A68" : "Solarflare Communications Inc.",
 
 	"000A69" : "SUNNY bell Technology Co., Ltd.",
 
@@ -5710,7 +5710,7 @@ var MacAndOrganization = map[string]string {
 
 	"000B3F" : "Anthology Solutions Inc.",
 
-	"000B40" : "Oclaro",
+	"000B40" : "Cambridge Industries Group (CIG)",
 
 	"000B41" : "Ing. Büro Dr. Beutlhauser",
 
@@ -6310,7 +6310,7 @@ var MacAndOrganization = map[string]string {
 
 	"000C6B" : "Kurz Industrie-Elektronik GmbH",
 
-	"000C6C" : "Corsair Memory, Inc.",
+	"000C6C" : "Eve Systems GmbH",
 
 	"000C6D" : "Edwards Ltd.",
 
@@ -6604,7 +6604,7 @@ var MacAndOrganization = map[string]string {
 
 	"000CFE" : "Grand Electronic Co., Ltd",
 
-	"000CFF" : "MRO-TEK LIMITED",
+	"000CFF" : "MRO-TEK Realty Limited",
 
 	"000D00" : "Seaway Networks Inc.",
 
@@ -7796,7 +7796,7 @@ var MacAndOrganization = map[string]string {
 
 	"000F52" : "YORK Refrigeration, Marine & Controls",
 
-	"000F53" : "Solarflare Communications Inc",
+	"000F53" : "Solarflare Communications Inc.",
 
 	"000F54" : "Entrelogic Corporation",
 
@@ -15080,7 +15080,7 @@ var MacAndOrganization = map[string]string {
 
 	"001D8C" : "La Crosse Technology LTD",
 
-	"001D8D" : "Raytek GmbH",
+	"001D8D" : "Fluke Process Instruments GmbH",
 
 	"001D8E" : "Alereon, Inc.",
 
@@ -15244,7 +15244,7 @@ var MacAndOrganization = map[string]string {
 
 	"001DDE" : "Zhejiang Broadcast&Television Technology Co.,Ltd.",
 
-	"001DDF" : "Sunitec Enterprise Co., Ltd.",
+	"001DDF" : "Sunitec Enterprise Co.,Ltd",
 
 	"001DE0" : "Intel Corporate",
 
@@ -19218,7 +19218,7 @@ var MacAndOrganization = map[string]string {
 
 	"0025A6" : "Central Network Solution Co., Ltd.",
 
-	"0025A7" : "Comverge, Inc.",
+	"0025A7" : "itron",
 
 	"0025A8" : "Kontron (BeiJing) Technology Co.,Ltd",
 
@@ -20294,7 +20294,7 @@ var MacAndOrganization = map[string]string {
 
 	"003091" : "TAIWAN FIRST LINE ELEC. CORP.",
 
-	"003092" : "ModuNORM GmbH",
+	"003092" : "Kontron Electronics AG",
 
 	"003093" : "Sonnet Technologies, Inc",
 
@@ -20533,6 +20533,8 @@ var MacAndOrganization = map[string]string {
 	"003532" : "Electro-Metrics Corporation",
 
 	"003560" : "Rosen Aviation",
+
+	"0035FF" : "Texas Instruments",
 
 	"003676" : "ARRIS Group, Inc.",
 
@@ -21109,6 +21111,8 @@ var MacAndOrganization = map[string]string {
 	"004BF3" : "SHENZHEN MERCURY COMMUNICATION TECHNOLOGIES CO.,LTD.",
 
 	"004D32" : "Andon Health Co.,Ltd.",
+
+	"004E01" : "Dell Inc.",
 
 	"004E35" : "Hewlett Packard Enterprise",
 
@@ -22180,6 +22184,8 @@ var MacAndOrganization = map[string]string {
 
 	"006D52" : "Apple, Inc.",
 
+	"006D61" : "Guangzhou V-SOLUTION Electronic Technology Co., Ltd.",
+
 	"006DFB" : "Vutrix Technologies Ltd",
 
 	"006F64" : "Samsung Electronics Co.,Ltd",
@@ -22217,6 +22223,8 @@ var MacAndOrganization = map[string]string {
 	"0076B1" : "Somfy-Protect By Myfox SAS",
 
 	"00778D" : "Cisco Systems, Inc",
+
+	"0077E4" : "Nokia",
 
 	"007888" : "Cisco Systems, Inc",
 
@@ -22516,7 +22524,7 @@ var MacAndOrganization = map[string]string {
 
 	"00808B" : "DACOLL LIMITED",
 
-	"00808C" : "NetScout Systems, Inc.",
+	"00808C" : "NetAlly",
 
 	"00808D" : "WESTCOAST TECHNOLOGY B.V.",
 
@@ -23354,7 +23362,7 @@ var MacAndOrganization = map[string]string {
 
 	"00A00D" : "THE PANDA PROJECT",
 
-	"00A00E" : "NetScout Systems, Inc.",
+	"00A00E" : "NetAlly",
 
 	"00A00F" : "Broadband Technologies",
 
@@ -23880,6 +23888,8 @@ var MacAndOrganization = map[string]string {
 
 	"00AD24" : "D-Link International",
 
+	"00AD63" : "Dedicated Micros Malta LTD",
+
 	"00AECD" : "Pensando Systems",
 
 	"00AEFA" : "Murata Manufacturing Co., Ltd.",
@@ -24072,7 +24082,7 @@ var MacAndOrganization = map[string]string {
 
 	"00C016" : "ELECTRONIC THEATRE CONTROLS",
 
-	"00C017" : "NetScout Systems, Inc.",
+	"00C017" : "NetAlly",
 
 	"00C018" : "LANART CORPORATION",
 
@@ -24390,7 +24400,7 @@ var MacAndOrganization = map[string]string {
 
 	"00C0B5" : "CORPORATE NETWORK SYSTEMS,INC.",
 
-	"00C0B6" : "Overland Storage, Inc.",
+	"00C0B6" : "HVE, Inc. ",
 
 	"00C0B7" : "AMERICAN POWER CONVERSION CORP",
 
@@ -25090,6 +25100,10 @@ var MacAndOrganization = map[string]string {
 
 	"00D11C" : "ACETEL",
 
+	"00D279" : "VINGROUP JOINT STOCK COMPANY",
+
+	"00D2B1" : "TPV Display Technology (Xiamen) Co.,Ltd.",
+
 	"00D318" : "SPG Controls",
 
 	"00D38D" : "Hotel Technology Next Generation",
@@ -25686,6 +25700,8 @@ var MacAndOrganization = map[string]string {
 
 	"00EC0A" : "Xiaomi Communications Co Ltd",
 
+	"00EDB8" : "KYOCERA Corporation ",
+
 	"00EEAB" : "Cisco Systems, Inc",
 
 	"00EEBD" : "HTC Corporation",
@@ -25705,6 +25721,8 @@ var MacAndOrganization = map[string]string {
 	"00F48D" : "Liteon Technology Corporation",
 
 	"00F4B9" : "Apple, Inc.",
+
+	"00F620" : "Google, Inc.",
 
 	"00F663" : "Cisco Systems, Inc",
 
@@ -25796,6 +25814,8 @@ var MacAndOrganization = map[string]string {
 
 	"040CCE" : "Apple, Inc.",
 
+	"040E3C" : "HP Inc.",
+
 	"040EC2" : "ViewSonic Mobile China Limited",
 
 	"041552" : "Apple, Inc.",
@@ -25875,6 +25895,8 @@ var MacAndOrganization = map[string]string {
 	"04489A" : "Apple, Inc.",
 
 	"044A50" : "Ramaxel Technology (Shenzhen) limited company",
+
+	"044A6C" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"044BED" : "Apple, Inc.",
 
@@ -25980,9 +26002,15 @@ var MacAndOrganization = map[string]string {
 
 	"047E4A" : "moobox CO., Ltd.",
 
+	"047F0E" : "Barrot Technology Limited",
+
+	"04819B" : "BSkyB Ltd",
+
 	"0481AE" : "Clack Corporation",
 
 	"04848A" : "7INOVA TECHNOLOGY LIMITED",
+
+	"04885F" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"04888C" : "Eifelwerk Butler Systeme GmbH",
 
@@ -25995,6 +26023,8 @@ var MacAndOrganization = map[string]string {
 	"048B42" : "Skspruce Technologies",
 
 	"048C03" : "ThinPAD Technology (Shenzhen)CO.,LTD",
+
+	"048C9A" : "Huawei Device Co., Ltd.",
 
 	"048D38" : "Netcore Technology Inc.",
 
@@ -26024,13 +26054,17 @@ var MacAndOrganization = map[string]string {
 
 	"049C62" : "BMT Medical Technology s.r.o.",
 
+	"049DFE" : "Hivesystem",
+
 	"049F06" : "Smobile Co., Ltd.",
 
-	"049F81" : "NetScout Systems, Inc.",
+	"049F81" : "NetAlly",
 
 	"049FCA" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"04A151" : "NETGEAR",
+
+	"04A222" : "Arcadyan Corporation",
 
 	"04A316" : "Texas Instruments",
 
@@ -26040,13 +26074,19 @@ var MacAndOrganization = map[string]string {
 
 	"04AB18" : "ELECOM CO.,LTD.",
 
+	"04AB6A" : "Chun-il Co.,Ltd.",
+
 	"04AC44" : "Holtek Semiconductor Inc.",
 
 	"04B0E7" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"04B167" : "Xiaomi Communications Co Ltd",
 
+	"04B1A1" : "Samsung Electronics Co.,Ltd",
+
 	"04B3B6" : "Seamap (UK) Ltd",
+
+	"04B429" : "Samsung Electronics Co.,Ltd",
 
 	"04B466" : "BSP Co., Ltd.",
 
@@ -26086,6 +26126,8 @@ var MacAndOrganization = map[string]string {
 
 	"04C5A4" : "Cisco Systems, Inc",
 
+	"04C807" : "Xiaomi Communications Co Ltd",
+
 	"04C880" : "Samtec Inc",
 
 	"04C991" : "Phistek INC.",
@@ -26104,6 +26146,8 @@ var MacAndOrganization = map[string]string {
 
 	"04D13A" : "Xiaomi Communications Co Ltd",
 
+	"04D16E" : "IEEE Registration Authority",
+
 	"04D3B0" : "Intel Corporate",
 
 	"04D3CF" : "Apple, Inc.",
@@ -26111,6 +26155,8 @@ var MacAndOrganization = map[string]string {
 	"04D437" : "ZNV",
 
 	"04D4C4" : "ASUSTek COMPUTER INC.",
+
+	"04D590" : "Fortinet, Inc.",
 
 	"04D6AA" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
 
@@ -26160,9 +26206,15 @@ var MacAndOrganization = map[string]string {
 
 	"04E9E5" : "PJRC.COM, LLC",
 
+	"04EA56" : "Intel Corporate",
+
 	"04EB40" : "Cisco Systems, Inc",
 
 	"04ECBB" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
+	"04ED33" : "Intel Corporate",
+
+	"04EE03" : "Texas Instruments",
 
 	"04EE91" : "x-fabric GmbH",
 
@@ -26223,6 +26275,8 @@ var MacAndOrganization = map[string]string {
 	"071051" : "		Baoding City  Hebei Prov.  071051",
 
 	"074030" : "		MAHWAH  NEW JERSEY  074030",
+
+	"079903" : "		Singapore    079903",
 
 	"080001" : "COMPUTERVISION CORPORATION",
 
@@ -26428,7 +26482,7 @@ var MacAndOrganization = map[string]string {
 
 	"080068" : "RIDGE COMPUTERS",
 
-	"080069" : "SILICON GRAPHICS INC.",
+	"080069" : "Silicon Graphics",
 
 	"08006A" : "AT&T",
 
@@ -26574,6 +26628,8 @@ var MacAndOrganization = map[string]string {
 
 	"082525" : "Xiaomi Communications Co Ltd",
 
+	"082697" : "Zyxel Communications Corporation",
+
 	"082719" : "APS systems/electronic AG",
 
 	"0827CE" : "NAGANO KEIKI CO., LTD.",
@@ -26585,6 +26641,8 @@ var MacAndOrganization = map[string]string {
 	"082E5F" : "Hewlett Packard",
 
 	"08306B" : "Palo Alto Networks",
+
+	"08318B" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"08351B" : "Shenzhen Jialihua Electronic Technology Co., Ltd",
 
@@ -26603,6 +26661,8 @@ var MacAndOrganization = map[string]string {
 	"083A2F" : "Guangzhou Juan Intelligent Tech Joint Stock Co.,Ltd",
 
 	"083A5C" : "Junilab, Inc.",
+
+	"083A88" : "Universal Global Scientific Industrial Co., Ltd.",
 
 	"083AB8" : "Shinoda Plasma Co., Ltd.",
 
@@ -26626,7 +26686,7 @@ var MacAndOrganization = map[string]string {
 
 	"084656" : "VEO-LABS",
 
-	"0847D0" : "Nokia Shanghai Bell Co. Ltd.）",
+	"0847D0" : "Nokia Shanghai Bell Co., Ltd.",
 
 	"08482C" : "Raycore Taiwan Co., LTD.",
 
@@ -26635,6 +26695,12 @@ var MacAndOrganization = map[string]string {
 	"084E1C" : "H2A Systems, LLC",
 
 	"084EBF" : "Broad Net Mux Corporation",
+
+	"084F0A" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"084FA9" : "Cisco Systems, Inc",
+
+	"084FF9" : "Cisco Systems, Inc",
 
 	"085114" : "QINGDAO TOPSCOMM COMMUNICATION CO., LTD",
 
@@ -26654,6 +26720,10 @@ var MacAndOrganization = map[string]string {
 
 	"08606E" : "ASUSTek COMPUTER INC.",
 
+	"086083" : "zte corporation",
+
+	"086195" : "Rockwell Automation",
+
 	"086266" : "ASUSTek COMPUTER INC.",
 
 	"086361" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -26663,6 +26733,8 @@ var MacAndOrganization = map[string]string {
 	"086698" : "Apple, Inc.",
 
 	"08674E" : "Hisense broadband multimedia technology Co.,Ltd",
+
+	"08688D" : "New H3C Technologies Co., Ltd",
 
 	"0868D0" : "Japan System Design",
 
@@ -26677,6 +26749,8 @@ var MacAndOrganization = map[string]string {
 	"086DF2" : "Shenzhen MIMOWAVE Technology Co.,Ltd",
 
 	"087045" : "Apple, Inc.",
+
+	"087190" : "Intel Corporate",
 
 	"087402" : "Apple, Inc.",
 
@@ -26714,6 +26788,8 @@ var MacAndOrganization = map[string]string {
 
 	"088466" : "Novartis Pharma AG",
 
+	"08849D" : "Amazon Technologies Inc.",
+
 	"088620" : "TECNO MOBILE LIMITED",
 
 	"08863B" : "Belkin International Inc.",
@@ -26744,7 +26820,7 @@ var MacAndOrganization = map[string]string {
 
 	"089B4B" : "iKuai Networks",
 
-	"089C86" : "Nokia Shanghai Bell Co. Ltd.）",
+	"089C86" : "Nokia Shanghai Bell Co., Ltd.",
 
 	"089E01" : "QUANTA COMPUTER INC.",
 
@@ -26771,6 +26847,8 @@ var MacAndOrganization = map[string]string {
 	"08B258" : "Juniper Networks",
 
 	"08B2A3" : "Cynny Italia S.r.L.",
+
+	"08B3AF" : "vivo Mobile Communication Co., Ltd.",
 
 	"08B4CF" : "Abicom International",
 
@@ -26932,6 +27010,8 @@ var MacAndOrganization = map[string]string {
 
 	"0C2026" : "noax Technologies AG",
 
+	"0C20D3" : "vivo Mobile Communication Co., Ltd.",
+
 	"0C2138" : "Hengstler GmbH",
 
 	"0C2369" : "Honeywell SPS",
@@ -26951,6 +27031,8 @@ var MacAndOrganization = map[string]string {
 	"0C2C54" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"0C2D89" : "QiiQ Communications Inc.",
+
+	"0C2FB0" : "Samsung Electronics Co.,Ltd",
 
 	"0C3021" : "Apple, Inc.",
 
@@ -27078,6 +27160,8 @@ var MacAndOrganization = map[string]string {
 
 	"0C8112" : "Private",
 
+	"0C8126" : "Juniper Networks",
+
 	"0C8230" : "SHENZHEN MAGNUS TECHNOLOGIES CO.,LTD",
 
 	"0C8268" : "TP-LINK TECHNOLOGIES CO.,LTD.",
@@ -27178,6 +27262,8 @@ var MacAndOrganization = map[string]string {
 
 	"0CB6D2" : "D-Link International",
 
+	"0CB771" : "ARRIS Group, Inc.",
+
 	"0CB912" : "JM-DATA GmbH",
 
 	"0CB937" : "Ubee Interactive Co., Limited",
@@ -27254,6 +27340,8 @@ var MacAndOrganization = map[string]string {
 
 	"0CDCCC" : "Inala Technologies",
 
+	"0CDD24" : "Intel Corporate",
+
 	"0CDDEF" : "Nokia Corporation",
 
 	"0CDFA4" : "Samsung Electronics Co.,Ltd",
@@ -27324,7 +27412,7 @@ var MacAndOrganization = map[string]string {
 
 	"100006" : "		Peijing    100006",
 
-	"100007" : "		Beijing    100007",
+	"100007" : "		Beijing  Beijing  100007",
 
 	"100010" : "		BEIJING    100010",
 
@@ -27342,9 +27430,9 @@ var MacAndOrganization = map[string]string {
 
 	"100024" : "		  Beijing  100024",
 
-	"100025" : "		Beijing  Beijing  100025",
+	"100025" : "		beijing  beijing  100025",
 
-	"100026" : "		Beijing  Beijing  100026",
+	"100026" : "		  Beijing   100026 ",
 
 	"100027" : "		Beijing    100027",
 
@@ -27354,7 +27442,7 @@ var MacAndOrganization = map[string]string {
 
 	"100031" : "		Beijing    100031",
 
-	"100032" : "		Beijing 100032    ",
+	"100032" : "		Beijing    100032",
 
 	"100035" : "		Zicheng District  Beijing  100035",
 
@@ -27368,11 +27456,11 @@ var MacAndOrganization = map[string]string {
 
 	"100043" : "		Beijing  Beijing  100043",
 
-	"100044" : "		Beijing  Beijing  100044",
+	"100044" : "		Beijing    100044",
 
 	"100045" : "		  Beijing  100045",
 
-	"100048" : "		  Beijing  100048",
+	"100048" : "		Beijing    100048",
 
 	"100052" : "		Beijing  Beijing  100052",
 
@@ -27384,7 +27472,7 @@ var MacAndOrganization = map[string]string {
 
 	"100068" : "		Fengtai District  Beijing  100068",
 
-	"100070" : "		  Beijing  100070",
+	"100070" : "		BeiJing    100070",
 
 	"100073" : "		Beijing    100073",
 
@@ -27392,27 +27480,27 @@ var MacAndOrganization = map[string]string {
 
 	"100081" : "		Beijing    100081",
 
-	"100083" : "		BeiJing    100083",
+	"100083" : "		Beijing    100083",
 
 	"100084" : "		Beijing    100084",
 
-	"100085" : "		NO.68, Qinghe Middle Street  Haidian District, Beijing  100085",
+	"100085" : "		BEIJING    100085",
 
-	"100086" : "		beijing    100086",
+	"100086" : "		Beijing    100086",
 
-	"100088" : "		Beijing    100088",
+	"100088" : "		BEIJING 100088    ",
 
-	"100089" : "		BEIJING    100089",
+	"100089" : "		HaiDian District,  Beijing  100089",
 
 	"100091" : "		Beijing    100091",
 
 	"100092" : "		  Beijing  100092",
 
-	"100094" : "		Beijing    100094",
+	"100094" : "		Haidian District  Beijing  100094",
 
 	"100095" : "		  Beijing  100095",
 
-	"100096" : "		Beijing  Beijing  100096",
+	"100096" : "		Beijing    100096",
 
 	"100097" : "		Beijing    100097",
 
@@ -27424,13 +27512,13 @@ var MacAndOrganization = map[string]string {
 
 	"100101" : "		Beijing    100101",
 
-	"100102" : "		Beijing    100102",
+	"100102" : "		Beijing  Beijing  100102",
 
 	"100107" : "		Beijing  Beijing  100107",
 
 	"100124" : "		Beijing    100124",
 
-	"100125" : "		Chaoyang District  Beijing  100125",
+	"100125" : "		Beijing  Beijing  100125",
 
 	"100140" : "		Beijing    100140",
 
@@ -27438,13 +27526,15 @@ var MacAndOrganization = map[string]string {
 
 	"100160" : "		  Beijing  100160",
 
-	"100176" : "		BEIJING    100176",
+	"100176" : "		Beijing    100176",
 
-	"100190" : "		Haidian District  Beijing  100190",
+	"100177" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
-	"100191" : "		Beijing    100191",
+	"100190" : "		Beijing    100190",
 
-	"100192" : "		Beijing    100192",
+	"100191" : "		Haidian District  Beijing  100191",
+
+	"100192" : "		  Beijing  100192",
 
 	"100193" : "		Haidian District  Beijing  100193",
 
@@ -27492,7 +27582,7 @@ var MacAndOrganization = map[string]string {
 
 	"100F18" : "Fu Gang Electronic(KunShan)CO.,LTD",
 
-	"101002" : "		Chiyodaku  Tokyo  1010022",
+	"101002" : "		Chiyoda-ku  Tokyo  1010021",
 
 	"101043" : "		BUCKLESTR. 1-5,POSTFACH 101043",
 
@@ -27500,7 +27590,7 @@ var MacAndOrganization = map[string]string {
 
 	"101101" : "		Beijing    101101",
 
-	"101111" : "		Tongzhou District  Beijing  101111",
+	"101111" : "		  Beijing  101111",
 
 	"101212" : "Vivo International Corporation Pty Ltd",
 
@@ -27536,9 +27626,9 @@ var MacAndOrganization = map[string]string {
 
 	"102200" : "		BEIJING    102200",
 
-	"102206" : "		Beijing    102206",
+	"102206" : "		Huilongguan Town  Changping District, Beijing  102206",
 
-	"102208" : "		Beijing  Beijing  102208",
+	"102208" : "		Chang Ping District  beijing  102208",
 
 	"102209" : "		  Beijing  102209",
 
@@ -27562,6 +27652,8 @@ var MacAndOrganization = map[string]string {
 
 	"102F6B" : "Microsoft Corporation",
 
+	"102FA3" : "Shenzhen Uvision-tech Technology Co.Ltd",
+
 	"103000" : "		Tokyo    1030007",
 
 	"103001" : "		Tokyo    1030013",
@@ -27572,7 +27664,11 @@ var MacAndOrganization = map[string]string {
 
 	"103047" : "Samsung Electronics Co.,Ltd",
 
+	"10327E" : "Huawei Device Co., Ltd.",
+
 	"103378" : "FLECTRON Co., LTD",
+
+	"1033BF" : "Technicolor CH USA Inc.",
 
 	"103711" : "Simlink AS",
 
@@ -27669,6 +27765,8 @@ var MacAndOrganization = map[string]string {
 	"1062E5" : "Hewlett Packard",
 
 	"1062EB" : "D-Link International",
+
+	"1063C8" : "Liteon Technology Corporation",
 
 	"1064E2" : "ADFweb.com s.r.l.",
 
@@ -27800,6 +27898,12 @@ var MacAndOrganization = map[string]string {
 
 	"10B36F" : "Bowei Technology Company Limited ",
 
+	"10B3C6" : "Cisco Systems, Inc",
+
+	"10B3D5" : "Cisco Systems, Inc",
+
+	"10B3D6" : "Cisco Systems, Inc",
+
 	"10B713" : "Private",
 
 	"10B7F6" : "Plastoform Industries Ltd.",
@@ -27874,6 +27978,8 @@ var MacAndOrganization = map[string]string {
 
 	"10DC4A" : "Fiberhome Telecommunication Technologies Co.,LTD",
 
+	"10DCB6" : "IEEE Registration Authority",
+
 	"10DDB1" : "Apple, Inc.",
 
 	"10DDF4" : "Maxway Electronics CO.,LTD",
@@ -27899,6 +28005,8 @@ var MacAndOrganization = map[string]string {
 	"10E878" : "Nokia",
 
 	"10E8EE" : "PhaseSpace",
+
+	"10E953" : "Huawei Device Co., Ltd.",
 
 	"10EA59" : "Cisco SPVTG",
 
@@ -27934,9 +28042,9 @@ var MacAndOrganization = map[string]string {
 
 	"10FEED" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
-	"110000" : "		Taito-ku  Tokyo  1100005",
+	"110000" : "		shenyang    110000",
 
-	"110001" : "		taito  taito-ku , Tokyo  1100016",
+	"110001" : "		New Delhi    110001",
 
 	"110006" : "		  DELHI  110006",
 
@@ -27945,6 +28053,8 @@ var MacAndOrganization = map[string]string {
 	"110015" : "		New Delhi  Delhi  110015",
 
 	"110020" : "		New Delhi  Haryana  110020",
+
+	"110021" : "		Shenyang   Liaoning  110021",
 
 	"110025" : "		New Delhi  DELHI  110025",
 
@@ -27994,9 +28104,9 @@ var MacAndOrganization = map[string]string {
 
 	"115547" : "		Moscow    115547",
 
-	"116000" : "		116000 Sunrise Valley Dr Suite 210",
+	"116000" : "		Dalian  Liaoning  116000",
 
-	"116023" : "		Dalian  Liaoning  116023",
+	"116023" : "		Dalian  LiaoNing  116023",
 
 	"116052" : "		Dalian  Liaoning  116052",
 
@@ -28004,11 +28114,13 @@ var MacAndOrganization = map[string]string {
 
 	"117218" : "		  Moscow  117218",
 
-	"117246" : "		Moscow    117246",
+	"117246" : "		Moscow  Select State  117246",
 
 	"117313" : "		Moscow    117313",
 
 	"117405" : "		Moscow    117405",
+
+	"118000" : "		dandong  Liaoning  118000",
 
 	"118502" : "		    118502",
 
@@ -28024,7 +28136,7 @@ var MacAndOrganization = map[string]string {
 
 	"121309" : "		Moscow  Moscow region  121309",
 
-	"122001" : "		Gurugram  Haryana  122001",
+	"122001" : "		Gurgaon  Haryana  122001",
 
 	"122002" : "		Gurgaon  Haryana  122002",
 
@@ -28035,6 +28147,8 @@ var MacAndOrganization = map[string]string {
 	"123063" : "		Moscow    123063",
 
 	"123298" : "		Moscow    123298",
+
+	"123456" : "		123456",
 
 	"124460" : "		Zelenograd  Moscow  124460",
 
@@ -28050,7 +28164,7 @@ var MacAndOrganization = map[string]string {
 
 	"125190" : "		Moscow  Moscow  125190",
 
-	"127018" : "		Moscow    127018",
+	"127018" : "		Moscow  Russian Federation  127018",
 
 	"127055" : "		Moscow    127055",
 
@@ -28064,7 +28178,7 @@ var MacAndOrganization = map[string]string {
 
 	"129085" : "		Moscow    129085",
 
-	"129223" : "		Moscow    129223",
+	"129223" : "		Moscow  Moscow  129223",
 
 	"129327" : "		Moscow    129327",
 
@@ -28112,7 +28226,7 @@ var MacAndOrganization = map[string]string {
 
 	"139959" : "		    139959",
 
-	"139964" : "		    139964",
+	"139964" : "		Crescent    139964",
 
 	"139965" : "		Singapore    139965",
 
@@ -28140,7 +28254,9 @@ var MacAndOrganization = map[string]string {
 
 	"140D4F" : "Flextronics International",
 
-	"141003" : "		Tokyo    1410032",
+	"140F42" : "Nokia",
+
+	"141003" : "		Shinagawa-ku  Tokyo  1410031",
 
 	"141006" : "		P.O. BOX 141006",
 
@@ -28153,6 +28269,8 @@ var MacAndOrganization = map[string]string {
 	"141231" : "		poselok Lesnoy  Moscowskaya oblast  141231",
 
 	"141330" : "Anakreon UK LLP",
+
+	"141346" : "Skyworth Digital Technology(Shenzhen) Co.,Ltd",
 
 	"141357" : "ATP Electronics, Inc.",
 
@@ -28188,6 +28306,8 @@ var MacAndOrganization = map[string]string {
 
 	"142432" : "		Chernogolovka  Moscow region  142432",
 
+	"142475" : "4DReplay, Inc",
+
 	"142784" : "		Moscow  -  142784",
 
 	"142882" : "MIDICOM ELECTRONICS CO.LTD",
@@ -28203,6 +28323,8 @@ var MacAndOrganization = map[string]string {
 	"142D8B" : "Incipio Technologies, Inc",
 
 	"142DF5" : "Amphitech",
+
+	"142E5E" : "Sercomm Corporation.",
 
 	"142FFD" : "LT SECURITY INC",
 
@@ -28248,6 +28370,8 @@ var MacAndOrganization = map[string]string {
 
 	"1441E2" : "Monaco Enterprises, Inc.",
 
+	"1442FC" : "Texas Instruments",
+
 	"144319" : "Creative&Link Technology Limited",
 
 	"14444A" : "Apollo Seiko Ltd.",
@@ -28290,6 +28414,8 @@ var MacAndOrganization = map[string]string {
 
 	"1459C0" : "NETGEAR",
 
+	"1459C3" : "Creative Chips GmbH",
+
 	"145A05" : "Apple, Inc.",
 
 	"145A83" : "Logi-D inc",
@@ -28303,6 +28429,8 @@ var MacAndOrganization = map[string]string {
 	"145F94" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"146080" : "zte corporation",
+
+	"1460CB" : "Apple, Inc.",
 
 	"146102" : "Alpine Electronics, Inc.",
 
@@ -28348,8 +28476,6 @@ var MacAndOrganization = map[string]string {
 
 	"14893E" : "VIXTEL TECHNOLOGIES LIMTED",
 
-	"148951" : "LCFC(HeFei) Electronics Technology co., ltd",
-
 	"1489FD" : "Samsung Electronics Co.,Ltd",
 
 	"148A70" : "ADS GmbH",
@@ -28367,6 +28493,8 @@ var MacAndOrganization = map[string]string {
 	"14942F" : "USYS CO.,LTD.",
 
 	"149448" : "BLU CASTLE S.A.",
+
+	"1495CE" : "Apple, Inc.",
 
 	"1496E5" : "Samsung Electronics Co.,Ltd",
 
@@ -28392,6 +28520,10 @@ var MacAndOrganization = map[string]string {
 
 	"14A0F8" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"14A1BF" : "ASSA ABLOY Korea Co., Ltd Unilock",
+
+	"14A2A0" : "Cisco Systems, Inc",
+
 	"14A364" : "Samsung Electronics Co.,Ltd",
 
 	"14A51A" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -28409,6 +28541,8 @@ var MacAndOrganization = map[string]string {
 	"14ABC5" : "Intel Corporate",
 
 	"14ABF0" : "ARRIS Group, Inc.",
+
+	"14ADCA" : "China Mobile Iot Limited company",
 
 	"14AEDB" : "VTech Telecommunications Ltd.",
 
@@ -28518,13 +28652,15 @@ var MacAndOrganization = map[string]string {
 
 	"14FEB5" : "Dell Inc.",
 
-	"150002" : "		  Tokyo  1500021",
+	"150002" : "		00000    1500021",
 
 	"150090" : "		Harbin  Heilongjiang  150090",
 
 	"150839" : "		  SEOUL  150839",
 
 	"150869" : "		Seoul    150869",
+
+	"151005" : "		Shibuya-ku  Tokyo  1510053",
 
 	"152020" : "		Pereslavl-Zalessky  Yaroslavskaya  152020",
 
@@ -28552,6 +28688,8 @@ var MacAndOrganization = map[string]string {
 
 	"154953" : "		Tehran    1549534511",
 
+	"1556be" : "		16, Deogyeong-daero 1556beon-gil, Yeongtong-gu",
+
 	"158008" : "		Setagaya-ku  Tokyo  1580085",
 
 	"159303" : "		    159303",
@@ -28566,7 +28704,7 @@ var MacAndOrganization = map[string]string {
 
 	"169662" : "		    169662",
 
-	"170001" : "		Toshima-ku  Tokyo  1700013",
+	"170001" : "		Tokyo    1700013",
 
 	"179094" : "		    179094",
 
@@ -28582,6 +28720,8 @@ var MacAndOrganization = map[string]string {
 
 	"18022D" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"1802AE" : "vivo Mobile Communication Co., Ltd.",
+
 	"180373" : "Dell Inc.",
 
 	"1803FA" : "IBT Interfaces",
@@ -28589,6 +28729,8 @@ var MacAndOrganization = map[string]string {
 	"1804ED" : "Texas Instruments",
 
 	"180675" : "Dilax Intelcom GmbH",
+
+	"1806F5" : "RAD Data Communications, Ltd.",
 
 	"1806FF" : "Acer Computer(Shanghai) Limited.",
 
@@ -28607,6 +28749,8 @@ var MacAndOrganization = map[string]string {
 	"18104E" : "CEDINT-UPM",
 
 	"181212" : "Cepton Technologies",
+
+	"18132D" : "zte corporation",
 
 	"181420" : "TEB SAS",
 
@@ -28653,6 +28797,8 @@ var MacAndOrganization = map[string]string {
 	"182A44" : "HIROSE ELECTRONIC SYSTEM",
 
 	"182A7B" : "Nintendo Co., Ltd.",
+
+	"182AD3" : "Juniper Networks",
 
 	"182B05" : "8D Technologies",
 
@@ -28744,11 +28890,17 @@ var MacAndOrganization = map[string]string {
 
 	"18550F" : "Cisco SPVTG",
 
+	"1855E3" : "Apple, Inc.",
+
+	"185644" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"185680" : "Intel Corporate",
 
 	"185933" : "Cisco SPVTG",
 
 	"185936" : "Xiaomi Communications Co Ltd",
+
+	"185A58" : "Dell Inc.",
 
 	"185AE8" : "Zenotech.Co.,Ltd",
 
@@ -28792,7 +28944,11 @@ var MacAndOrganization = map[string]string {
 
 	"186D99" : "Adanis Inc.",
 
+	"18703B" : "Huawei Device Co., Ltd.",
+
 	"187117" : "eta plus electronic gmbh",
+
+	"1871D5" : "Hazens Automotive Electronics(SZ)Co.,Ltd.",
 
 	"18742E" : "Amazon Technologies Inc.",
 
@@ -28852,6 +29008,8 @@ var MacAndOrganization = map[string]string {
 
 	"188EF9" : "G2C Co. Ltd.",
 
+	"189088" : "eero inc.",
+
 	"1890D8" : "Sagemcom Broadband SAS",
 
 	"18922C" : "Virtual Instruments",
@@ -28879,6 +29037,8 @@ var MacAndOrganization = map[string]string {
 	"18A28A" : "Essel-T Co., Ltd",
 
 	"18A3E8" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
+	"18A4A9" : "Vanu Inc.",
 
 	"18A6F7" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
@@ -28934,6 +29094,8 @@ var MacAndOrganization = map[string]string {
 
 	"18BE92" : "Delta Networks, Inc.",
 
+	"18BF1C" : "Jiangsu Huitong Group Co.,Ltd.",
+
 	"18C086" : "Broadcom",
 
 	"18C19D" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
@@ -28952,9 +29114,13 @@ var MacAndOrganization = map[string]string {
 
 	"18CC88" : "Hitachi Johnson Controls Air ",
 
+	"18CF24" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"18CF5E" : "Liteon Technology Corporation",
 
 	"18D071" : "DASAN CO., LTD.",
+
+	"18D0C5" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"18D225" : "Fiberhome Telecommunication Technologies Co.,LTD",
 
@@ -28981,6 +29147,8 @@ var MacAndOrganization = map[string]string {
 	"18DED7" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"18DFB4" : "BOSUNG POWERTEC CO.,LTD.",
+
+	"18E1CA" : "wanze",
 
 	"18E288" : "STT Condigi",
 
@@ -29024,6 +29192,8 @@ var MacAndOrganization = map[string]string {
 
 	"18F87A" : "i3 International Inc.",
 
+	"18F9C4" : "BAE Systems",
+
 	"18FA6F" : "ISC applied systems corp",
 
 	"18FB7B" : "Dell Inc.",
@@ -29050,6 +29220,8 @@ var MacAndOrganization = map[string]string {
 
 	"193693" : "		Tehran  Tehran  1936938194",
 
+	"194003" : "		machida-city  tokyo  1940037",
+
 	"194044" : "		St.Petersburg  RU  194044",
 
 	"194100" : "		Saint-Petersburg    194100",
@@ -29062,7 +29234,7 @@ var MacAndOrganization = map[string]string {
 
 	"196084" : "		St.  Petersburg    196084",
 
-	"196128" : "		  St. Petersburg  196128",
+	"196128" : "		Saint-Petersburg  Saint-Petersburg  196128",
 
 	"197101" : "		St.Petersburg    197101",
 
@@ -29102,6 +29274,8 @@ var MacAndOrganization = map[string]string {
 
 	"1C12B0" : "Amazon Technologies Inc.",
 
+	"1C1386" : "Huawei Device Co., Ltd.",
+
 	"1C1448" : "ARRIS Group, Inc.",
 
 	"1C14B3" : "Airwire Technologies",
@@ -29132,6 +29306,8 @@ var MacAndOrganization = map[string]string {
 
 	"1C1FD4" : "LifeBEAM Technologies LTD",
 
+	"1C20DB" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"1C21D1" : "IEEE Registration Authority",
 
 	"1C232C" : "Samsung Electronics Co.,Ltd",
@@ -29156,6 +29332,8 @@ var MacAndOrganization = map[string]string {
 
 	"1C3477" : "Innovation Wireless",
 
+	"1C34DA" : "Mellanox Technologies, Inc.",
+
 	"1C35F1" : "NEW Lift Neue Elektronische Wege Steuerungsbau GmbH",
 
 	"1C36BB" : "Apple, Inc.",
@@ -29174,6 +29352,8 @@ var MacAndOrganization = map[string]string {
 
 	"1C3B8F" : "Selve GmbH & Co. KG",
 
+	"1C3BF3" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
 	"1C3DE7" : "Sigma Koki Co.,Ltd.",
 
 	"1C3E84" : "Hon Hai Precision Ind. Co.,Ltd.",
@@ -29184,11 +29364,15 @@ var MacAndOrganization = map[string]string {
 
 	"1C4158" : "Gemalto M2M GmbH",
 
+	"1C4176" : "China Mobile Group Device Co.,Ltd.",
+
 	"1C427D" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"1C43EC" : "JAPAN CIRCUIT CO.,LTD",
 
 	"1C4419" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
+	"1C4455" : "Sieb & Meyer AG",
 
 	"1C4593" : "Texas Instruments",
 
@@ -29240,6 +29424,8 @@ var MacAndOrganization = map[string]string {
 
 	"1C5FFF" : "Beijing Ereneben Information Technology Co.,Ltd Shenzhen Branch",
 
+	"1C60D2" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
 	"1C60DE" : "MERCURY COMMUNICATION TECHNOLOGIES CO.,LTD.",
 
 	"1C62B8" : "Samsung Electronics Co.,Ltd",
@@ -29255,6 +29441,8 @@ var MacAndOrganization = map[string]string {
 	"1C66AA" : "Samsung Electronics Co.,Ltd",
 
 	"1C6758" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"1C687E" : "Shenzhen Qihu Intelligent Technology Company Limited",
 
 	"1C697A" : "EliteGroup Computer Systems Co., LTD",
 
@@ -29342,6 +29530,8 @@ var MacAndOrganization = map[string]string {
 
 	"1C9C26" : "Zoovel Technologies",
 
+	"1C9C8C" : "Juniper Networks",
+
 	"1C9D3E" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
 
 	"1C9E46" : "Apple, Inc.",
@@ -29370,6 +29560,8 @@ var MacAndOrganization = map[string]string {
 
 	"1CADD1" : "Bosung Electronics Co., Ltd.",
 
+	"1CAECB" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"1CAF05" : "Samsung Electronics Co.,Ltd",
 
 	"1CAFF7" : "D-Link International",
@@ -29385,6 +29577,8 @@ var MacAndOrganization = map[string]string {
 	"1CB3E9" : " Shenzhen Zhongke United Communication Technology ",
 
 	"1CB72C" : "ASUSTek COMPUTER INC.",
+
+	"1CB796" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"1CB857" : "Becon Technologies Co,.Ltd.",
 
@@ -29422,9 +29616,13 @@ var MacAndOrganization = map[string]string {
 
 	"1CCB99" : "TCT mobile ltd",
 
+	"1CCCD6" : "Xiaomi Communications Co Ltd",
+
 	"1CCDE5" : "Shanghai Wind Technologies Co.,Ltd",
 
 	"1CD40C" : "Kriwan Industrie-Elektronik GmbH",
+
+	"1CD5E2" : "Shenzhen YOUHUA Technology Co., Ltd",
 
 	"1CD6BD" : "LEEDARSON LIGHTING CO., LTD.",
 
@@ -29451,6 +29649,8 @@ var MacAndOrganization = map[string]string {
 	"1CE6C7" : "Cisco Systems, Inc",
 
 	"1CE85D" : "Cisco Systems, Inc",
+
+	"1CEA0B" : "Edgecore Networks Corporation",
 
 	"1CEA1B" : "Nokia",
 
@@ -29494,21 +29694,21 @@ var MacAndOrganization = map[string]string {
 
 	"200024" : "		Shanghai    2000245",
 
-	"200030" : "		Shanghai  Shanghai  200030",
+	"200030" : "		Shanghai    200030",
 
 	"200031" : "		Shanghai    200031",
 
 	"200032" : "		Shanghai    200032",
 
-	"200040" : "		Shanghai    200040",
+	"200040" : "		Shanghai  Shanghai  200040",
 
 	"200041" : "		Shanghai    200041",
 
-	"200050" : "		  Shanghai  200050",
+	"200050" : "		Shanghai  200050,  ",
 
 	"200051" : "		Shanghai  Shanghai  200051",
 
-	"200052" : "		Shanghai    200052",
+	"200052" : "		shanghai    200052",
 
 	"200062" : "		Shanghai  Shanghai  200062",
 
@@ -29526,9 +29726,9 @@ var MacAndOrganization = map[string]string {
 
 	"200090" : "		ShangHai    200090",
 
-	"200092" : "		Shanghai  Shanghai  200092",
+	"200092" : "		Shanghai    200092",
 
-	"200120" : "		Shanghai    200120",
+	"200120" : "		  Shangahi  200120",
 
 	"200122" : "		    200122",
 
@@ -29546,11 +29746,11 @@ var MacAndOrganization = map[string]string {
 
 	"200232" : "		  Shanghai  200232",
 
-	"200233" : "		Shanghai  Xuhui District  200233",
+	"200233" : "		Shanghai    200233",
 
 	"200235" : "		shanghai  shanghai  200235",
 
-	"200237" : "		shanghai  xuhui district, shanghai   200237",
+	"200237" : "		Shanghai  Shanghai  200237",
 
 	"200241" : "		Shanghai     200241",
 
@@ -29560,9 +29760,9 @@ var MacAndOrganization = map[string]string {
 
 	"200331" : "		Shanghai    200331",
 
-	"200333" : "		Shanghai    200333",
+	"200333" : "		  Shanghai  200333",
 
-	"200335" : "		Shanghai  Changning District  200335",
+	"200335" : "		Shanghai    200335",
 
 	"200336" : "		shanghai    200336",
 
@@ -29570,7 +29770,7 @@ var MacAndOrganization = map[string]string {
 
 	"20040F" : "Dell Inc.",
 
-	"200433" : "		  Shanghai  200433",
+	"200433" : "		Shanghai    200433",
 
 	"200434" : "		  shanghai  200434",
 
@@ -29612,7 +29812,7 @@ var MacAndOrganization = map[string]string {
 
 	"201103" : "		Shanghai    201103",
 
-	"201108" : "		Shanghai    201108",
+	"201108" : "		Shanghai Province  Shanghai  201108",
 
 	"201112" : "		  Shanghai  201112",
 
@@ -29620,19 +29820,19 @@ var MacAndOrganization = map[string]string {
 
 	"201120" : "		Shanghai  Shanghai  201120",
 
-	"201199" : "		  ShangHai  201199",
+	"201199" : "		  Shanghai  201199",
 
 	"201200" : "		  Shanghai  201200",
 
 	"201201" : "		  SHANGHAI  201201",
 
-	"201203" : "		Shanghai  Shanghai  201203",
+	"201203" : "		Shanghai    201203",
 
-	"201204" : "		Shanghai    201204",
+	"201204" : "		Zhangjiang Hi-tech Park  Shanghai  201204",
 
 	"201206" : "		Shanghai    201206",
 
-	"201210" : "		Shanghai  Shanghai  201210",
+	"201210" : "		Shanghai    201210",
 
 	"201235" : "		Shanghai  Shanghai  201235",
 
@@ -29640,11 +29840,11 @@ var MacAndOrganization = map[string]string {
 
 	"2012D5" : "Scientech Materials Corporation",
 
-	"201301" : "		NOIDA  Uttar Pradesh  201301",
+	"201301" : "		  Uttar Pradesh  201301",
 
 	"201305" : "		NOIDA  Uttar Pradesh  201305",
 
-	"201315" : "		Shanghai    201315",
+	"201315" : "		PuDong District  Shanghai  201315",
 
 	"201317" : "		Shanghai  Shanghai  201317",
 
@@ -29662,13 +29862,13 @@ var MacAndOrganization = map[string]string {
 
 	"201612" : "		Shanghai  Shanghai  201612",
 
-	"201613" : "		Shanghai  Shanghai  201613",
+	"201613" : "		    201613",
 
 	"201614" : "		    201614",
 
 	"201615" : "		Shanghai  Shanghai  201615",
 
-	"201616" : "		Shanghai  Shanghai  201616",
+	"201616" : "		Shanghai    201616",
 
 	"20163D" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
 
@@ -29682,15 +29882,17 @@ var MacAndOrganization = map[string]string {
 
 	"201742" : "LG Electronics",
 
-	"201800" : "		shanghai    201800",
+	"201800" : "		Shanghai    201800",
 
-	"201801" : "		Shanghai    201801",
+	"201801" : "		SHANGHAI    201801",
 
 	"201804" : "		Shanghai    201804",
 
 	"20180E" : "Shenzhen Sunchip Technology Co., Ltd",
 
 	"201A06" : "COMPAL INFORMATION (KUNSHAN) CO., LTD. ",
+
+	"201BC9" : "Juniper Networks",
 
 	"201D03" : "Elatec GmbH",
 
@@ -29701,6 +29903,8 @@ var MacAndOrganization = map[string]string {
 	"202564" : "PEGATRON CORPORATION",
 
 	"202598" : "Teleview",
+
+	"202681" : "TECNO MOBILE LIMITED",
 
 	"20283E" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -29729,6 +29933,8 @@ var MacAndOrganization = map[string]string {
 	"2034FB" : "Xiaomi Communications Co Ltd",
 
 	"20365B" : "Megafone Limited",
+
+	"2036D7" : "Shanghai Reacheng  Communication Technology Co.,Ltd",
 
 	"203706" : "Cisco Systems, Inc",
 
@@ -29808,6 +30014,8 @@ var MacAndOrganization = map[string]string {
 
 	"205EF7" : "Samsung Electronics Co.,Ltd",
 
+	"205F3D" : "Cambridge Communication Systems Ltd",
+
 	"206274" : "Microsoft Corporation",
 
 	"20635F" : "Abeeway",
@@ -29848,6 +30056,8 @@ var MacAndOrganization = map[string]string {
 
 	"207693" : "Lenovo (Beijing) Limited.",
 
+	"207759" : "OPTICAL NETWORK VIDEO TECHNOLOGIES (SHENZHEN) CO., LTD.",
+
 	"20780B" : "Delta Faucet Company",
 
 	"207852" : "Nokia",
@@ -29860,9 +30070,13 @@ var MacAndOrganization = map[string]string {
 
 	"207D74" : "Apple, Inc.",
 
+	"208058" : "Ciena Corporation",
+
 	"2082C0" : "Xiaomi Communications Co Ltd",
 
 	"20858C" : "Assa",
+
+	"208593" : "IEEE Registration Authority",
 
 	"208756" : "SIEMENS AG",
 
@@ -30052,7 +30266,7 @@ var MacAndOrganization = map[string]string {
 
 	"20FEDB" : "M2M Solution S.A.S.",
 
-	"210000" : "		NanJing   JiangSu   210000",
+	"210000" : "		Kawasaki  Kanagawa  2100005",
 
 	"210002" : "		Nanjing  Jiangsu  210002",
 
@@ -30066,7 +30280,7 @@ var MacAndOrganization = map[string]string {
 
 	"210009" : "		Nanjing  Jiangsu  210009",
 
-	"210012" : "		Nanjing  Jiangsu Province  210012",
+	"210012" : "		Nanjing  Jiangsu  210012",
 
 	"210013" : "		Nanjing  Jiangsu  210013",
 
@@ -30092,11 +30306,11 @@ var MacAndOrganization = map[string]string {
 
 	"210203" : "		Pudong  Shanghai  210203",
 
-	"211100" : "		Nanjing  JiangSu  211100",
+	"211100" : "		Nanjing    211100",
 
 	"211102" : "		Nanjing  Jiangsu  211102",
 
-	"211106" : "		Nanjing  Jiangsu  211106",
+	"211106" : "		Nanjing    211106",
 
 	"211111" : "		Nanjing  Jiangsu  211111",
 
@@ -30108,13 +30322,13 @@ var MacAndOrganization = map[string]string {
 
 	"211899" : "		Nanjing  Jiangsu  211899",
 
-	"212003" : "		Zhenjiang  Jiangsu  212003",
+	"212003" : "		Kawasaki-shi  Kanagawa Prefecture  2120031",
 
-	"212009" : "		zhenjiang  jiangsu  212009",
+	"212009" : "		Zhenjiang    212009",
 
 	"212028" : "		Zhenjiang  Jiangsu  212028",
 
-	"212300" : "		Danyang   Jiangsu  212300",
+	"212300" : "		Danyang  Jiangsu  212300",
 
 	"212400" : "		Jurong  Jiangsu  212400",
 
@@ -30128,13 +30342,13 @@ var MacAndOrganization = map[string]string {
 
 	"213234" : "		Changzhou City  Jiangsu Province  213234",
 
-	"214000" : "		Wuxi  Jiangsu Province  214000",
+	"214000" : "		Wuxi  Jiangsu  214000",
 
 	"214002" : "		Kawasaki-Shi  Kanagawa-Ken  2140021",
 
 	"214012" : "		Smolensk    214012",
 
-	"214028" : "		Wuxi  Jiangsu  214028",
+	"214028" : "		Wuxi  Jiangsu  214028 ",
 
 	"214072" : "		Wuxi  Jiangsu  214072",
 
@@ -30148,6 +30362,8 @@ var MacAndOrganization = map[string]string {
 
 	"214151" : "		WUXI  JIANGSU  214151",
 
+	"214200" : "		Yixing  Jiangsu  214200",
+
 	"214221" : "		yixing  jiangsu  214221",
 
 	"214400" : "		    214400",
@@ -30156,19 +30372,19 @@ var MacAndOrganization = map[string]string {
 
 	"215006" : "		Suzhou City  Jiangsu Province  215006",
 
-	"215011" : "		Suzhou  JiangSu  215011",
+	"215011" : "		Suzhou  Jiangsu  215011",
 
-	"215021" : "		Suzhou   Jiangsu  215021",
+	"215021" : "		Suzhou  Jiang Su  215021",
 
 	"215028" : "		Suzhou  Jiangsu Province  215028",
 
-	"215123" : "		SuZhou City  JiangSu Province  215123",
+	"215123" : "		 SuZhou  Jiangsu  215123",
 
 	"215163" : "		Suzhou  Jiangsu  215163",
 
 	"215200" : "		Suzhou  Jiangsu  215200",
 
-	"215300" : "		KUNSHAN  SUZHOU  215300",
+	"215300" : "		Kunshan City  Jiangsu Province  215300",
 
 	"215311" : "		Kunshan  Jiangsu  215311",
 
@@ -30180,7 +30396,7 @@ var MacAndOrganization = map[string]string {
 
 	"215412" : "		Suzhou  Jiangsu  215412",
 
-	"215500" : "		Changshu  Jiangsu  215500",
+	"215500" : "		Changshu  Jiangsu Province  215500",
 
 	"215611" : "		ZHANGJIAGANG  JIANGSU  215611",
 
@@ -30204,7 +30420,7 @@ var MacAndOrganization = map[string]string {
 
 	"225000" : "		Yangzhou City  Jiangsu  225000",
 
-	"226000" : "		Nantong  Jiangsu  226000",
+	"226000" : "		Nantong    226000",
 
 	"226001" : "		Nantong  Jiangsu  226001",
 
@@ -30221,6 +30437,8 @@ var MacAndOrganization = map[string]string {
 	"230061" : "		Hefei  Anhui  230061",
 
 	"230088" : "		Hefei  Anhui  230088",
+
+	"230601" : "		Hefei    230601",
 
 	"231111" : "		New Taipei City  Taiwan  231111",
 
@@ -30273,6 +30491,10 @@ var MacAndOrganization = map[string]string {
 	"241148" : "Entropix, LLC",
 
 	"2411D0" : "Chongqing Ehs Science and Technology Development Co.,Ltd.",
+
+	"241510" : "IEEE Registration Authority",
+
+	"24166D" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"24181D" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
 
@@ -30328,11 +30550,17 @@ var MacAndOrganization = map[string]string {
 
 	"243F30" : "Oxygen Broadband s.a.",
 
+	"2440AE" : "NIIC Technology Co., Ltd.",
+
+	"24418C" : "Intel Corporate",
+
 	"2442BC" : "Alinco,incorporated",
 
 	"244427" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"244597" : "GEMUE Gebr. Mueller Apparatebau",
+
+	"2446C8" : "Motorola Mobility LLC, a Lenovo Company",
 
 	"24470E" : "PentronicAB",
 
@@ -30350,7 +30578,11 @@ var MacAndOrganization = map[string]string {
 
 	"244F1D" : "iRule LLC",
 
+	"24526A" : "Zhejiang Dahua Technology Co., Ltd.",
+
 	"2453BF" : "Enernet",
+
+	"24586E" : "zte corporation",
 
 	"245880" : "VIZEO",
 
@@ -30398,9 +30630,13 @@ var MacAndOrganization = map[string]string {
 
 	"246F28" : "Espressif Inc.",
 
+	"246F8C" : "Huawei Device Co., Ltd.",
+
 	"247189" : "Texas Instruments",
 
 	"247260" : "IOTTECH Corp",
+
+	"2474F7" : "GoPro",
 
 	"247656" : "Shanghai Net Miles Fiber Optics Technology Co., LTD.",
 
@@ -30466,6 +30702,8 @@ var MacAndOrganization = map[string]string {
 
 	"24A495" : "Thales Canada Inc.",
 
+	"24A52C" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"24A534" : "SynTrust Tech International Ltd. ",
 
 	"24A7DC" : "BSkyB Ltd",
@@ -30513,6 +30751,8 @@ var MacAndOrganization = map[string]string {
 	"24BF74" : "Private",
 
 	"24C0B3" : "RSF",
+
+	"24C17A" : "BEIJING IACTIVE NETWORK CO.,LTD",
 
 	"24C1BD" : "CRRC DALIAN R&D CO.,LTD.",
 
@@ -30568,6 +30808,8 @@ var MacAndOrganization = map[string]string {
 
 	"24DF6A" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"24DFA7" : "Hangzhou BroadLink Technology Co.,Ltd",
+
 	"24E124" : "Xiamen Ursaconn Technology Co. , Ltd.",
 
 	"24E271" : "Qingdao Hisense Communications Co.,Ltd.",
@@ -30594,6 +30836,8 @@ var MacAndOrganization = map[string]string {
 
 	"24EE3A" : "Chengdu Yingji Electronic Hi-tech Co Ltd",
 
+	"24EE9A" : "Intel Corporate",
+
 	"24F094" : "Apple, Inc.",
 
 	"24F0FF" : "GHT Co., Ltd.",
@@ -30618,6 +30862,8 @@ var MacAndOrganization = map[string]string {
 
 	"24FCE5" : "Samsung Electronics Co.,Ltd",
 
+	"24FD0D" : "INDÚSTRIA DE TELECOMUNICAÇÃO ELETRÔNICA",
+
 	"24FD52" : "Liteon Technology Corporation",
 
 	"24FD5B" : "SmartThings, Inc.",
@@ -30628,7 +30874,7 @@ var MacAndOrganization = map[string]string {
 
 	"250100" : "		Jinan  Shandong  250100",
 
-	"250101" : "		Jinan  Shandong  250101",
+	"250101" : "		JINAN  SHANDONG  250101",
 
 	"253095" : "		Vina del Mar  Region de Valparaiso  2530954",
 
@@ -30654,7 +30900,7 @@ var MacAndOrganization = map[string]string {
 
 	"266061" : "		Qingdao  Shandong  266061",
 
-	"266071" : "		QingDao  ShanDong  266071",
+	"266071" : "		Qingdao City  Shandong Province  266071",
 
 	"266100" : "		Qingdao  Shandong  266100",
 
@@ -30664,7 +30910,7 @@ var MacAndOrganization = map[string]string {
 
 	"266510" : "		Qingdao  Shandong  266510",
 
-	"266555" : "		Qingdao  Shangdong  266555",
+	"266555" : "		Qingdao  Shandong  266555",
 
 	"272000" : "		Jining  Shandong  272000",
 
@@ -30703,6 +30949,8 @@ var MacAndOrganization = map[string]string {
 	"281471" : "Lantis co., LTD.",
 
 	"28162E" : "2Wire Inc",
+
+	"28167F" : "Xiaomi Communications Co Ltd",
 
 	"2816A8" : "Microsoft Corporation",
 
@@ -30750,6 +30998,8 @@ var MacAndOrganization = map[string]string {
 
 	"2832C5" : "HUMAX Co., Ltd.",
 
+	"283334" : "Huawei Device Co., Ltd.",
+
 	"283410" : "Enigma Diagnostics Limited",
 
 	"2834A2" : "Cisco Systems, Inc",
@@ -30788,6 +31038,8 @@ var MacAndOrganization = map[string]string {
 
 	"284121" : "OptiSense Network, LLC",
 
+	"2841C6" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"284430" : "GenesisTechnical Systems (UK) Ltd",
 
 	"2847AA" : "Nokia Corporation",
@@ -30807,6 +31059,8 @@ var MacAndOrganization = map[string]string {
 	"285261" : "Cisco Systems, Inc",
 
 	"2852E0" : "Layon international Electronic & Telecom Co.,Ltd",
+
+	"2852F9" : "Zhongxin Intelligent Times (Shenzhen) Co., Ltd.",
 
 	"28565A" : "Hon Hai Precision Ind. Co.,Ltd.",
 
@@ -30865,6 +31119,8 @@ var MacAndOrganization = map[string]string {
 	"287B09" : "zte corporation",
 
 	"287CDB" : "Hefei  Toycloud Technology Co.,ltd",
+
+	"287FCF" : "Intel Corporate",
 
 	"288023" : "Hewlett Packard",
 
@@ -30963,6 +31219,8 @@ var MacAndOrganization = map[string]string {
 	"28BC18" : "SourcingOverseas Co. Ltd",
 
 	"28BC56" : "EMAC, Inc.",
+
+	"28BD89" : "Google, Inc.",
 
 	"28BE03" : "TCT mobile ltd",
 
@@ -31096,6 +31354,8 @@ var MacAndOrganization = map[string]string {
 
 	"28FD80" : "IEEE Registration Authority",
 
+	"28FE65" : "DongGuan Siyoto Electronics Co., Ltd       ",
+
 	"28FECD" : "Lemobile Information Technology (Beijing) Co., Ltd.",
 
 	"28FEDE" : "COMESTA, Inc.",
@@ -31103,6 +31363,8 @@ var MacAndOrganization = map[string]string {
 	"28FF3C" : "Apple, Inc.",
 
 	"28FF3E" : "zte corporation",
+
+	"28FFB2" : "Toshiba Corp.",
 
 	"2C002C" : "UNOWHY",
 
@@ -31136,6 +31398,8 @@ var MacAndOrganization = map[string]string {
 
 	"2C15E1" : "Phicomm (Shanghai) Co., Ltd.",
 
+	"2C16BD" : "IEEE Registration Authority",
+
 	"2C1875" : "Skyworth Digital Technology(Shenzhen) Co.,Ltd",
 
 	"2C18AE" : "Trend Electronics Co., Ltd.",
@@ -31149,6 +31413,8 @@ var MacAndOrganization = map[string]string {
 	"2C1CF6" : "Alien Green LLC",
 
 	"2C1DB8" : "ARRIS Group, Inc.",
+
+	"2C1E4F" : "Chengdu Qianli Network Technology Co., Ltd.",
 
 	"2C1EEA" : "AERODEV",
 
@@ -31258,6 +31524,10 @@ var MacAndOrganization = map[string]string {
 
 	"2C4D79" : "WEIFANG GOERTEK ELECTRONICS CO.,LTD",
 
+	"2C4E7D" : "Chunghua Intelligent Network Equipment Inc.",
+
+	"2C4F52" : "Cisco Systems, Inc",
+
 	"2C5089" : "Shenzhen Kaixuan Visual Technology Co.,Limited",
 
 	"2C534A" : "Shenzhen Winyao Electronic Limited",
@@ -31316,6 +31586,8 @@ var MacAndOrganization = map[string]string {
 
 	"2C6373" : "SICHUAN TIANYI COMHEART TELECOMCO., LTD",
 
+	"2C641F" : "Vizio, Inc",
+
 	"2C6798" : "InTalTech Ltd.",
 
 	"2C67FB" : "ShenZhen Zhengjili Electronics Co., LTD",
@@ -31343,6 +31615,8 @@ var MacAndOrganization = map[string]string {
 	"2C750F" : "Shanghai Dongzhou-Lawton Communication Technology Co. Ltd.",
 
 	"2C768A" : "Hewlett Packard",
+
+	"2C780E" : "Huawei Device Co., Ltd.",
 
 	"2C79D7" : "Sagemcom Broadband SAS",
 
@@ -31409,6 +31683,8 @@ var MacAndOrganization = map[string]string {
 	"2CA780" : "True Technologies Inc.",
 
 	"2CA835" : "RIM",
+
+	"2CA89C" : "Creatz inc.",
 
 	"2CA9F0" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
@@ -31482,6 +31758,8 @@ var MacAndOrganization = map[string]string {
 
 	"2CD1DA" : "Sanjole, Inc.",
 
+	"2CD2E3" : "Guangzhou Aoshi Electronic Co.,Ltd",
+
 	"2CD2E7" : "Nokia Corporation",
 
 	"2CD444" : "FUJITSU LIMITED",
@@ -31520,6 +31798,8 @@ var MacAndOrganization = map[string]string {
 
 	"2CF7F1" : "Seeed Technology Inc.",
 
+	"2CF89B" : "Cisco Systems, Inc",
+
 	"2CFAA2" : "Alcatel-Lucent Enterprise",
 
 	"2CFCE4" : "CTEK Sweden AB",
@@ -31532,11 +31812,13 @@ var MacAndOrganization = map[string]string {
 
 	"2CFF65" : "Oki Electric Industry Co., Ltd.",
 
+	"2CFFEE" : "vivo Mobile Communication Co., Ltd.",
+
 	"300012" : "		Tula    300012",
 
 	"300101" : "		Tianjin    300101",
 
-	"300113" : "		  Tianjin  300113",
+	"300113" : "		Tianjin    300113",
 
 	"300140" : "		Tianjin    300140",
 
@@ -31546,9 +31828,9 @@ var MacAndOrganization = map[string]string {
 
 	"300300" : "		Tianjin Pilot Free Trade Zone Airport EconomicArea  Airport International Logistics Zone, Tianjin  300300",
 
-	"300384" : "		Tianjin    300384",
+	"300384" : "		TianJin  TianJin  300384",
 
-	"300457" : "		  Tianjin  300457",
+	"300457" : "		Tianjin  Tianjin  300457",
 
 	"300461" : "		TIANJIN    300461",
 
@@ -31573,6 +31855,8 @@ var MacAndOrganization = map[string]string {
 	"300D2A" : "Zhejiang Wellcom Technology Co.,Ltd.",
 
 	"300D43" : "Microsoft Mobile Oy",
+
+	"300D9E" : "Ruijie Networks Co.,LTD",
 
 	"300ED5" : "Hon Hai Precision Ind. Co.,Ltd.",
 
@@ -31601,6 +31885,8 @@ var MacAndOrganization = map[string]string {
 	"301966" : "Samsung Electronics Co.,Ltd",
 
 	"301A28" : "Mako Networks Ltd",
+
+	"301B97" : "Lierda Science & Technology Group Co.,Ltd",
 
 	"301F9A" : "IEEE Registration Authority",
 
@@ -31696,6 +31982,8 @@ var MacAndOrganization = map[string]string {
 
 	"3055ED" : "Trex Network LLC",
 
+	"305714" : "Apple, Inc.",
+
 	"3057AC" : "IRLAB LTD.",
 
 	"305804" : "		Yuseong-gu  Daejeon-city  305804",
@@ -31732,6 +32020,8 @@ var MacAndOrganization = map[string]string {
 
 	"306E5C" : "Validus Technologies",
 
+	"306F07" : "Nations Technologies Inc.",
+
 	"3071B2" : "Hangzhou Prevail Optoelectronic Equipment Co.,LTD.",
 
 	"307350" : "Inpeco SA",
@@ -31766,6 +32056,8 @@ var MacAndOrganization = map[string]string {
 
 	"3085A9" : "ASUSTek COMPUTER INC.",
 
+	"30862D" : "Arista Network, Inc.",
+
 	"308730" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"3087D9" : "Ruckus Wireless",
@@ -31782,15 +32074,21 @@ var MacAndOrganization = map[string]string {
 
 	"3089D3" : "HONGKONG UCLOUDLINK NETWORK TECHNOLOGY LIMITED",
 
+	"308BB2" : "Cisco Systems, Inc",
+
 	"308CFB" : "Dropcam",
 
 	"308D99" : "Hewlett Packard",
 
 	"3090AB" : "Apple, Inc.",
 
+	"309176" : "Skyworth Digital Technology(Shenzhen) Co.,Ltd",
+
 	"30918F" : "Technicolor",
 
 	"3092F6" : "SHANGHAI SUNMON COMMUNICATION TECHNOGY CO.,LTD",
+
+	"309435" : "vivo Mobile Communication Co., Ltd.",
 
 	"3095E3" : "SHANGHAI SIMCOM LIMITED",
 
@@ -31809,6 +32107,10 @@ var MacAndOrganization = map[string]string {
 	"30A220" : "ARG Telecom",
 
 	"30A243" : "Shenzhen Prifox Innovation Technology Co., Ltd.",
+
+	"30A2C2" : "Huawei Device Co., Ltd.",
+
+	"30A889" : "DECIMATOR DESIGN",
 
 	"30A8DB" : "Sony Mobile Communications Inc",
 
@@ -31894,6 +32196,8 @@ var MacAndOrganization = map[string]string {
 
 	"30E4DB" : "Cisco Systems, Inc",
 
+	"30E98E" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"30EA26" : "Sycada BV",
 
 	"30EB1F" : "Skylab M&C Technology Co.,Ltd",
@@ -31930,6 +32234,8 @@ var MacAndOrganization = map[string]string {
 
 	"30FB94" : "Shanghai Fangzhiwei Information Technology CO.,Ltd.",
 
+	"30FBB8" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"30FC68" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"30FD11" : "MACROTECH (USA) INC.",
@@ -31946,9 +32252,9 @@ var MacAndOrganization = map[string]string {
 
 	"310007" : "		hangzhou  zhejiang  310007",
 
-	"310011" : "		Hangzhou  zhejiang  310011",
+	"310011" : "		Hangzhou  Zhejiang  310011",
 
-	"310012" : "		Hangzhou  Zhejiang  310012",
+	"310012" : "		Hangzhou    310012",
 
 	"310013" : "		Hangzhou  Zhejiang  310013",
 
@@ -31962,7 +32268,7 @@ var MacAndOrganization = map[string]string {
 
 	"310028" : "		HangZhou  ZheJiang  310028",
 
-	"310030" : "		Hangzhou    310030",
+	"310030" : "		Hangzhou  Zhejiang  310030",
 
 	"310051" : "		Hangzhou  Zhejiang  310051",
 
@@ -31970,7 +32276,7 @@ var MacAndOrganization = map[string]string {
 
 	"310053" : "		Hangzhou  Zhejiang  310053",
 
-	"311121" : "		HangZhou  ZheJiang  311121",
+	"311121" : "		Hangzhou  ZheJiang  311121",
 
 	"311241" : "		Hangzhou City  Zhe Jiang  311241",
 
@@ -32016,7 +32322,7 @@ var MacAndOrganization = map[string]string {
 
 	"315314" : "		Cixi  Zhejiang  315314",
 
-	"315400" : "		Yuyao City, Zhejiang Province  Zhejiang Province China  P.C 315400",
+	"315400" : "		Yuyao  Zhejiang  315400",
 
 	"315500" : "		Fenghua  Zhejiang  315500",
 
@@ -32097,6 +32403,8 @@ var MacAndOrganization = map[string]string {
 	"340B40" : "MIOS ELETTRONICA SRL",
 
 	"340CED" : "Moduel AB",
+
+	"340F66" : "MicroArx Corporation",
 
 	"341290" : "Treeview Co.,Ltd.",
 
@@ -32268,6 +32576,8 @@ var MacAndOrganization = map[string]string {
 
 	"346FED" : "Enovation Controls",
 
+	"347563" : "SHENZHEN RF-LINK TECHNOLOGY CO.,LTD.",
+
 	"3475C7" : "Avaya Inc",
 
 	"3476C5" : "I-O DATA DEVICE,INC.",
@@ -32285,6 +32595,8 @@ var MacAndOrganization = map[string]string {
 	"347A60" : "ARRIS Group, Inc.",
 
 	"347C25" : "Apple, Inc.",
+
+	"347E00" : "Huawei Device Co., Ltd.",
 
 	"347E39" : "Nokia Danmark A/S",
 
@@ -32386,9 +32698,13 @@ var MacAndOrganization = map[string]string {
 
 	"34B1F7" : "Texas Instruments",
 
+	"34B20A" : "Huawei Device Co., Ltd.",
+
 	"34B354" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"34B571" : "PLDS",
+
+	"34B5A3" : "CIG SHANGHAI CO LTD",
 
 	"34B7FD" : "Guangzhou Younghead Electronic Technology Co.,Ltd",
 
@@ -32456,6 +32772,8 @@ var MacAndOrganization = map[string]string {
 
 	"34D712" : "Smartisan Digital Co., Ltd",
 
+	"34D772" : "Xiamen Yudian Automation Technology Co., Ltd ",
+
 	"34D7B4" : "Tributary Systems, Inc.",
 
 	"34D954" : "WiBotic Inc.",
@@ -32467,6 +32785,8 @@ var MacAndOrganization = map[string]string {
 	"34DB9C" : "Sagemcom Broadband SAS",
 
 	"34DBFD" : "Cisco Systems, Inc",
+
+	"34DD7E" : "Umeox Innovations Co.,Ltd",
 
 	"34DE1A" : "Intel Corporate",
 
@@ -32506,6 +32826,8 @@ var MacAndOrganization = map[string]string {
 
 	"34ED0B" : " Shanghai XZ-COM.CO.,Ltd.",
 
+	"34ED1B" : "Cisco Systems, Inc",
+
 	"34EF44" : "2Wire Inc",
 
 	"34EF8B" : "NTT Communications Corporation",
@@ -32540,7 +32862,7 @@ var MacAndOrganization = map[string]string {
 
 	"350001" : "		FuZhou City  FuJian Province  350001",
 
-	"350002" : "		FUZHOU  FUJIAN  350002",
+	"350002" : "		Fuzhou City,   Fujian Province,  350002",
 
 	"350003" : "		No.89 Software Road   Fuzhou ,Fujian  350003",
 
@@ -32558,15 +32880,15 @@ var MacAndOrganization = map[string]string {
 
 	"355000" : "		Stavropol    355000",
 
-	"361000" : "		Xiamen  Fujian  361000",
+	"361000" : "		XIAMEN  FUJIAN   361000 ",
 
 	"361005" : "		Xiamen  Fujian  361005",
 
 	"361006" : "		Xiamen  Fujian  361006",
 
-	"361008" : "		Xiamen  Fujian  361008",
+	"361008" : "		Xiamen  Fujian Province  361008",
 
-	"361009" : "		XIAMEN  FUJIAN  361009",
+	"361009" : "		XIA MEN  FU JIAN  361009",
 
 	"361010" : "		Xiamen  Fugian  361010",
 
@@ -32575,6 +32897,8 @@ var MacAndOrganization = map[string]string {
 	"361021" : "		Xiamen   Fujian  361021",
 
 	"361026" : "		Xiamen  Fujian  361026",
+
+	"361101" : "		XM  Fujian  361101",
 
 	"361102" : "		Xiamen city  Fujian Province  361102",
 
@@ -32596,7 +32920,7 @@ var MacAndOrganization = map[string]string {
 
 	"380080" : "		  Nagano  3800803",
 
-	"380118" : "		Singapore    380118",
+	"380118" : "ULVAC,Inc.",
 
 	"380195" : "Samsung Electronics Co.,Ltd",
 
@@ -32646,13 +32970,19 @@ var MacAndOrganization = map[string]string {
 
 	"3817E1" : "Technicolor CH USA Inc.",
 
+	"38184C" : "Sony Home Entertainment&Sound Products Inc",
+
 	"38192F" : "Nokia Corporation",
+
+	"381A52" : "Seiko Epson Corporation",
 
 	"381C1A" : "Cisco Systems, Inc",
 
 	"381C23" : "Hilan Technology CO.,LTD",
 
 	"381C4A" : "SIMCom Wireless Solutions Co.,Ltd.",
+
+	"381D14" : "Skydio Inc.",
 
 	"381DD9" : "FN-LINK TECHNOLOGY LIMITED",
 
@@ -32719,6 +33049,8 @@ var MacAndOrganization = map[string]string {
 	"38458C" : "MyCloud Technology corporation",
 
 	"384608" : "zte corporation",
+
+	"3847BC" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"38484C" : "Apple, Inc.",
 
@@ -32830,6 +33162,8 @@ var MacAndOrganization = map[string]string {
 
 	"3894E0" : "Syrotech Networks. Ltd.",
 
+	"3894ED" : "NETGEAR",
+
 	"389592" : "Beijing Tendyron Corporation",
 
 	"3897D6" : "Hangzhou H3C Technologies Co., Limited",
@@ -32892,6 +33226,8 @@ var MacAndOrganization = map[string]string {
 
 	"38B8EB" : "IEEE Registration Authority",
 
+	"38BAB0" : "Broadcom",
+
 	"38BAF8" : "Intel Corporate",
 
 	"38BB23" : "OzVision America LLC",
@@ -32909,6 +33245,8 @@ var MacAndOrganization = map[string]string {
 	"38C096" : "ALPS ELECTRIC CO., LTD.",
 
 	"38C2BA" : "CCTV NEOTECH",
+
+	"38C4E8" : "NSS Sp. z o.o.",
 
 	"38C70A" : "WiFiSong",
 
@@ -32980,6 +33318,8 @@ var MacAndOrganization = map[string]string {
 
 	"38EE9D" : "Anedo Ltd.",
 
+	"38EFE3" : " INGENICO TERMINALS SAS",
+
 	"38F098" : "Vapor Stone Rail Systems",
 
 	"38F0C8" : "Livestream",
@@ -33015,6 +33355,8 @@ var MacAndOrganization = map[string]string {
 	"38F9D3" : "Apple, Inc.",
 
 	"38FACA" : "Skyworth Digital Technology(Shenzhen) Co.,Ltd",
+
+	"38FB14" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"38FDFE" : "IEEE Registration Authority",
 
@@ -33268,6 +33610,10 @@ var MacAndOrganization = map[string]string {
 
 	"3C86A8" : "Sangshin elecom .co,, LTD",
 
+	"3C86D1" : "vivo Mobile Communication Co., Ltd.",
+
+	"3C894D" : "Dr. Ing. h.c. F. Porsche AG",
+
 	"3C8970" : "Neosfar",
 
 	"3C8994" : "BSkyB Ltd",
@@ -33284,9 +33630,13 @@ var MacAndOrganization = map[string]string {
 
 	"3C8C40" : "Hangzhou H3C Technologies Co., Limited",
 
+	"3C8C93" : "Juniper Networks",
+
 	"3C8CF8" : "TRENDnet, Inc.",
 
 	"3C8D20" : "Google, Inc.",
+
+	"3C8F06" : "Shenzhen Libtor Technology Co.,Ltd",
 
 	"3C9066" : "SmartRG, Inc.",
 
@@ -33317,6 +33667,8 @@ var MacAndOrganization = map[string]string {
 	"3C9A77" : "Technicolor CH USA Inc.",
 
 	"3C9BD6" : "Vizio, Inc",
+
+	"3C9D56" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"3C9F81" : "Shenzhen CATIC Bit Communications Technology Co.,Ltd",
 
@@ -33355,6 +33707,8 @@ var MacAndOrganization = map[string]string {
 	"3CB6B7" : "vivo Mobile Communication Co., Ltd.",
 
 	"3CB72B" : "PLUMgrid Inc",
+
+	"3CB74B" : "Technicolor CH USA Inc.",
 
 	"3CB792" : "Hitachi Maxell, Ltd., Optronics Division",
 
@@ -33444,6 +33798,8 @@ var MacAndOrganization = map[string]string {
 
 	"3CEAFB" : "NSE AG",
 
+	"3CECEF" : "Super Micro Computer, Inc.",
+
 	"3CEF8C" : "Zhejiang Dahua Technology Co., Ltd.",
 
 	"3CF011" : "Intel Corporate",
@@ -33526,9 +33882,11 @@ var MacAndOrganization = map[string]string {
 
 	"400E85" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
 
-	"401120" : "		Yubei District  Chongqing  401120",
+	"401120" : "		Chongqing City   Yubei District  401120",
 
 	"401121" : "		Chongqing    401121",
+
+	"401175" : "IEEE Registration Authority",
 
 	"4011DC" : "Sonance",
 
@@ -33556,6 +33914,8 @@ var MacAndOrganization = map[string]string {
 
 	"4018D7" : "Smartronix, Inc.",
 
+	"401920" : "Movon Corporation",
+
 	"401B5F" : "WEIFANG GOERTEK ELECTRONICS CO.,LTD",
 
 	"401D59" : "Biometric Associates, LP",
@@ -33573,6 +33933,8 @@ var MacAndOrganization = map[string]string {
 	"40270B" : "Mobileeco Co., Ltd",
 
 	"402814" : "RFI Engineering",
+
+	"402B50" : "ARRIS Group, Inc.",
 
 	"402BA1" : "Sony Mobile Communications Inc",
 
@@ -33646,6 +34008,8 @@ var MacAndOrganization = map[string]string {
 
 	"405539" : "Cisco Systems, Inc",
 
+	"405582" : "Nokia",
+
 	"40560C" : "In Home Displays Ltd",
 
 	"40562D" : "Smartron India Pvt ltd",
@@ -33653,6 +34017,8 @@ var MacAndOrganization = map[string]string {
 	"405662" : "GuoTengShengHua Electronics LTD.",
 
 	"405A9B" : "ANOVO",
+
+	"405BD8" : "CHONGQING FUGUI ELECTRONICS CO.,LTD.",
 
 	"405CFD" : "Dell Inc.",
 
@@ -33702,6 +34068,8 @@ var MacAndOrganization = map[string]string {
 
 	"407496" : "aFUN TECHNOLOGY INC.",
 
+	"4074E0" : "Intel Corporate",
+
 	"40786A" : "Motorola Mobility LLC, a Lenovo Company",
 
 	"407875" : "IMBEL - Industria de Material Belico do Brasil",
@@ -33732,7 +34100,7 @@ var MacAndOrganization = map[string]string {
 
 	"408664" : "		Ubi Techpark  SG  408664",
 
-	"408694" : "		    408694",
+	"408694" : "		Singapore  Singapore  408694",
 
 	"408805" : "Motorola Mobility LLC, a Lenovo Company",
 
@@ -33990,7 +34358,7 @@ var MacAndOrganization = map[string]string {
 
 	"423025" : "		CHENZHOU  HUNAN  423025",
 
-	"423060" : "		Kwangmyungsi  Kyoungkido  423060",
+	"423060" : "		GWANGMYUNG  GYUNGGI  423060",
 
 	"424000" : "		Yoshkar-Ola  Mari El republic  424000",
 
@@ -34018,9 +34386,11 @@ var MacAndOrganization = map[string]string {
 
 	"430074" : "		Wuhan  Hubei  430074",
 
+	"430079" : "		Wuhan  Hubei  430079",
+
 	"430205" : "		Wuhan  Hubei  430205",
 
-	"430223" : "		Wuhan  Hubei  430223",
+	"430223" : "		Wuhan   Hubei  430223",
 
 	"430731" : "		Anyang-si  Gyeonggi-do  430731",
 
@@ -34047,6 +34417,8 @@ var MacAndOrganization = map[string]string {
 	"440044" : "		Penza    440044",
 
 	"440049" : "Amazon Technologies Inc.",
+
+	"44004D" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"44032C" : "Intel Corporate",
 
@@ -34089,6 +34461,8 @@ var MacAndOrganization = map[string]string {
 	"441EA1" : "Hewlett Packard",
 
 	"4422F1" : "S.FAC, INC",
+
+	"44237C" : "Beijing Xiaomi Mobile Software Co., Ltd",
 
 	"4423AA" : "Farmage Co., Ltd.",
 
@@ -34144,6 +34518,8 @@ var MacAndOrganization = map[string]string {
 
 	"443EB2" : "DEOTRON Co., LTD.",
 
+	"44422F" : "TESTOP CO.,LTD.",
+
 	"444450" : "OttoQ",
 
 	"4447CC" : "Hangzhou Hikvision Digital Technology Co.,Ltd.",
@@ -34178,6 +34554,8 @@ var MacAndOrganization = map[string]string {
 
 	"4455B1" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"4455C4" : "Huawei Device Co., Ltd.",
+
 	"44568D" : "PNC Technologies  Co., Ltd.",
 
 	"4456B7" : "Spawn Labs, Inc",
@@ -34187,6 +34565,8 @@ var MacAndOrganization = map[string]string {
 	"445829" : "Cisco SPVTG",
 
 	"44599F" : "Criticare Systems, Inc",
+
+	"4459E3" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"445D5E" : "SHENZHEN Coolkit Technology CO.,LTD",
 
@@ -34213,6 +34593,8 @@ var MacAndOrganization = map[string]string {
 	"44666E" : "IP-LINE",
 
 	"4466FC" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
+
+	"446747" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"446755" : "Orbit Irrigation",
 
@@ -34308,6 +34690,8 @@ var MacAndOrganization = map[string]string {
 
 	"449F7F" : "DataCore Software Corporation",
 
+	"44A191" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"44A42D" : "TCT mobile ltd",
 
 	"44A466" : "GROUPE LDLC",
@@ -34335,6 +34719,8 @@ var MacAndOrganization = map[string]string {
 	"44AD19" : "XINGFEI （H.K）LIMITED ",
 
 	"44ADD9" : "Cisco Systems, Inc",
+
+	"44AEAB" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"44B295" : "Sichuan AI-Link Technology Co., Ltd.",
 
@@ -34374,6 +34760,8 @@ var MacAndOrganization = map[string]string {
 
 	"44C9A2" : "Greenwald Industries",
 
+	"44CB8B" : "LG Innotek",
+
 	"44CD0E" : "FLEXTRONICS MANUFACTURING(ZHUHAI)CO.,LTD.",
 
 	"44CE7D" : "SFR",
@@ -34396,11 +34784,17 @@ var MacAndOrganization = map[string]string {
 
 	"44D5A5" : "AddOn Computer",
 
+	"44D5F2" : "IEEE Registration Authority",
+
 	"44D63D" : "Talari Networks",
 
 	"44D6E1" : "Snuza International Pty. Ltd.",
 
+	"44D791" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"44D832" : "AzureWave Technology Inc.",
+
+	"44D878" : "Hui Zhou Gaoshengda Technology Co.,LTD",
 
 	"44D884" : "Apple, Inc.",
 
@@ -34438,6 +34832,8 @@ var MacAndOrganization = map[string]string {
 
 	"44EE30" : "Budelmann Elektronik GmbH",
 
+	"44EFBF" : "China Dragon Technology Limited",
+
 	"44EFCF" : "UGENE SOLUTION inc.",
 
 	"44F034" : "Kaonmedia CO., LTD.",
@@ -34450,7 +34846,11 @@ var MacAndOrganization = map[string]string {
 
 	"44F849" : "Union Pacific Railroad",
 
+	"44F971" : "SHENZHEN MERCURY COMMUNICATION TECHNOLOGIES CO.,LTD.",
+
 	"44FB42" : "Apple, Inc.",
+
+	"44FB5A" : "zte corporation",
 
 	"44FDA3" : "Everysight LTD.",
 
@@ -34458,7 +34858,9 @@ var MacAndOrganization = map[string]string {
 
 	"44FFBA" : "zte corporation",
 
-	"450001" : "		Zhengzhou  Henan  450001",
+	"450001" : "		ZhengZhou City  Henan Province  450001",
+
+	"450003" : "		Zhengzhou  Henan  450003",
 
 	"450007" : "		Zhengzhou  Henan  450007",
 
@@ -34510,6 +34912,8 @@ var MacAndOrganization = map[string]string {
 
 	"480033" : "Technicolor CH USA Inc.",
 
+	"4801C5" : "OnePlus Technology (Shenzhen) Co., Ltd",
+
 	"48022A" : "B-Link Electronic Limited",
 
 	"480362" : "DESAY ELECTRONICS(HUIZHOU)CO.,LTD",
@@ -34546,7 +34950,11 @@ var MacAndOrganization = map[string]string {
 
 	"481D70" : "Cisco SPVTG",
 
+	"48216C" : "China Mobile IOT Company Limited",
+
 	"4826E8" : "Tek-Air Systems, Inc.",
+
+	"482759" : "Levven Electronics Ltd.",
 
 	"4827EA" : "Samsung Electronics Co.,Ltd",
 
@@ -34678,6 +35086,8 @@ var MacAndOrganization = map[string]string {
 
 	"487746" : "Calix Inc.",
 
+	"48794D" : "Samsung Electronics Co.,Ltd",
+
 	"487A55" : "ALE International",
 
 	"487ADA" : "Hangzhou H3C Technologies Co., Limited",
@@ -34726,6 +35136,8 @@ var MacAndOrganization = map[string]string {
 
 	"489A42" : "Technomate Ltd",
 
+	"489BD5" : "Extreme Networks, Inc.",
+
 	"489BE2" : "SCI Innovations Ltd",
 
 	"489D18" : "Flashbay Limited",
@@ -34751,6 +35163,8 @@ var MacAndOrganization = map[string]string {
 	"48A6B8" : "Sonos, Inc.",
 
 	"48A6D2" : "GJsun Optical Science and Tech Co.,Ltd.",
+
+	"48A73C" : "Sichuan tianyi kanghe communications co., LTD",
 
 	"48A74E" : "zte corporation",
 
@@ -34980,6 +35394,8 @@ var MacAndOrganization = map[string]string {
 
 	"4C1B86" : "Arcadyan Corporation",
 
+	"4C1D96" : "Intel Corporate",
+
 	"4C1FCC" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"4C218C" : "Panasonic India Private limited",
@@ -34987,6 +35403,8 @@ var MacAndOrganization = map[string]string {
 	"4C21D0" : "Sony Mobile Communications Inc",
 
 	"4C2258" : "cozybit, Inc.",
+
+	"4C2498" : "Texas Instruments",
 
 	"4C2578" : "Nokia Corporation",
 
@@ -35032,6 +35450,8 @@ var MacAndOrganization = map[string]string {
 
 	"4C4B68" : "Mobile Device, Inc. ",
 
+	"4C4BF9" : "IEEE Registration Authority",
+
 	"4C4D66" : "Nanjing Jiahao Technology Co., Ltd.",
 
 	"4C4E03" : "TCT mobile ltd",
@@ -35051,6 +35471,8 @@ var MacAndOrganization = map[string]string {
 	"4C55CC" : "Zentri Pty Ltd",
 
 	"4C569D" : "Apple, Inc.",
+
+	"4C56DF" : "Targus US LLC",
 
 	"4C57CA" : "Apple, Inc.",
 
@@ -35076,9 +35498,15 @@ var MacAndOrganization = map[string]string {
 
 	"4C6AF6" : "HMD Global Oy",
 
+	"4C6BE8" : "Apple, Inc.",
+
 	"4C6E6E" : "Comnect Technology CO.,LTD",
 
 	"4C6F9C" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
+
+	"4C710C" : "Cisco Systems, Inc",
+
+	"4C710D" : "Cisco Systems, Inc",
 
 	"4C72B9" : "PEGATRON CORPORATION",
 
@@ -35104,6 +35532,8 @@ var MacAndOrganization = map[string]string {
 
 	"4C79BA" : "Intel Corporate",
 
+	"4C7A48" : "Nippon Seiki (Europe) B.V.",
+
 	"4C7C5F" : "Apple, Inc.",
 
 	"4C7F62" : "Nokia Corporation",
@@ -35112,11 +35542,15 @@ var MacAndOrganization = map[string]string {
 
 	"4C8093" : "Intel Corporate",
 
+	"4C80BA" : "Wuhan Tianyu Information Industry Co., Ltd.",
+
 	"4C8120" : "Taicang T&W Electronics",
 
 	"4C82CF" : "Dish Technologies Corp",
 
 	"4C83DE" : "Cisco SPVTG",
+
+	"4C875D" : "Bose Corporation",
 
 	"4C8B30" : "Actiontec Electronics, Inc",
 
@@ -35130,9 +35564,13 @@ var MacAndOrganization = map[string]string {
 
 	"4C8FA5" : "Jastec",
 
+	"4C90DB" : "JL Audio",
+
 	"4C910C" : " Lanix Internacional, S.A. de C.V.",
 
 	"4C9157" : "Fujian LANDI Commercial Equipment Co.,Ltd",
+
+	"4C917A" : "IEEE Registration Authority",
 
 	"4C9614" : "Juniper Networks",
 
@@ -35180,6 +35618,8 @@ var MacAndOrganization = map[string]string {
 
 	"4CB199" : "Apple, Inc.",
 
+	"4CB1CD" : "Ruckus Wireless",
+
 	"4CB21C" : "Maxphotonics Co.,Ltd",
 
 	"4CB44A" : "NANOWAVE Technologies Inc.",
@@ -35207,6 +35647,8 @@ var MacAndOrganization = map[string]string {
 	"4CBC98" : "IEEE Registration Authority",
 
 	"4CBCA5" : "Samsung Electronics Co.,Ltd",
+
+	"4CBCB4" : "ABB SpA - DIN Rail",
 
 	"4CBD8F" : "Hangzhou Hikvision Digital Technology Co.,Ltd.",
 
@@ -35248,6 +35690,8 @@ var MacAndOrganization = map[string]string {
 
 	"4CD9C4" : "Magneti Marelli Automotive Electronics (Guangzhou) Co. Ltd",
 
+	"4CDC0D" : "Coral Telecom Limited",
+
 	"4CDD31" : "Samsung Electronics Co.,Ltd",
 
 	"4CDD7D" : "LHP Telematics LLC",
@@ -35268,7 +35712,11 @@ var MacAndOrganization = map[string]string {
 
 	"4CE933" : "RailComm, LLC",
 
+	"4CE9E4" : "New H3C Technologies Co., Ltd",
+
 	"4CEB42" : "Intel Corporate",
+
+	"4CEBBD" : "CHONGQING FUGUI ELECTRONICS CO.,LTD.",
 
 	"4CECEF" : "Soraa, Inc.",
 
@@ -35281,6 +35729,8 @@ var MacAndOrganization = map[string]string {
 	"4CEFC0" : "Amazon Technologies Inc.",
 
 	"4CF02E" : "Vifa Denmark A/S",
+
+	"4CF19E" : "Groupe Atlantic",
 
 	"4CF2BF" : "Cambridge Industries(Group) Co.,Ltd.",
 
@@ -35295,6 +35745,8 @@ var MacAndOrganization = map[string]string {
 	"4CFACA" : "Cambridge Industries(Group) Co.,Ltd.",
 
 	"4CFB45" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"4CFBFE" : "Sercomm Japan Corporation",
 
 	"4CFF12" : "Fuze Entertainment Co., ltd",
 
@@ -35325,6 +35777,8 @@ var MacAndOrganization = map[string]string {
 	"5001BB" : "Samsung Electronics Co.,Ltd",
 
 	"5001D9" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"500291" : "Espressif Inc.",
 
 	"500294" : "		Dubai  Dubai  500294",
 
@@ -35566,11 +36020,15 @@ var MacAndOrganization = map[string]string {
 
 	"507A55" : "Apple, Inc.",
 
+	"507AC5" : "Apple, Inc.",
+
 	"507B9D" : "LCFC(HeFei) Electronics Technology co., ltd",
 
 	"507D02" : "BIODIT",
 
 	"507E5D" : "Arcadyan Technology Corporation",
+
+	"50804A" : "Quectel Wireless Solutions Co., Ltd.",
 
 	"508057" : "		ShenZhen  GuangDong  508057",
 
@@ -35578,7 +36036,7 @@ var MacAndOrganization = map[string]string {
 
 	"508569" : "Samsung Electronics Co.,Ltd",
 
-	"508769" : "		Singapore  Singapore  508769",
+	"508769" : "		    508769",
 
 	"508789" : "Cisco Systems, Inc",
 
@@ -35608,9 +36066,13 @@ var MacAndOrganization = map[string]string {
 
 	"509551" : "ARRIS Group, Inc.",
 
+	"509744" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
+
 	"509772" : "Westinghouse Digital",
 
 	"509871" : "Inventum Technologies Private Limited",
+
+	"5098B8" : "New H3C Technologies Co., Ltd",
 
 	"5098F3" : "Rheem Australia Pty Ltd",
 
@@ -35629,6 +36091,8 @@ var MacAndOrganization = map[string]string {
 	"50A0A4" : "Nokia",
 
 	"50A0BF" : "Alba Fiber Systems Inc.",
+
+	"50A132" : "Shenzhen MiaoMing  Intelligent Technology Co.,Ltd",
 
 	"50A4C8" : "Samsung Electronics Co.,Ltd",
 
@@ -35700,11 +36164,17 @@ var MacAndOrganization = map[string]string {
 
 	"50CE75" : "Measy Electronics Co., Ltd.",
 
+	"50CEE3" : "Gigafirm.co.LTD",
+
 	"50D213" : "CviLux Corporation",
 
 	"50D274" : "Steffes Corporation",
 
+	"50D2F5" : "Beijing Xiaomi Mobile Software Co., Ltd",
+
 	"50D37F" : "Yu Fly Mikly Way Science and Technology Co., Ltd.",
+
+	"50D4F7" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"50D59C" : "Thai Habel Industrial Co., Ltd.",
 
@@ -35722,7 +36192,11 @@ var MacAndOrganization = map[string]string {
 
 	"50DD4F" : "Automation Components, Inc",
 
+	"50DE06" : "Apple, Inc.",
+
 	"50DF95" : "Lytx",
+
+	"50E085" : "Intel Corporate",
 
 	"50E0C7" : "TurControlSystme AG",
 
@@ -35739,6 +36213,8 @@ var MacAndOrganization = map[string]string {
 	"50EAD6" : "Apple, Inc.",
 
 	"50EB1A" : "Brocade Communications Systems, Inc.",
+
+	"50EB71" : "Intel Corporate",
 
 	"50EC50" : "Beijing Xiaomi Mobile Software Co., Ltd",
 
@@ -35761,6 +36237,8 @@ var MacAndOrganization = map[string]string {
 	"50F61A" : "Kunshan JADE Technologies co., Ltd.",
 
 	"50F722" : "Cisco Systems, Inc",
+
+	"50F8A5" : "eWBM Co., Ltd.",
 
 	"50FA84" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
@@ -35802,7 +36280,7 @@ var MacAndOrganization = map[string]string {
 
 	"510385" : "		Guangzhou  Guang Dong  510385",
 
-	"510530" : "		Gunagzhou  Guangdong  510530",
+	"510530" : "		Guangzhou City   Guangdong  510530",
 
 	"510539" : "		    510539",
 
@@ -35814,11 +36292,11 @@ var MacAndOrganization = map[string]string {
 
 	"510623" : "		GUANGZHOU  GUANGDONG  510623",
 
-	"510630" : "		Guangzhou  Guangdong  510630",
+	"510630" : "		    510630",
 
 	"510635" : "		Guangzhou  Guangdong Province  510635",
 
-	"510660" : "		GUANGZHOU  GUANGDONG  510660",
+	"510660" : "		Guangzhou  Guangdong  510660",
 
 	"510663" : "		Guangzhou  Guangdong  510663",
 
@@ -35837,6 +36315,8 @@ var MacAndOrganization = map[string]string {
 	"511400" : "		Guangzhou  Guangdong  511400",
 
 	"511430" : "		Guang zhou  Guang dong  511430",
+
+	"511450" : "		Guangzhou  Guangdong  511450",
 
 	"511455" : "		Guangzhou  Guangdong  511455",
 
@@ -35862,9 +36342,9 @@ var MacAndOrganization = map[string]string {
 
 	"516005" : "		Huizhou  Guangdong  516005",
 
-	"516006" : "		Hui Zhou  Guang Dong  516006",
+	"516006" : "		Hui Zhou  Guangdong  516006",
 
-	"516007" : "		Huizhou  Guangdong  516007",
+	"516007" : "		HUIZHOU  GUANGDONG  516007",
 
 	"516008" : "		HuiZhou  GuangDong  516008",
 
@@ -35878,7 +36358,7 @@ var MacAndOrganization = map[string]string {
 
 	"517000" : "		Heyuan   Guangdong Province  517000",
 
-	"518000" : "		Tenglong Road, Longhua District,   Shenzhen Guangdong  518000",
+	"518000" : "		ShenZhen  GuangDong  518000",
 
 	"518001" : "		Shenzhen  Guangdong  518001",
 
@@ -35898,9 +36378,9 @@ var MacAndOrganization = map[string]string {
 
 	"518013" : "		Shenzhen  Guangdong  518013",
 
-	"518018" : "		Shenzhen  Guangdong  518018",
+	"518018" : "		SHENZHEN  GUANGDONG  518018",
 
-	"518026" : "		Shenzhen  Guangdong  518026",
+	"518026" : "		Shenzhen    518026",
 
 	"518028" : "		Shenzhen  GuangDong  518028",
 
@@ -35914,23 +36394,23 @@ var MacAndOrganization = map[string]string {
 
 	"518035" : "		Shenzhen  Guangdong  518035",
 
-	"518038" : "		SHENZHEN  Guang Dong  518038",
+	"518038" : "		Shenzhen  Guangdong  518038",
 
-	"518040" : "		SHENZHEN  GUANGDONG  518040",
+	"518040" : "		Shenzhen  Guangdong Province  518040",
 
-	"518042" : "		ShenZhen  GuangZhou  518042",
+	"518042" : "		Shenzhen  Guangdong  518042",
 
 	"518044" : "		shenzhen    518044",
 
 	"518047" : "		Shenzhen  Guangdong  518047",
 
-	"518048" : "		Shenzhen  GuangDong  518048",
+	"518048" : "		Shenzhen  Guangdong  518048",
 
-	"518049" : "		Shenzhen  GuangDong  518049",
+	"518049" : "		SHENZHEN  GUANGDONG  518049",
 
-	"518052" : "		Nanshan District, Shenzhen  Guangdong  518052",
+	"518052" : "		Shenzhen  Guangdong  518052",
 
-	"518053" : "		Shenzhen   guangdong  518053",
+	"518053" : "		Shenzhen  Guangdong  518053",
 
 	"518054" : "		Shenzhen  Guangdong  518054",
 
@@ -35938,53 +36418,55 @@ var MacAndOrganization = map[string]string {
 
 	"518056" : "		Shenzhen  Guangdong  518056",
 
-	"518057" : "		shenzhen  guangdong  518057",
+	"518057" : "		Shenzhen  Guangdong  518057",
 
 	"518058" : "		Nanshan District, Shenzhen  GuangDong  518058",
 
 	"518059" : "		Shenzhen    518059",
 
-	"518061" : "		Shen Zhen  GuangDong  518061",
+	"518061" : "		ShenZhen  GuangDong  518061",
+
+	"518063" : "		Shenzhen  Guangdong  518063",
 
 	"518066" : "		Shenzhen  Guangdong  518066",
 
-	"518067" : "		ShenZhen  GuangDong  518067",
+	"518067" : "		Shenzhen  Guangdong  518067",
 
 	"518077" : "		SHENZHEN  GUANGDONG  518077",
 
 	"518083" : "		Shenzhen  Guangdong  518083",
 
-	"518100" : "		Shenzhen  Guangdong  518100",
+	"518100" : "		Shenzhen    518100",
 
-	"518101" : "		Shenzhen  Guangdong Province  518101",
+	"518101" : "		Shenzhen  Guangdong  518101",
 
-	"518102" : "		Shenzhen  Guangdong  518102 ",
+	"518102" : "		Shenzhen  Guangdong  518102",
 
-	"518103" : "		Shenzhen  Guangdong  518103",
+	"518103" : "		Shen Zhen  Guang Dong  518103",
 
-	"518104" : "		Shenzhen  Guangdong  518104",
+	"518104" : "		ShenZhen  Guangdong  518104",
 
-	"518105" : "		ShenZhen  GuangDong  518105",
+	"518105" : "		Shenzhen  Guangdong  518105",
 
 	"518106" : "		Shenzhen  Guang Dong  518106",
 
 	"518107" : "		Shenzhen    518107",
 
-	"518108" : "		ShenZhen  GuangDong  518108",
+	"518108" : "		SHENZHEN  GUANGDONG  518108",
 
-	"518109" : "		Shenzhen  Guangdong  518109",
+	"518109" : "		ShenZhen  GuangDong  518109",
 
 	"518110" : "		Shenzhen  Guangdong  518110",
 
-	"518111" : "		Shenzhen  Guangdong  518111",
+	"518111" : "		shenzhen    518111",
 
-	"518112" : "		Shenzhen   Guangdong Province  518112",
+	"518112" : "		Longgang District  Shenzhen, Guangdong   518112",
 
 	"518113" : "		Shenzhen,  Guangdong  518113",
 
-	"518115" : "		Shenzhen  GuangDong  518115",
+	"518115" : "		Shenzhen  Guangdong  518115",
 
-	"518116" : "		Shenzhen    518116",
+	"518116" : "		ShenZhen  GuangDong  518116",
 
 	"518117" : "		Shenzhen  Guangdong  518117",
 
@@ -35994,13 +36476,13 @@ var MacAndOrganization = map[string]string {
 
 	"518125" : "		Shenzhen  Guangdong  518125",
 
-	"518126" : "		shenzhen  GuangDong  518126",
+	"518126" : "		Shenzhen  Guangdong  518126",
 
 	"518127" : "		shenzhen  guanggong  518127",
 
 	"518128" : "		Shenzhen  Guangdong  518128",
 
-	"518129" : "		 Bantian, Longgang District, Shenzhen, 518129, P.R.C",
+	"518129" : "		Shenzhen  Guangdong  518129",
 
 	"518131" : "		Shenzhen  Guangdong  518131",
 
@@ -36008,13 +36490,13 @@ var MacAndOrganization = map[string]string {
 
 	"518133" : "		Shenzhen  Guangdong  518133",
 
-	"518172" : "		Shenzhen City  Longgang District, Guangdong  518172",
+	"518172" : "		Shenzhen  Guangdong  518172",
 
-	"518173" : "		深圳市  广东省  518173",
+	"518173" : "		Shenzhen  Guangdong  518173",
 
 	"518301" : "		Shenzhen  Guangdong  518301",
 
-	"519000" : "		Zhuhai  Guangdong  519000",
+	"519000" : "		Zhuhai City  Guangdong Province  519000",
 
 	"519060" : "		Zhuhai  Guangdong  519060",
 
@@ -36030,7 +36512,7 @@ var MacAndOrganization = map[string]string {
 
 	"519180" : "		Zhuhai  Guangdong  519180",
 
-	"523000" : "		DongGuan  GuangDong  523000",
+	"523000" : "		West Haoyi Community, Shajing Subdistrict Office  Bao'an District, Shenzhen, Guangdong  523000",
 
 	"523010" : "		DONGGUAN  GUANGDONG  523010",
 
@@ -36049,6 +36531,8 @@ var MacAndOrganization = map[string]string {
 	"523127" : "		Dongguan  Guangdong  523127",
 
 	"523129" : "		Dong Guan  Guang Dong  523129",
+
+	"523290" : "		Dongguan  Guangdong  523290",
 
 	"523400" : "		Liaobu  dongguan /guangdong  523400",
 
@@ -36106,7 +36590,7 @@ var MacAndOrganization = map[string]string {
 
 	"528051" : "		Foshan  Guangdong  528051",
 
-	"528133" : "		Hong Kong  Hong Kong  528133",
+	"528133" : "		Foshan  Guangdong  528133",
 
 	"528200" : "		 Foshan   Guangdong, China.  528200",
 
@@ -36178,11 +36662,15 @@ var MacAndOrganization = map[string]string {
 
 	"54115F" : "Atamo Pty Ltd",
 
+	"541310" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"541379" : "Hon Hai Precision Ind. Co.,Ltd.",
 
 	"541473" : " Wingtech Group (HongKong）Limited",
 
 	"5414FD" : "Orbbec 3D Technology International",
+
+	"541589" : "MCS Logic Inc.",
 
 	"541876" : "		osaka    5418765",
 
@@ -36198,7 +36686,7 @@ var MacAndOrganization = map[string]string {
 
 	"542018" : "Tely Labs",
 
-	"542160" : "Resolution Products",
+	"542160" : "Alula",
 
 	"5422F8" : "zte corporation",
 
@@ -36214,11 +36702,17 @@ var MacAndOrganization = map[string]string {
 
 	"54278D" : "NXP (China) Management Ltd.",
 
+	"542A1B" : "Sonos, Inc.",
+
 	"542A9C" : "LSY Defense, LLC.",
 
 	"542AA2" : "Alpha Networks Inc.",
 
 	"542B57" : "Night Owl SP",
+
+	"542B8D" : "Apple, Inc.",
+
+	"542BDE" : "New H3C Technologies Co., Ltd",
 
 	"542CEA" : "PROTECTRON",
 
@@ -36229,6 +36723,8 @@ var MacAndOrganization = map[string]string {
 	"543131" : "Raster Vision Ltd",
 
 	"5433CB" : "Apple, Inc.",
+
+	"5434EF" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"543530" : "Hon Hai Precision Ind. Co.,Ltd.",
 
@@ -36358,6 +36854,8 @@ var MacAndOrganization = map[string]string {
 
 	"548CA0" : "Liteon Technology Corporation",
 
+	"549209" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"5492BE" : "Samsung Electronics Co.,Ltd",
 
 	"549359" : "SHENZHEN TWOWING TECHNOLOGIES CO.,LTD.",
@@ -36376,6 +36874,8 @@ var MacAndOrganization = map[string]string {
 
 	"549B72" : "Ericsson AB",
 
+	"549C27" : "Plasma Cloud Limited",
+
 	"549D85" : "EnerAccess inc",
 
 	"549F13" : "Apple, Inc.",
@@ -36393,6 +36893,8 @@ var MacAndOrganization = map[string]string {
 	"54A31B" : "Shenzhen Linkworld Technology Co,.LTD",
 
 	"54A3FA" : "BQT Solutions (Australia)Pty Ltd",
+
+	"54A493" : "IEEE Registration Authority",
 
 	"54A51B" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -36425,6 +36927,8 @@ var MacAndOrganization = map[string]string {
 	"54B802" : "Samsung Electronics Co.,Ltd",
 
 	"54B80A" : "D-Link International",
+
+	"54BAD6" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"54BD79" : "Samsung Electronics Co.,Ltd",
 
@@ -36468,6 +36972,8 @@ var MacAndOrganization = map[string]string {
 
 	"54DC1D" : "Yulong Computer Telecommunication Scientific (Shenzhen) Co.,Ltd",
 
+	"54DED0" : "Sevio Srl",
+
 	"54DF00" : "Ulterius Technologies, LLC",
 
 	"54DF24" : "Fiberhome Telecommunication Technologies Co.,LTD",
@@ -36494,11 +37000,15 @@ var MacAndOrganization = map[string]string {
 
 	"54E43A" : "Apple, Inc.",
 
+	"54E4A9" : "BHR Tech GmbH",
+
 	"54E4BD" : "FN-LINK TECHNOLOGY LIMITED",
 
 	"54E63F" : "ShenZhen LingKeWeiEr Technology Co., Ltd.",
 
 	"54E6FC" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
+	"54E7D5" : "Sun Cupid Technology (HK) LTD",
 
 	"54EAA8" : "Apple, Inc.",
 
@@ -36507,6 +37017,8 @@ var MacAndOrganization = map[string]string {
 	"54EDA3" : "Navdy, Inc.",
 
 	"54EE75" : "Wistron InfoComm(Kunshan)Co.,Ltd.",
+
+	"54EF44" : "Lumi United Technology Co., Ltd",
 
 	"54EF92" : "Shenzhen Elink Technology Co., LTD",
 
@@ -36546,7 +37058,7 @@ var MacAndOrganization = map[string]string {
 
 	"555853" : "		    555853",
 
-	"556741" : "		Singapore    556741",
+	"556741" : "		    556741",
 
 	"560001" : "		Bangalore  Karnataka  560001",
 
@@ -36557,8 +37069,6 @@ var MacAndOrganization = map[string]string {
 	"560020" : "		Bangalore  Karnataka  560020",
 
 	"560025" : "		Bangalore  Karnataka  560025",
-
-	"560032" : "		BANGALORE  KARNATAKA  560032",
 
 	"560037" : "		Bangalore  Karnataka  560037",
 
@@ -36572,7 +37082,7 @@ var MacAndOrganization = map[string]string {
 
 	"560066" : "		Bangalore  Karnataka  560066",
 
-	"560068" : "		Bangalore  Karnataka  560068",
+	"560068" : "		BANGALORE  KARNATAKA  560068",
 
 	"560078" : "		Bangalore    560078",
 
@@ -36584,7 +37094,7 @@ var MacAndOrganization = map[string]string {
 
 	"560095" : "		Bangalore  Karnataka  560095",
 
-	"560100" : "		Bangalore  Karnataka  560100",
+	"560100" : "		Bengaluru  Karnataka  560100",
 
 	"5652AC" : "		Eindhoven    5652AC",
 
@@ -36642,6 +37152,8 @@ var MacAndOrganization = map[string]string {
 
 	"581626" : "Avaya Inc",
 
+	"5816D7" : "ALPS ELECTRIC CO., LTD.",
+
 	"58170C" : "Sony Mobile Communications Inc",
 
 	"5819F8" : "ARRIS Group, Inc.",
@@ -36657,6 +37169,8 @@ var MacAndOrganization = map[string]string {
 	"581FAA" : "Apple, Inc.",
 
 	"581FEF" : "Tuttnaer LTD",
+
+	"582059" : "Xiaomi Communications Co Ltd",
 
 	"5820B1" : "Hewlett Packard",
 
@@ -36683,6 +37197,8 @@ var MacAndOrganization = map[string]string {
 	"583277" : "Reliance Communications LLC",
 
 	"58343B" : "Glovast Technology Ltd.",
+
+	"583526" : "DEEPLET TECHNOLOGY CORP",
 
 	"5835D9" : "Cisco Systems, Inc",
 
@@ -36735,6 +37251,8 @@ var MacAndOrganization = map[string]string {
 	"5856E8" : "ARRIS Group, Inc.",
 
 	"58570D" : "Danfoss Solar Inverters",
+
+	"5859C2" : "Aerohive Networks Inc.",
 
 	"585FF6" : "zte corporation",
 
@@ -36802,6 +37320,10 @@ var MacAndOrganization = map[string]string {
 
 	"58856E" : "QSC AG",
 
+	"5885A2" : "Realme Chongqing MobileTelecommunications Corp Ltd",
+
+	"5885E9" : "Realme Chongqing MobileTelecommunications Corp Ltd",
+
 	"58874C" : "LITE-ON CLEAN ENERGY TECHNOLOGY CORP.",
 
 	"5887E2" : "Shenzhen Coship Electronics Co., Ltd.",
@@ -36828,6 +37350,8 @@ var MacAndOrganization = map[string]string {
 
 	"5894CF" : "Vertex Standard LMR, Inc.",
 
+	"589630" : "Technicolor CH USA Inc.",
+
 	"58971E" : "Cisco Systems, Inc",
 
 	"5897BD" : "Cisco Systems, Inc",
@@ -36841,6 +37365,8 @@ var MacAndOrganization = map[string]string {
 	"589CFC" : "FreeBSD Foundation",
 
 	"589EC6" : "Gigaset Communications GmbH",
+
+	"58A023" : "Intel Corporate",
 
 	"58A0CB" : "TrackNet, Inc",
 
@@ -36998,6 +37524,8 @@ var MacAndOrganization = map[string]string {
 
 	"5C0A5B" : "SAMSUNG ELECTRO MECHANICS CO., LTD.",
 
+	"5C0BCA" : "Tunstall Nordic AB",
+
 	"5C0C0E" : "Guizhou Huaxintong Semiconductor Technology Co Ltd",
 
 	"5C0CBB" : "CELIZION Inc.",
@@ -37112,6 +37640,8 @@ var MacAndOrganization = map[string]string {
 
 	"5C5948" : "Apple, Inc.",
 
+	"5C5AC7" : "Cisco Systems, Inc",
+
 	"5C5AEA" : "FORD",
 
 	"5C5B35" : "Mist Systems, Inc.",
@@ -37125,6 +37655,8 @@ var MacAndOrganization = map[string]string {
 	"5C63BF" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"5C63C9" : "Intellithings Ltd.",
+
+	"5C666C" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"5C6776" : "IDS Imaging Development Systems GmbH",
 
@@ -37143,6 +37675,12 @@ var MacAndOrganization = map[string]string {
 	"5C6F4F" : "S.A. SISTEL",
 
 	"5C70A3" : "LG Electronics (Mobile Communications)",
+
+	"5C710D" : "Cisco Systems, Inc",
+
+	"5C75AF" : "Fitbit, Inc.",
+
+	"5C7695" : "Technicolor CH USA Inc.",
 
 	"5C7757" : "Haivision Network Video",
 
@@ -37166,6 +37704,8 @@ var MacAndOrganization = map[string]string {
 
 	"5C8778" : "Cybertelbridge co.,ltd",
 
+	"5C879C" : "Intel Corporate",
+
 	"5C8816" : "Rockwell Automation",
 
 	"5C899A" : "TP-LINK TECHNOLOGIES CO.,LTD.",
@@ -37179,6 +37719,8 @@ var MacAndOrganization = map[string]string {
 	"5C8D4E" : "Apple, Inc.",
 
 	"5C8FE0" : "ARRIS Group, Inc.",
+
+	"5C925E" : "Zioncom Electronics (Shenzhen) Ltd.",
 
 	"5C93A2" : "Liteon Technology Corporation",
 
@@ -37199,6 +37741,8 @@ var MacAndOrganization = map[string]string {
 	"5CA176" : "SICHUAN TIANYI COMHEART TELECOMCO., LTD",
 
 	"5CA178" : "TableTop Media (dba Ziosk)",
+
+	"5CA1E0" : "EmbedWay Technologies",
 
 	"5CA39D" : "SAMSUNG ELECTRO MECHANICS CO., LTD.",
 
@@ -37221,6 +37765,10 @@ var MacAndOrganization = map[string]string {
 	"5CAF06" : "LG Electronics (Mobile Communications)",
 
 	"5CB066" : "ARRIS Group, Inc.",
+
+	"5CB13E" : "Sagemcom Broadband SAS",
+
+	"5CB15F" : "Oceanblue Cloud Technology Limited",
 
 	"5CB395" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -37262,11 +37810,15 @@ var MacAndOrganization = map[string]string {
 
 	"5CCA32" : "Theben AG",
 
+	"5CCAD3" : "CHIPSEA TECHNOLOGIES (SHENZHEN) CORP.",
+
 	"5CCBCA" : "FUJIAN STAR-NET COMMUNICATION CO.,LTD",
 
 	"5CCCA0" : "Gridwiz Inc.",
 
 	"5CCCFF" : "Techroutes Network Pvt Ltd",
+
+	"5CCD5B" : "Intel Corporate",
 
 	"5CCD7C" : "MEIZU Technology Co.,Ltd.",
 
@@ -37312,7 +37864,11 @@ var MacAndOrganization = map[string]string {
 
 	"5CE3B6" : "Fiberhome Telecommunication Technologies Co.,LTD",
 
+	"5CE50C" : "Beijing Xiaomi Mobile Software Co., Ltd",
+
 	"5CE7BF" : "New Singularity International Technical Development Co.,Ltd",
+
+	"5CE883" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"5CE8B7" : "Oraimo Technology Limited",
 
@@ -37450,9 +38006,13 @@ var MacAndOrganization = map[string]string {
 
 	"6021C0" : "Murata Manufacturing Co., Ltd.",
 
+	"6023A4" : "Sichuan AI-Link Technology Co., Ltd.",
+
 	"6024C1" : "Jiangsu Zhongxun Electronic Technology Co., Ltd",
 
 	"60271C" : "VIDEOR E. Hartig GmbH",
+
+	"6029D5" : "DAVOLINK Inc.",
 
 	"602A54" : "CardioTek B.V.",
 
@@ -37492,6 +38052,8 @@ var MacAndOrganization = map[string]string {
 
 	"603950" : "		Nizhny Novgorod  Russia  603950",
 
+	"603A7C" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
 	"603D26" : "Technicolor CH USA Inc.",
 
 	"603E7B" : "Gafachi, Inc.",
@@ -37501,6 +38063,8 @@ var MacAndOrganization = map[string]string {
 	"603FC5" : "COX CO., LTD",
 
 	"60427F" : "SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LTD",
+
+	"60447A" : "Water-i.d. GmbH",
 
 	"6044F5" : "Easy Digital Ltd.",
 
@@ -37544,6 +38108,8 @@ var MacAndOrganization = map[string]string {
 
 	"6061DF" : "Z-meta Research LLC",
 
+	"60634C" : "D-Link International",
+
 	"6063F9" : "Ciholas, Inc.",
 
 	"6063FD" : "Transcend Communication Beijing Co.,Ltd.",
@@ -37573,6 +38139,8 @@ var MacAndOrganization = map[string]string {
 	"606DC7" : "Hon Hai Precision Ind. Co.,Ltd.",
 
 	"606ED0" : "SEAL AG",
+
+	"6070C0" : "Apple, Inc.",
 
 	"60720B" : "BLU Products Inc",
 
@@ -37609,6 +38177,8 @@ var MacAndOrganization = map[string]string {
 	"6089B1" : "Key Digital Systems",
 
 	"6089B7" : "KAEL MÜHENDİSLİK ELEKTRONİK TİCARET SANAYİ LİMİTED ŞİRKETİ",
+
+	"608B0E" : "Apple, Inc.",
 
 	"608C2B" : "Hanson Technology",
 
@@ -37662,6 +38232,8 @@ var MacAndOrganization = map[string]string {
 
 	"60A10A" : "Samsung Electronics Co.,Ltd",
 
+	"60A11E" : "Wuhan Maxsine Electric Co.,Ltd.",
+
 	"60A37D" : "Apple, Inc.",
 
 	"60A44C" : "ASUSTek COMPUTER INC.",
@@ -37674,7 +38246,11 @@ var MacAndOrganization = map[string]string {
 
 	"60A9B0" : "Merchandising Technologies, Inc",
 
+	"60AB14" : "LG Innotek",
+
 	"60AB67" : "Xiaomi Communications Co Ltd",
+
+	"60ABD2" : "Bose Corporation",
 
 	"60ACC8" : "KunTeng Inc.",
 
@@ -37750,6 +38326,8 @@ var MacAndOrganization = map[string]string {
 
 	"60D30A" : "Quatius Limited",
 
+	"60D755" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"60D7E3" : "IEEE Registration Authority",
 
 	"60D819" : "Hon Hai Precision Ind. Co.,Ltd.",
@@ -37793,6 +38371,8 @@ var MacAndOrganization = map[string]string {
 	"60F189" : "Murata Manufacturing Co., Ltd.",
 
 	"60F18A" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"60F262" : "Intel Corporate",
 
 	"60F281" : "TRANWO TECHNOLOGY CO., LTD.",
 
@@ -37850,9 +38430,9 @@ var MacAndOrganization = map[string]string {
 
 	"611130" : "		Wenjiang District  Chengdu  611130",
 
-	"611330" : "		chengdu  sichuan  611330",
+	"611330" : "		CHENGDU  SICHUAN  611330",
 
-	"611731" : "		Cheng Du  Si Chuan  611731",
+	"611731" : "		Chengdu City  Sichuan  611731",
 
 	"614000" : "		Perm  Perm region  614000",
 
@@ -37882,7 +38462,7 @@ var MacAndOrganization = map[string]string {
 
 	"620161" : "		Ekaterinburg  Sverdlovskaya oblast   620161",
 
-	"621000" : "		Anzhou,Industrial Park  Sichuan  621000",
+	"621000" : "		MianYang  SiChuan  PRC 621000",
 
 	"622651" : "		Mianyang    622651",
 
@@ -38190,6 +38770,8 @@ var MacAndOrganization = map[string]string {
 
 	"64AE88" : "Polytec GmbH",
 
+	"64AEF1" : "Qingdao Hisense Electronics Co.,Ltd.",
+
 	"64B0A6" : "Apple, Inc.",
 
 	"64B21D" : "Chengdu Phycom Tech Co., Ltd.",
@@ -38228,15 +38810,21 @@ var MacAndOrganization = map[string]string {
 
 	"64C753" : "Apple, Inc.",
 
+	"64C901" : "INVENTEC Corporation",
+
 	"64C944" : "LARK Technologies, Inc",
 
 	"64CB5D" : "SIA TeleSet",
+
+	"64CB9F" : "TECNO MOBILE LIMITED",
 
 	"64CBA3" : "Pointmobile",
 
 	"64CC22" : "Arcadyan Corporation",
 
 	"64CC2E" : "Xiaomi Communications Co Ltd",
+
+	"64CE6E" : "Sierra Wireless",
 
 	"64CFD9" : "Texas Instruments",
 
@@ -38275,6 +38863,8 @@ var MacAndOrganization = map[string]string {
 	"64DC01" : "Static Systems Group PLC",
 
 	"64DE1C" : "Kingnetic Pte Ltd",
+
+	"64DF10" : "JingLue Semiconductor(SH) Ltd.",
 
 	"64DFE9" : "ATEME",
 
@@ -38318,11 +38908,17 @@ var MacAndOrganization = map[string]string {
 
 	"64F987" : "Avvasi Inc.",
 
+	"64F9C0" : "ANALOG DEVICES",
+
 	"64FB50" : "RoomReady/Zdi, Inc.",
 
 	"64FB81" : "IEEE Registration Authority",
 
+	"64FB92" : "PPC Broadband Inc.",
+
 	"64FC8C" : "Zonar Systems",
+
+	"64FF0A" : "Wistron Neweb Corporation",
 
 	"650002" : "		Kobe  Hyogo  6500022",
 
@@ -38349,6 +38945,8 @@ var MacAndOrganization = map[string]string {
 	"680571" : "Samsung Electronics Co.,Ltd",
 
 	"6805CA" : "Intel Corporate",
+
+	"68070A" : "TPVision Europe B.V",
 
 	"680715" : "Intel Corporate",
 
@@ -38392,6 +38990,8 @@ var MacAndOrganization = map[string]string {
 
 	"68262A" : "SICHUAN TIANYI COMHEART TELECOMCO., LTD",
 
+	"682719" : "Microchip Technology Inc.",
+
 	"682737" : "Samsung Electronics Co.,Ltd",
 
 	"6828BA" : "Dejai",
@@ -38406,6 +39006,8 @@ var MacAndOrganization = map[string]string {
 
 	"6831FE" : "Teladin Co.,Ltd.",
 
+	"683489" : "LEA Professional",
+
 	"683563" : "SHENZHEN LIOWN ELECTRONICS CO.,LTD.",
 
 	"6836B5" : "DriveScale, Inc.",
@@ -38416,6 +39018,8 @@ var MacAndOrganization = map[string]string {
 
 	"683B1E" : "Countwise LTD",
 
+	"683B78" : "Cisco Systems, Inc",
+
 	"683C7D" : "Magic Intelligence Technology Limited",
 
 	"683E02" : "SIEMENS AG, Digital Factory, Motion Control System",
@@ -38423,6 +39027,8 @@ var MacAndOrganization = map[string]string {
 	"683E34" : "MEIZU Technology Co., Ltd.",
 
 	"683EEC" : "ERECA",
+
+	"683F1E" : "EFFECT Photonics B.V.",
 
 	"684352" : "Bhuu Limited",
 
@@ -38433,6 +39039,8 @@ var MacAndOrganization = map[string]string {
 	"684749" : "Texas Instruments",
 
 	"684898" : "Samsung Electronics Co.,Ltd",
+
+	"684AAE" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"684B88" : "Galtronics Telemetry Inc.",
 
@@ -38469,6 +39077,8 @@ var MacAndOrganization = map[string]string {
 	"685D43" : "Intel Corporate",
 
 	"685E6B" : "PowerRay Co., Ltd.",
+
+	"686350" : "Hella India Automotive Pvt Ltd",
 
 	"686359" : "Advanced Digital Broadcast SA",
 
@@ -38515,6 +39125,8 @@ var MacAndOrganization = map[string]string {
 	"68831A" : "Pandora Mobility Corporation",
 
 	"688470" : "eSSys Co.,Ltd",
+
+	"68847E" : "FUJITSU LIMITED",
 
 	"688540" : "IGI Mobile, Inc.",
 
@@ -38598,6 +39210,8 @@ var MacAndOrganization = map[string]string {
 
 	"68AAD2" : "DATECS LTD.,",
 
+	"68AB09" : "Nokia",
+
 	"68AB1E" : "Apple, Inc.",
 
 	"68AB8A" : "RF IDeas",
@@ -38623,6 +39237,8 @@ var MacAndOrganization = map[string]string {
 	"68BC0C" : "Cisco Systems, Inc",
 
 	"68BDAB" : "Cisco Systems, Inc",
+
+	"68BFC4" : "Samsung Electronics Co.,Ltd",
 
 	"68C44D" : "Motorola Mobility LLC, a Lenovo Company",
 
@@ -38661,6 +39277,8 @@ var MacAndOrganization = map[string]string {
 	"68DB96" : "OPWILL Technologies CO .,LTD",
 
 	"68DBCA" : "Apple, Inc.",
+
+	"68DBF5" : "Amazon Technologies Inc.",
 
 	"68DCE8" : "PacketStorm Communications",
 
@@ -38718,6 +39336,8 @@ var MacAndOrganization = map[string]string {
 
 	"68FF7B" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
+	"690750" : "		Manaus  Amazonas  69075000",
+
 	"690751" : "		Manaus  Amazonas  69075150",
 
 	"690885" : "690885 Ontario Inc.",
@@ -38760,6 +39380,10 @@ var MacAndOrganization = map[string]string {
 
 	"6C19C0" : "Apple, Inc.",
 
+	"6C1C71" : "Zhejiang Dahua Technology Co., Ltd.",
+
+	"6C1DEB" : "u-blox AG",
+
 	"6C1E70" : "Guangzhou YBDS IT Co.,Ltd",
 
 	"6C1E90" : "Hansol Technics Co., Ltd.",
@@ -38779,6 +39403,8 @@ var MacAndOrganization = map[string]string {
 	"6C25B9" : "BBK EDUCATIONAL ELECTRONICS CORP.,LTD.",
 
 	"6C2779" : "Microsoft Mobile Oy",
+
+	"6C2990" : "WiZ Connected Lighting Company Limited",
 
 	"6C2995" : "Intel Corporate",
 
@@ -38840,6 +39466,8 @@ var MacAndOrganization = map[string]string {
 
 	"6C4B90" : "LiteON",
 
+	"6C4D51" : "Shenzhen Ceres Technology Co., Ltd.",
+
 	"6C4D73" : "Apple, Inc.",
 
 	"6C4E86" : "Third Millennium Systems Ltd.",
@@ -38868,6 +39496,8 @@ var MacAndOrganization = map[string]string {
 
 	"6C5D63" : "ShenZhen Rapoo Technology Co., Ltd.",
 
+	"6C5E3B" : "Cisco Systems, Inc",
+
 	"6C5E7A" : "Ubiquitous Internet Telecom Co., Ltd",
 
 	"6C5F1C" : "Lenovo Mobile Communication Technology Ltd.",
@@ -38889,6 +39519,8 @@ var MacAndOrganization = map[string]string {
 	"6C7039" : "Novar GmbH",
 
 	"6C709F" : "Apple, Inc.",
+
+	"6C710D" : "Cisco Systems, Inc",
 
 	"6C71BD" : "EZELINK TELECOM",
 
@@ -38952,6 +39584,8 @@ var MacAndOrganization = map[string]string {
 
 	"6C9CED" : "Cisco Systems, Inc",
 
+	"6C9E7C" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
 	"6CA100" : "Intel Corporate",
 
 	"6CA604" : "ARRIS Group, Inc.",
@@ -38971,6 +39605,8 @@ var MacAndOrganization = map[string]string {
 	"6CA906" : "Telefield Ltd",
 
 	"6CA928" : "HMD Global Oy",
+
+	"6CA936" : "DisplayLink (UK) Ltd",
 
 	"6CA96F" : "TransPacket AS",
 
@@ -39038,11 +39674,13 @@ var MacAndOrganization = map[string]string {
 
 	"6CD032" : "LG Electronics",
 
-	"6CD146" : "Smartek d.o.o.",
+	"6CD146" : "FRAMOS GmbH",
 
 	"6CD1B0" : "WING SING ELECTRONICS HONG KONG LIMITED",
 
 	"6CD68A" : "LG Electronics (Mobile Communications)",
+
+	"6CD71F" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"6CDC6A" : "Promethean Limited",
 
@@ -39063,6 +39701,8 @@ var MacAndOrganization = map[string]string {
 	"6CE85C" : "Apple, Inc.",
 
 	"6CE873" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
+	"6CE8C6" : "Earda Technologies co Ltd",
 
 	"6CE907" : "Nokia Corporation",
 
@@ -39113,6 +39753,8 @@ var MacAndOrganization = map[string]string {
 	"700258" : "01DB-METRAVIB",
 
 	"70037E" : "Technicolor CH USA Inc.",
+
+	"700433" : "California Things Inc.",
 
 	"700514" : "LG Electronics (Mobile Communications)",
 
@@ -39244,11 +39886,15 @@ var MacAndOrganization = map[string]string {
 
 	"7041B7" : "Edwards Lifesciences LLC",
 
+	"70441C" : "SHENZHEN KAIFA TECHNOLOGY CO.,LTD.",
+
 	"704642" : "CHYNG HONG ELECTRONIC CO., LTD.",
 
 	"7047E9" : "vivo Mobile Communication Co., Ltd.",
 
 	"70480F" : "Apple, Inc.",
+
+	"7048F7" : "Nintendo Co.,Ltd",
 
 	"704AAE" : "Xstream Flow (Pty) Ltd",
 
@@ -39275,6 +39921,8 @@ var MacAndOrganization = map[string]string {
 	"7052C5" : "Avaya Inc",
 
 	"70533F" : "Alfa Instrumentos Eletronicos Ltda.",
+
+	"705425" : "ARRIS Group, Inc.",
 
 	"7054B4" : "Vestel Elektronik San ve Tic. A.Ş.",
 
@@ -39410,6 +40058,8 @@ var MacAndOrganization = map[string]string {
 
 	"7086C1" : "Texas Instruments",
 
+	"70879E" : "Beken Corporation",
+
 	"70884D" : "JAPAN RADIO CO., LTD.",
 
 	"7089CC" : "China Mobile Group Device Co.,Ltd.",
@@ -39508,6 +40158,8 @@ var MacAndOrganization = map[string]string {
 
 	"70C76F" : "INNO S",
 
+	"70C7F2" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"70C833" : "Wirepas Oy",
 
 	"70C94E" : "Liteon Technology Corporation",
@@ -39604,6 +40256,8 @@ var MacAndOrganization = map[string]string {
 
 	"70F754" : "AMPAK Technology,Inc.",
 
+	"70F82B" : "DWnet Technologies(Suzhou) Corporation",
+
 	"70F8E7" : "IEEE Registration Authority",
 
 	"70F927" : "Samsung Electronics Co.,Ltd",
@@ -39614,6 +40268,8 @@ var MacAndOrganization = map[string]string {
 
 	"70FC8F" : "FREEBOX SAS",
 
+	"70FD45" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"70FD46" : "Samsung Electronics Co.,Ltd",
 
 	"70FF5C" : "Cheerzing Communication(Xiamen)Technology Co.,Ltd",
@@ -39622,7 +40278,7 @@ var MacAndOrganization = map[string]string {
 
 	"710016" : "		xi'an    710016",
 
-	"710075" : "		Xi'an City  Shanxi Province  710075",
+	"710075" : "		Xi'an  Shaanxi  710075",
 
 	"710077" : "		Xi'an  Shaanxi  710077",
 
@@ -39690,6 +40346,8 @@ var MacAndOrganization = map[string]string {
 
 	"742D0A" : "Norfolk Elektronik AG",
 
+	"742EDB" : "Perinet GmbH",
+
 	"742EFC" : "DirectPacket Research, Inc,",
 
 	"742F68" : "AzureWave Technology Inc.",
@@ -39699,6 +40357,8 @@ var MacAndOrganization = map[string]string {
 	"743256" : "NT-ware Systemprg GmbH",
 
 	"743400" : "MTG Co., Ltd.",
+
+	"7434AE" : "this is engineering Inc.",
 
 	"74366D" : "Vodafone Italia S.p.A.",
 
@@ -39711,6 +40371,8 @@ var MacAndOrganization = map[string]string {
 	"7438B7" : "CANON INC.",
 
 	"743A65" : "NEC Corporation",
+
+	"743C18" : "Taicang T&W Electronics",
 
 	"743E2B" : "Ruckus Wireless",
 
@@ -39747,6 +40409,8 @@ var MacAndOrganization = map[string]string {
 	"745612" : "ARRIS Group, Inc.",
 
 	"745798" : "TRUMPF Laser GmbH + Co. KG",
+
+	"745909" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"745933" : "Danal Entertainment",
 
@@ -39828,6 +40492,8 @@ var MacAndOrganization = map[string]string {
 
 	"7483EF" : "Arista Networks",
 
+	"7484E1" : "Dongguan Haoyuan Electronics Co.,Ltd",
+
 	"74852A" : "PEGATRON CORPORATION",
 
 	"7485C4" : "New H3C Technologies Co., Ltd",
@@ -39849,6 +40515,8 @@ var MacAndOrganization = map[string]string {
 	"748A0D" : "ARRIS Group, Inc.",
 
 	"748A69" : "Korea Image Technology Co., Ltd",
+
+	"748B34" : "Shanghai Smart System Technology Co., Ltd",
 
 	"748D08" : "Apple, Inc.",
 
@@ -39888,7 +40556,11 @@ var MacAndOrganization = map[string]string {
 
 	"749DDC" : "2Wire Inc",
 
+	"749EA5" : "OHSUNG",
+
 	"749EAF" : "Apple, Inc.",
+
+	"749EF5" : "Samsung Electronics Co.,Ltd",
 
 	"74A02F" : "Cisco Systems, Inc",
 
@@ -39970,6 +40642,8 @@ var MacAndOrganization = map[string]string {
 
 	"74D435" : "GIGA-BYTE TECHNOLOGY CO.,LTD.",
 
+	"74D637" : "Amazon Technologies Inc.",
+
 	"74D675" : "WYMA Tecnologia",
 
 	"74D6EA" : "Texas Instruments",
@@ -39979,6 +40653,8 @@ var MacAndOrganization = map[string]string {
 	"74D850" : "Evrisko Systems",
 
 	"74DA38" : "Edimax Technology Co. Ltd.",
+
+	"74DA88" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"74DADA" : "D-Link International",
 
@@ -40112,6 +40788,8 @@ var MacAndOrganization = map[string]string {
 
 	"7812B8" : "ORANTEK LIMITED",
 
+	"781735" : "Nokia Shanghai Bell Co., Ltd.",
+
 	"781881" : "AzureWave Technology Inc.",
 
 	"78192E" : "NASCENT Technology",
@@ -40147,6 +40825,8 @@ var MacAndOrganization = map[string]string {
 	"7828CA" : "Sonos, Inc.",
 
 	"7829ED" : "ASKEY COMPUTER CORP",
+
+	"782A79" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
 
 	"782BCB" : "Dell Inc.",
 
@@ -40260,11 +40940,15 @@ var MacAndOrganization = map[string]string {
 
 	"7864E6" : "Green Motive Technology Limited",
 
+	"786559" : "Sagemcom Broadband SAS",
+
 	"7866AE" : "ZTEC Instruments, Inc.",
 
 	"7867D7" : "Apple, Inc.",
 
 	"7868F7" : "YSTen Technology Co.,Ltd",
+
+	"7869D4" : "Shenyang Vibrotech Instruments Inc.",
 
 	"786A89" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -40329,6 +41013,8 @@ var MacAndOrganization = map[string]string {
 	"789682" : "zte corporation",
 
 	"789684" : "ARRIS Group, Inc.",
+
+	"7897C3" : "DINGXIN INFORMATION TECHNOLOGY CO.,LTD",
 
 	"7898FD" : "Q9 Networks Inc.",
 
@@ -40426,6 +41112,8 @@ var MacAndOrganization = map[string]string {
 
 	"78C2C0" : "IEEE Registration Authority",
 
+	"78C313" : "China Mobile Group Device Co.,Ltd.",
+
 	"78C3E9" : "Samsung Electronics Co.,Ltd",
 
 	"78C40E" : "H&D Wireless",
@@ -40435,6 +41123,8 @@ var MacAndOrganization = map[string]string {
 	"78C5E5" : "Texas Instruments",
 
 	"78C6BB" : "Innovasic, Inc.",
+
+	"78C881" : "Sony Interactive Entertainment Inc.",
 
 	"78CA04" : "Nokia Corporation",
 
@@ -40447,6 +41137,8 @@ var MacAndOrganization = map[string]string {
 	"78CB33" : "DHC Software Co.,Ltd",
 
 	"78CB68" : "DAEHAP HYPER-TECH",
+
+	"78CC2B" : "SINEWY TECHNOLOGY CO., LTD",
 
 	"78CD8E" : "SMC Networks Inc",
 
@@ -40620,6 +41312,8 @@ var MacAndOrganization = map[string]string {
 
 	"7C1DD9" : "Xiaomi Communications Co Ltd",
 
+	"7C1E06" : "New H3C Technologies Co., Ltd",
+
 	"7C1E52" : "Microsoft",
 
 	"7C1EB3" : "2N TELEKOMUNIKACE a.s.",
@@ -40627,6 +41321,8 @@ var MacAndOrganization = map[string]string {
 	"7C2048" : "KoamTac",
 
 	"7C2064" : "Alcatel-Lucent IPD",
+
+	"7C21D8" : "Shenzhen Think Will Communication Technology co., LTD.",
 
 	"7C2302" : "Samsung Electronics Co.,Ltd",
 
@@ -40684,6 +41380,8 @@ var MacAndOrganization = map[string]string {
 
 	"7C477C" : "IEEE Registration Authority",
 
+	"7C48B2" : "Vida Resources Lte Ltd",
+
 	"7C49B9" : "Plexus Manufacturing Sdn Bhd",
 
 	"7C49EB" : "XIAOMI Electronics,CO.,LTD",
@@ -40705,6 +41403,8 @@ var MacAndOrganization = map[string]string {
 	"7C5049" : "Apple, Inc.",
 
 	"7C50DA" : "Private",
+
+	"7C5189" : "SG Wireless Limited",
 
 	"7C5259" : "Sichuan Jiuzhou Electronic Technology Co., Ltd.",
 
@@ -40812,6 +41512,8 @@ var MacAndOrganization = map[string]string {
 
 	"7C89C1" : "Palo Alto Networks",
 
+	"7C8AE1" : "COMPAL INFORMATION (KUNSHAN) CO., LTD. ",
+
 	"7C8BB5" : "Samsung Electronics Co.,Ltd",
 
 	"7C8BCA" : "TP-LINK TECHNOLOGIES CO.,LTD.",
@@ -40821,6 +41523,8 @@ var MacAndOrganization = map[string]string {
 	"7C8EE4" : "Texas Instruments",
 
 	"7C9122" : "Samsung Electronics Co.,Ltd",
+
+	"7C942A" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"7C94B2" : "Philips Healthcare PCCI",
 
@@ -40872,7 +41576,11 @@ var MacAndOrganization = map[string]string {
 
 	"7CB25C" : "Acacia Communications",
 
+	"7CB27D" : "Intel Corporate",
+
 	"7CB542" : "ACES Technology",
+
+	"7CB59B" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"7CB733" : "ASKEY COMPUTER CORP",
 
@@ -40912,6 +41620,8 @@ var MacAndOrganization = map[string]string {
 
 	"7CC8D7" : "Damalisk",
 
+	"7CC926" : "Wuhan GreeNet Information Service Co.,Ltd.",
+
 	"7CC95A" : "Dell EMC",
 
 	"7CCB0D" : "Antaira Technologies, LLC",
@@ -40931,6 +41641,8 @@ var MacAndOrganization = map[string]string {
 	"7CD1C3" : "Apple, Inc.",
 
 	"7CD30A" : "INVENTEC CORPORATION",
+
+	"7CD566" : "Amazon Technologies Inc.",
 
 	"7CD661" : "Xiaomi Communications Co Ltd",
 
@@ -40978,6 +41690,8 @@ var MacAndOrganization = map[string]string {
 
 	"7CEC79" : "Texas Instruments",
 
+	"7CEC9B" : "Fuzhou Teraway Information Technology Co.,Ltd",
+
 	"7CED8D" : "Microsoft",
 
 	"7CEF18" : "Creative Product Design Pty. Ltd.",
@@ -40989,6 +41703,8 @@ var MacAndOrganization = map[string]string {
 	"7CF098" : "Bee Beans Technologies, Inc.",
 
 	"7CF0BA" : "Linkwell Telesystems Pvt Ltd",
+
+	"7CF31B" : "LG Electronics (Mobile Communications)",
 
 	"7CF429" : "NUUO Inc. ",
 
@@ -41098,6 +41814,8 @@ var MacAndOrganization = map[string]string {
 
 	"8030E0" : "Hewlett Packard Enterprise",
 
+	"8031F0" : "Samsung Electronics Co.,Ltd",
+
 	"803457" : "OT Systems Limited",
 
 	"8035C1" : "Xiaomi Communications Co Ltd",
@@ -41123,6 +41841,8 @@ var MacAndOrganization = map[string]string {
 	"803B9A" : "ghe-ces electronic ag",
 
 	"803BF6" : "LOOK EASY INTERNATIONAL LIMITED",
+
+	"803E48" : "SHENZHEN GONGJIN ELECTRONICS CO.,LT",
 
 	"803F5D" : "Winstars Technology Ltd",
 
@@ -41184,6 +41904,8 @@ var MacAndOrganization = map[string]string {
 
 	"806459" : "Nimbus Inc.",
 
+	"80647A" : "Ola Sense Inc",
+
 	"80656D" : "Samsung Electronics Co.,Ltd",
 
 	"8065E9" : "BenQ Corporation",
@@ -41210,13 +41932,19 @@ var MacAndOrganization = map[string]string {
 
 	"80717A" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"807215" : "BSkyB Ltd",
+
 	"807300" : "		Curitiba  Paraná  80730000",
 
 	"80739F" : "KYOCERA CORPORATION ",
 
 	"807459" : "K's Co.,Ltd.",
 
+	"80751F" : "BSkyB Ltd",
+
 	"807693" : "Newag SA",
+
+	"807871" : "ASKEY COMPUTER CORP",
 
 	"8079AE" : "ShanDong Tecsunrise  Co.,Ltd",
 
@@ -41224,7 +41952,7 @@ var MacAndOrganization = map[string]string {
 
 	"807ABF" : "HTC Corporation",
 
-	"807B1E" : "Corsair Components",
+	"807B1E" : "Corsair Memory, Inc.",
 
 	"807B85" : "IEEE Registration Authority",
 
@@ -41249,6 +41977,8 @@ var MacAndOrganization = map[string]string {
 	"8086F2" : "Intel Corporate",
 
 	"808917" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
+	"808A8B" : "vivo Mobile Communication Co., Ltd.",
 
 	"808B5C" : "Shenzhen Runhuicheng Technology Co., Ltd",
 
@@ -41305,6 +42035,8 @@ var MacAndOrganization = map[string]string {
 	"80AD67" : "Kasda Networks Inc",
 
 	"80B03D" : "Apple, Inc.",
+
+	"80B07B" : "zte corporation",
 
 	"80B219" : "ELEKTRON TECHNOLOGY UK LIMITED",
 
@@ -41398,6 +42130,8 @@ var MacAndOrganization = map[string]string {
 
 	"80E650" : "Apple, Inc.",
 
+	"80E82C" : "Hewlett Packard",
+
 	"80E86F" : "Cisco Systems, Inc",
 
 	"80EA23" : "Wistron Neweb Corporation",
@@ -41455,6 +42189,8 @@ var MacAndOrganization = map[string]string {
 	"8407ED" : "		Terwispel  Friesland  8407ED",
 
 	"840B2D" : "SAMSUNG ELECTRO MECHANICS CO., LTD.",
+
+	"840B7C" : "Hitron Technologies. Inc",
 
 	"840D8E" : "Espressif Inc.",
 
@@ -41556,6 +42292,8 @@ var MacAndOrganization = map[string]string {
 
 	"844464" : "ServerU Inc",
 
+	"8446FE" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"844765" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"844823" : "WOXTER TECHNOLOGY Co. Ltd",
@@ -41575,6 +42313,8 @@ var MacAndOrganization = map[string]string {
 	"8455A5" : "Samsung Electronics Co.,Ltd",
 
 	"84569C" : "Coho Data, Inc.,",
+
+	"845733" : "Microsoft Corporation",
 
 	"845787" : "DVR C&C Co., Ltd.",
 
@@ -41618,6 +42358,8 @@ var MacAndOrganization = map[string]string {
 
 	"847616" : "Addat s.r.o.",
 
+	"847637" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"847778" : "Cochlear Limited",
 
 	"84788B" : "Apple, Inc.",
@@ -41641,6 +42383,8 @@ var MacAndOrganization = map[string]string {
 	"847F3D" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
 
 	"84802D" : "Cisco Systems, Inc",
+
+	"848094" : "Meter, Inc.",
 
 	"8482F4" : "Beijing Huasun Unicreate Technology Co., Ltd",
 
@@ -41694,6 +42438,8 @@ var MacAndOrganization = map[string]string {
 
 	"849866" : "Samsung Electronics Co.,Ltd",
 
+	"849A40" : "Hangzhou Hikvision Digital Technology Co.,Ltd.",
+
 	"849CA6" : "Arcadyan Technology Corporation",
 
 	"849D64" : "SMC Corporation",
@@ -41727,6 +42473,8 @@ var MacAndOrganization = map[string]string {
 	"84A991" : "Cyber Trans Japan Co.,Ltd.",
 
 	"84A9C4" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"84A9EA" : "Career Technologies USA",
 
 	"84AA9C" : "MitraStar Technology Corp.",
 
@@ -41778,6 +42526,8 @@ var MacAndOrganization = map[string]string {
 
 	"84C7EA" : "Sony Mobile Communications Inc",
 
+	"84C807" : "ADVA Optical Networking Ltd.",
+
 	"84C8B1" : "Incognito Software Systems Inc.",
 
 	"84C9B2" : "D-Link International",
@@ -41788,7 +42538,11 @@ var MacAndOrganization = map[string]string {
 
 	"84CFBF" : "Fairphone",
 
+	"84D15A" : "TCT mobile ltd",
+
 	"84D32A" : "IEEE 1905.1",
+
+	"84D412" : "Palo Alto Networks",
 
 	"84D47E" : "Aruba, a Hewlett Packard Enterprise Company",
 
@@ -41962,6 +42716,8 @@ var MacAndOrganization = map[string]string {
 
 	"88366C" : "EFM Networks",
 
+	"883A30" : "Aruba, a Hewlett Packard Enterprise Company",
+
 	"883B8B" : "Cheering Connection Co. Ltd.",
 
 	"883C1C" : "MERCURY CORPORATION",
@@ -41992,6 +42748,8 @@ var MacAndOrganization = map[string]string {
 
 	"884A18" : "Opulinks",
 
+	"884A70" : "Wacom Co.,Ltd.",
+
 	"884AEA" : "Texas Instruments",
 
 	"884B39" : "Siemens AG, Healthcare Sector",
@@ -42002,6 +42760,8 @@ var MacAndOrganization = map[string]string {
 
 	"8850F6" : "Shenzhen Jingxun Software Telecommunication Technology Co.,Ltd",
 
+	"88517A" : "HMD Global Oy",
+
 	"8851FB" : "Hewlett Packard",
 
 	"88532E" : "Intel Corporate",
@@ -42009,6 +42769,8 @@ var MacAndOrganization = map[string]string {
 	"885395" : "Apple, Inc.",
 
 	"8853D4" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"88571D" : "Seongji Industry Company",
 
 	"88576D" : "XTA Electronics Ltd",
 
@@ -42031,6 +42793,8 @@ var MacAndOrganization = map[string]string {
 	"88615A" : "Siano Mobile Silicon Ltd.",
 
 	"8863DF" : "Apple, Inc.",
+
+	"886440" : "Apple, Inc.",
 
 	"886639" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -42079,6 +42843,8 @@ var MacAndOrganization = map[string]string {
 	"88797E" : "Motorola Mobility LLC, a Lenovo Company",
 
 	"887A31" : "Velankani Electronics Pvt. Ltd.",
+
+	"887E25" : "Extreme Networks, Inc.",
 
 	"887F03" : "Comper Technology Investment Limited",
 
@@ -42140,9 +42906,13 @@ var MacAndOrganization = map[string]string {
 
 	"889CA6" : "BTB Korea INC",
 
+	"889D98" : "Allied-telesisK.K.",
+
 	"889E33" : "TCT mobile ltd",
 
 	"889F6F" : "Samsung Electronics Co.,Ltd",
+
+	"889FAA" : "Hella Gutmann Solutions GmbH ",
 
 	"889FFA" : "Hon Hai Precision Ind. Co.,Ltd.",
 
@@ -42180,7 +42950,7 @@ var MacAndOrganization = map[string]string {
 
 	"88B291" : "Apple, Inc.",
 
-	"88B362" : "Nokia Shanghai Bell Co. Ltd.）",
+	"88B362" : "Nokia Shanghai Bell Co., Ltd.",
 
 	"88B436" : "Private",
 
@@ -42243,6 +43013,8 @@ var MacAndOrganization = map[string]string {
 	"88D37B" : "FirmTek, LLC",
 
 	"88D50C" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
+
+	"88D5A8" : "ITEL MOBILE LIMITED",
 
 	"88D652" : "AMERGINT Technologies",
 
@@ -42322,6 +43094,8 @@ var MacAndOrganization = map[string]string {
 
 	"8C006D" : "Apple, Inc.",
 
+	"8C02FA" : "COMMANDO Networks Limited",
+
 	"8C04BA" : "Dell Inc.",
 
 	"8C04FF" : "Technicolor CH USA Inc.",
@@ -42347,6 +43121,8 @@ var MacAndOrganization = map[string]string {
 	"8C0F83" : "Angie Hospitality LLC",
 
 	"8C0FA0" : "di-soric GmbH & Co. KG",
+
+	"8C0FFA" : "Hutec co.,ltd",
 
 	"8C10D4" : "Sagemcom Broadband SAS",
 
@@ -42398,6 +43174,8 @@ var MacAndOrganization = map[string]string {
 
 	"8C395C" : "Bit4id Srl",
 
+	"8C3A7E" : "Universal Electronics, Inc.",
+
 	"8C3AE3" : "LG Electronics (Mobile Communications)",
 
 	"8C3BAD" : "NETGEAR",
@@ -42417,6 +43195,8 @@ var MacAndOrganization = map[string]string {
 	"8C444F" : "HUMAX Co., Ltd.",
 
 	"8C4500" : "Murata Manufacturing Co., Ltd.",
+
+	"8C4962" : "Roku, Inc",
 
 	"8C4AEE" : "GIGA TMS INC",
 
@@ -42447,6 +43227,8 @@ var MacAndOrganization = map[string]string {
 	"8C57FD" : "LVX Western",
 
 	"8C5877" : "Apple, Inc.",
+
+	"8C593C" : "IEEE Registration Authority",
 
 	"8C5973" : "Zyxel Communications Corporation",
 
@@ -42481,6 +43263,8 @@ var MacAndOrganization = map[string]string {
 	"8C6422" : "Sony Mobile Communications Inc",
 
 	"8C6878" : "Nortek-AS",
+
+	"8C68C8" : "zte corporation",
 
 	"8C6AE4" : "Viogem Limited",
 
@@ -42537,6 +43321,8 @@ var MacAndOrganization = map[string]string {
 	"8C8590" : "Apple, Inc.",
 
 	"8C85E6" : "Cleondris GmbH",
+
+	"8C861E" : "Apple, Inc.",
 
 	"8C873B" : "Leica Camera AG",
 
@@ -42608,7 +43394,11 @@ var MacAndOrganization = map[string]string {
 
 	"8CB82C" : "IPitomy Communications",
 
+	"8CB84A" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
+
 	"8CB864" : "AcSiP Technology Corp.",
+
+	"8CBE24" : "Tashang Semiconductor(Shanghai) Co., Ltd.",
 
 	"8CBEBE" : "Xiaomi Communications Co Ltd",
 
@@ -42626,6 +43416,8 @@ var MacAndOrganization = map[string]string {
 
 	"8CC7D0" : "zhejiang ebang communication co.,ltd",
 
+	"8CC84B" : "CHONGQING FUGUI ELECTRONICS CO.,LTD.",
+
 	"8CC8CD" : "Samsung Electronics Co.,Ltd",
 
 	"8CC8F4" : "IEEE Registration Authority",
@@ -42637,6 +43429,8 @@ var MacAndOrganization = map[string]string {
 	"8CCF09" : "Dell EMC",
 
 	"8CCF5C" : "BEFEGA GmbH",
+
+	"8CCF8F" : "ITC Systems",
 
 	"8CD17B" : "CG Mobile",
 
@@ -42670,6 +43464,8 @@ var MacAndOrganization = map[string]string {
 
 	"8CE5C0" : "Samsung Electronics Co.,Ltd",
 
+	"8CE5EF" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"8CE748" : "Private",
 
 	"8CE78C" : "DK Networks",
@@ -42683,6 +43479,8 @@ var MacAndOrganization = map[string]string {
 	"8CEC4B" : "Dell Inc.",
 
 	"8CEEC6" : "Precepscion Pty. Ltd.",
+
+	"8CF112" : "Motorola Mobility LLC, a Lenovo Company",
 
 	"8CF228" : "MERCURY COMMUNICATION TECHNOLOGIES CO.,LTD.",
 
@@ -42703,6 +43501,8 @@ var MacAndOrganization = map[string]string {
 	"8CFABA" : "Apple, Inc.",
 
 	"8CFCA0" : "Shenzhen Smart Device Technology Co., LTD.",
+
+	"8CFD18" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"8CFDF0" : "Qualcomm Inc.",
 
@@ -42752,11 +43552,15 @@ var MacAndOrganization = map[string]string {
 
 	"900EB3" : "Shenzhen Amediatech Technology Co., Ltd.",
 
+	"901234" : "Shenzhen YOUHUA Technology Co., Ltd",
+
 	"901711" : "Hagenuk Marinekommunikation GmbH",
 
 	"90179B" : "Nanomegas",
 
 	"9017AC" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"9017C8" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"90185E" : "Apex Tool Group GmbH & Co OHG",
 
@@ -42765,6 +43569,8 @@ var MacAndOrganization = map[string]string {
 	"9018AE" : "Shanghai Meridian Technologies, Co. Ltd.",
 
 	"901900" : "SCS SA",
+
+	"901A4F" : "EM Microelectronic",
 
 	"901ACA" : "ARRIS Group, Inc.",
 
@@ -42787,6 +43593,8 @@ var MacAndOrganization = map[string]string {
 	"902181" : "Shanghai Huaqin Telecom Technology Co.,Ltd",
 
 	"9023EC" : "Availink, Inc.",
+
+	"90272B" : "Algorab S.r.l.",
 
 	"9027E4" : "Apple, Inc.",
 
@@ -42841,6 +43649,8 @@ var MacAndOrganization = map[string]string {
 	"9046B7" : "Vadaro Pte Ltd",
 
 	"904716" : "RORZE CORPORATION",
+
+	"90473C" : "China Mobile Group Device Co.,Ltd.",
 
 	"90489A" : "Hon Hai Precision Ind. Co.,Ltd.",
 
@@ -42928,6 +43738,8 @@ var MacAndOrganization = map[string]string {
 
 	"907841" : "Intel Corporate",
 
+	"9078B2" : "Xiaomi Communications Co Ltd",
+
 	"907910" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
 
 	"907990" : "Benchmark Electronics Romania SRL",
@@ -43000,6 +43812,8 @@ var MacAndOrganization = map[string]string {
 
 	"909916" : "ELVEES NeoTek OJSC",
 
+	"909A77" : "Texas Instruments",
+
 	"909D7D" : "ARRIS Group, Inc.",
 
 	"909DE0" : "Newland Design + Assoc. Inc.",
@@ -43044,11 +43858,15 @@ var MacAndOrganization = map[string]string {
 
 	"90B686" : "Murata Manufacturing Co., Ltd.",
 
+	"90B832" : "Aerohive Networks Inc.",
+
 	"90B8D0" : "Joyent, Inc.",
 
 	"90B931" : "Apple, Inc.",
 
 	"90B97D" : "Johnson Outdoors Marine Electronics d/b/a Minnkota",
+
+	"90BDE6" : "Quectel Wireless Solutions Co., Ltd.",
 
 	"90C115" : "Sony Mobile Communications Inc",
 
@@ -43179,6 +43997,8 @@ var MacAndOrganization = map[string]string {
 	"940867" : "		SUNNYVALE  CA  940867",
 
 	"940937" : "HUMAX Co., Ltd.",
+
+	"940B19" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"940B2D" : "NetView Technologies(Shenzhen) Co., Ltd",
 
@@ -43338,6 +44158,8 @@ var MacAndOrganization = map[string]string {
 
 	"948256" : "		PL9482565081  Mazowieckie  26-600",
 
+	"9483C4" : "GL Technologies (Hong Kong) Limited",
+
 	"94857A" : "Evantage Industries Corp",
 
 	"9486CD" : "SEOUL ELECTRONICS&TELECOM",
@@ -43367,6 +44189,8 @@ var MacAndOrganization = map[string]string {
 	"948FCF" : "ARRIS Group, Inc.",
 
 	"948FEE" : "Verizon Telematics",
+
+	"949034" : "SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LTD",
 
 	"94917F" : "ASKEY COMPUTER CORP",
 
@@ -43446,6 +44270,8 @@ var MacAndOrganization = map[string]string {
 
 	"94BF2D" : "Apple, Inc.",
 
+	"94BF80" : "zte corporation",
+
 	"94BF95" : "Shenzhen Coship Electronics Co., Ltd",
 
 	"94BFC4" : "Ruckus Wireless",
@@ -43490,9 +44316,13 @@ var MacAndOrganization = map[string]string {
 
 	"94D075" : "CIS Crypto",
 
+	"94D299" : "Techmation Co.,Ltd.",
+
 	"94D417" : "GPI KOREA INC.",
 
 	"94D469" : "Cisco Systems, Inc",
+
+	"94D505" : "Fiberhome Telecommunication Technologies Co.,LTD",
 
 	"94D60E" : "shenzhen yunmao information technologies co., ltd",
 
@@ -43511,6 +44341,8 @@ var MacAndOrganization = map[string]string {
 	"94DBC9" : "AzureWave Technology Inc.",
 
 	"94DBDA" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"94DC4E" : "AEV, spol. s r. o.",
 
 	"94DD3F" : "A+V Link Technologies, Corp.",
 
@@ -43533,6 +44365,8 @@ var MacAndOrganization = map[string]string {
 	"94E2FD" : "Boge Kompressoren OTTO Boge GmbH & Co. KG",
 
 	"94E36D" : "Texas Instruments",
+
+	"94E6F7" : "Intel Corporate",
 
 	"94E711" : "Xirka Dama Persada PT",
 
@@ -43610,6 +44444,8 @@ var MacAndOrganization = map[string]string {
 
 	"9803D8" : "Apple, Inc.",
 
+	"980637" : "IEEE Registration Authority",
+
 	"98072D" : "Texas Instruments",
 
 	"9809CF" : "OnePlus Technology (Shenzhen) Co., Ltd",
@@ -43660,6 +44496,8 @@ var MacAndOrganization = map[string]string {
 
 	"9829A6" : "COMPAL INFORMATION (KUNSHAN) CO., LTD. ",
 
+	"982CBC" : "Intel Corporate",
+
 	"982CBE" : "2Wire Inc",
 
 	"982D56" : "Resolution Audio",
@@ -43680,6 +44518,8 @@ var MacAndOrganization = map[string]string {
 
 	"9835B8" : "Assembled Products Corporation",
 
+	"9835ED" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"983713" : "PT.Navicom Indonesia",
 
 	"98398E" : "Samsung Electronics Co.,Ltd",
@@ -43692,6 +44532,8 @@ var MacAndOrganization = map[string]string {
 
 	"9840BB" : "Dell Inc.",
 
+	"98415C" : "Nintendo Co.,Ltd",
+
 	"984246" : "SOL INDUSTRY PTE., LTD",
 
 	"9843DA" : "INTERTECH",
@@ -43703,6 +44545,8 @@ var MacAndOrganization = map[string]string {
 	"98460A" : "Apple, Inc.",
 
 	"98473C" : "SHANGHAI SUNMON COMMUNICATION TECHNOGY CO.,LTD",
+
+	"984827" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"9849E1" : "Boeing Defence Australia",
 
@@ -43719,6 +44563,8 @@ var MacAndOrganization = map[string]string {
 	"984E97" : "Starlight Marketing (H. K.) Ltd.",
 
 	"984FEE" : "Intel Corporate",
+
+	"98523D" : "Sunitec Enterprise Co.,Ltd",
 
 	"9852B1" : "Samsung Electronics Co.,Ltd",
 
@@ -43774,6 +44620,10 @@ var MacAndOrganization = map[string]string {
 
 	"987770" : "Pep Digital Technology (Guangzhou) Co., Ltd",
 
+	"987A10" : "Ericsson AB",
+
+	"987A14" : "Microsoft Corporation",
+
 	"987BF3" : "Texas Instruments",
 
 	"987E46" : "Emizon Networks Limited",
@@ -43783,6 +44633,8 @@ var MacAndOrganization = map[string]string {
 	"988389" : "Samsung Electronics Co.,Ltd",
 
 	"9884E3" : "Texas Instruments",
+
+	"98865D" : "Nokia Shanghai Bell Co., Ltd.",
 
 	"9886B1" : "Flyaudio corporation (China)",
 
@@ -43834,6 +44686,8 @@ var MacAndOrganization = map[string]string {
 
 	"98AE71" : "VVDN Technologies Pvt Ltd",
 
+	"98AF65" : "Intel Corporate",
+
 	"98B039" : "Nokia",
 
 	"98B6E9" : "Nintendo Co.,Ltd",
@@ -43841,6 +44695,8 @@ var MacAndOrganization = map[string]string {
 	"98B8BA" : "LG Electronics (Mobile Communications)",
 
 	"98B8E3" : "Apple, Inc.",
+
+	"98BA39" : "Doro AB",
 
 	"98BB1E" : "BYD Precision Manufacture Company Ltd.",
 
@@ -43902,6 +44758,8 @@ var MacAndOrganization = map[string]string {
 
 	"98E476" : "Zentan",
 
+	"98E743" : "Dell Inc.",
+
 	"98E79A" : "Foxconn(NanJing) Communication Co.,Ltd.",
 
 	"98E7F4" : "Hewlett Packard",
@@ -43909,6 +44767,8 @@ var MacAndOrganization = map[string]string {
 	"98E7F5" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"98E848" : "Axiim",
+
+	"98E8FA" : "Nintendo Co.,Ltd",
 
 	"98EC65" : "Cosesy ApS",
 
@@ -43930,9 +44790,13 @@ var MacAndOrganization = map[string]string {
 
 	"98F428" : "zte corporation",
 
+	"98F4AB" : "Espressif Inc.",
+
 	"98F537" : "zte corporation",
 
 	"98F5A9" : "OHSUNG",
+
+	"98F781" : "ARRIS Group, Inc.",
 
 	"98F7D7" : "ARRIS Group, Inc.",
 
@@ -43964,7 +44828,7 @@ var MacAndOrganization = map[string]string {
 
 	"990000" : "		Yamagata-shi  Yamagata-pref.  9900002",
 
-	"999077" : "		Hong Kong  Hong Kong  999077",
+	"999077" : "		KOWLOON    999077",
 
 	"999159" : "		Grand Cayman  Grand Cayman  999159",
 
@@ -44038,6 +44902,8 @@ var MacAndOrganization = map[string]string {
 
 	"9C31B6" : "Kulite Semiconductor Products Inc",
 
+	"9C31C3" : "BSkyB Ltd",
+
 	"9C32A9" : "SICHUAN TIANYI COMHEART TELECOMCO., LTD",
 
 	"9C32CE" : "CANON INC.",
@@ -44049,6 +44915,8 @@ var MacAndOrganization = map[string]string {
 	"9C35EB" : "Apple, Inc.",
 
 	"9C37F4" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"9C3A9A" : "Shenzhen Sundray Technologies Company Limited",
 
 	"9C3AAF" : "Samsung Electronics Co.,Ltd",
 
@@ -44142,6 +45010,8 @@ var MacAndOrganization = map[string]string {
 
 	"9C69B4" : "IEEE Registration Authority",
 
+	"9C69D1" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"9C6ABE" : "QEES ApS.",
 
 	"9C6C15" : "Microsoft Corporation",
@@ -44206,6 +45076,8 @@ var MacAndOrganization = map[string]string {
 
 	"9C934E" : "Xerox Corporation",
 
+	"9C93B0" : "Megatronix (Beijing) Technology Co., Ltd.",
+
 	"9C93E4" : "Private",
 
 	"9C95F8" : "SmartDoor Systems, LLC",
@@ -44215,6 +45087,8 @@ var MacAndOrganization = map[string]string {
 	"9C9811" : "Guangzhou Sunrise Electronics Development Co., Ltd",
 
 	"9C99A0" : "Xiaomi Communications Co Ltd",
+
+	"9C99CD" : "Voippartners",
 
 	"9C9C1D" : "Starkey Labs Inc.",
 
@@ -44384,6 +45258,8 @@ var MacAndOrganization = map[string]string {
 
 	"9CFFBE" : "OTSL Inc.",
 
+	"9CFFC2" : "AVI Systems GmbH",
+
 	"A002DC" : "Amazon Technologies Inc.",
 
 	"A00363" : "Robert Bosch Healthcare GmbH",
@@ -44491,6 +45367,8 @@ var MacAndOrganization = map[string]string {
 	"A04041" : "SAMWONFA Co.,Ltd.",
 
 	"A040A0" : "NETGEAR",
+
+	"A04147" : "Huawei Device Co., Ltd.",
 
 	"A0415E" : "Opsens Solution Inc.",
 
@@ -44678,6 +45556,8 @@ var MacAndOrganization = map[string]string {
 
 	"A0AB1B" : "D-Link International",
 
+	"A0AB51" : "WEIFANG GOERTEK ELECTRONICS CO.,LTD",
+
 	"A0ADA1" : "JMR Electronics, Inc",
 
 	"A0AFBD" : "Intel Corporate",
@@ -44750,7 +45630,9 @@ var MacAndOrganization = map[string]string {
 
 	"A0D795" : "Apple, Inc.",
 
-	"A0D86F" : "Private",
+	"A0D807" : "Huawei Device Co., Ltd.",
+
+	"A0D86F" : "ARGO AI, LLC",
 
 	"A0DA92" : "Nanjing Glarun Atten Technology Co. Ltd.",
 
@@ -44761,6 +45643,8 @@ var MacAndOrganization = map[string]string {
 	"A0DDE5" : "SHARP Corporation",
 
 	"A0DE05" : "JSC Irbis-T",
+
+	"A0DF15" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"A0E0AF" : "Cisco Systems, Inc",
 
@@ -44823,6 +45707,8 @@ var MacAndOrganization = map[string]string {
 	"A0FE61" : "Vivint Wireless Inc. ",
 
 	"A0FE91" : "AVAT Automation GmbH",
+
+	"A400E2" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"A40130" : "ABIsystems Co., LTD",
 
@@ -44944,6 +45830,10 @@ var MacAndOrganization = map[string]string {
 
 	"A444D1" : " Wingtech Group (HongKong）Limited",
 
+	"A44519" : "Xiaomi Communications Co Ltd",
+
+	"A445CD" : "IoT Diagnostics",
+
 	"A4466B" : "EOC Technology",
 
 	"A446FA" : "AmTRAN Video Corporation",
@@ -44969,6 +45859,8 @@ var MacAndOrganization = map[string]string {
 	"A4516F" : "Microsoft Mobile Oy",
 
 	"A4526F" : "ADB Broadband Italia",
+
+	"A4530E" : "Cisco Systems, Inc",
 
 	"A45385" : "WEIFANG GOERTEK ELECTRONICS CO.,LTD",
 
@@ -45001,6 +45893,8 @@ var MacAndOrganization = map[string]string {
 	"A46191" : "NamJunSa",
 
 	"A462DF" : "DS Global. Co., LTD",
+
+	"A463A1" : "Inventus Power Eletronica do Brasil LTDA",
 
 	"A46706" : "Apple, Inc.",
 
@@ -45084,6 +45978,8 @@ var MacAndOrganization = map[string]string {
 
 	"A497BB" : "Hitachi Industrial Equipment Systems Co.,Ltd",
 
+	"A49813" : "ARRIS Group, Inc.",
+
 	"A49947" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"A49981" : "FuJian Elite Power Tech CO.,LTD.",
@@ -45121,6 +46017,8 @@ var MacAndOrganization = map[string]string {
 	"A4AD00" : "Ragsdale Technology",
 
 	"A4ADB8" : "Vitec Group, Camera Dynamics Ltd",
+
+	"A4AE11" : "Hon Hai Precision Ind. Co., Ltd.",
 
 	"A4AE9A" : "Maestro Wireless Solutions ltd.",
 
@@ -45174,9 +46072,13 @@ var MacAndOrganization = map[string]string {
 
 	"A4C7DE" : "Cambridge Industries(Group) Co.,Ltd.",
 
+	"A4C939" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
+
 	"A4CAA0" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"A4CC32" : "Inficomm Co., Ltd",
+
+	"A4CD23" : "Shenzhenshi Xinzhongxin  Co., Ltd",
 
 	"A4CF12" : "Espressif Inc.",
 
@@ -45224,6 +46126,8 @@ var MacAndOrganization = map[string]string {
 
 	"A4E0E6" : "FILIZOLA S.A. PESAGEM E AUTOMACAO",
 
+	"A4E31B" : "Nokia",
+
 	"A4E32E" : "Silicon & Software Systems Ltd.",
 
 	"A4E391" : "DENY FONTAINE",
@@ -45258,11 +46162,15 @@ var MacAndOrganization = map[string]string {
 
 	"A4EF52" : "Telewave Co., Ltd.",
 
+	"A4F05E" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
+
 	"A4F1E8" : "Apple, Inc.",
 
 	"A4F3C1" : "Open Source Robotics Foundation, Inc.",
 
 	"A4F3E7" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
+
+	"A4F465" : "ITEL MOBILE LIMITED",
 
 	"A4F4C2" : "VNPT TECHNOLOGY",
 
@@ -45364,6 +46272,8 @@ var MacAndOrganization = map[string]string {
 
 	"A8474A" : "Hon Hai Precision Ind. Co.,Ltd.",
 
+	"A8494D" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"A849A5" : "Lisantech Co., Ltd.",
 
 	"A84E3F" : "Hitron Technologies. Inc",
@@ -45389,6 +46299,8 @@ var MacAndOrganization = map[string]string {
 	"A85BF3" : "Audivo GmbH",
 
 	"A85C2C" : "Apple, Inc.",
+
+	"A85E45" : "ASUSTek COMPUTER INC.",
 
 	"A85EE4" : "12Sided Technology, LLC",
 
@@ -45552,7 +46464,11 @@ var MacAndOrganization = map[string]string {
 
 	"A8BF3C" : "HDV Phoelectron Technology Limited",
 
+	"A8C0EA" : "Pepwave Limited",
+
 	"A8C222" : "TM-Research Inc.",
+
+	"A8C252" : "Huawei Device Co., Ltd.",
 
 	"A8C83A" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -45568,7 +46484,7 @@ var MacAndOrganization = map[string]string {
 
 	"A8CE90" : "CVC",
 
-	"A8D0E3" : "Systech Electronics Ltd.",
+	"A8D0E3" : "Systech Electronics Ltd",
 
 	"A8D0E5" : "Juniper Networks",
 
@@ -45593,6 +46509,8 @@ var MacAndOrganization = map[string]string {
 	"A8DB03" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
 
 	"A8E018" : "Nokia Corporation",
+
+	"A8E2C1" : "Texas Instruments",
 
 	"A8E2C3" : "Shenzhen YOUHUA Technology Co., Ltd",
 
@@ -45798,6 +46716,8 @@ var MacAndOrganization = map[string]string {
 
 	"AC5D10" : "Pace Americas",
 
+	"AC5D5C" : "FN-LINK TECHNOLOGY LIMITED",
+
 	"AC5E8C" : "Utillink",
 
 	"AC5F3E" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
@@ -45848,6 +46768,8 @@ var MacAndOrganization = map[string]string {
 
 	"AC751D" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"AC7713" : "Honeywell Safety Products (Shanghai) Co.,Ltd",
+
 	"AC7A42" : "iConnectivity",
 
 	"AC7A4D" : "ALPS ELECTRIC CO., LTD.",
@@ -45892,6 +46814,8 @@ var MacAndOrganization = map[string]string {
 
 	"AC8D14" : "Smartrove Inc",
 
+	"AC8D34" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"AC8FF8" : "Nokia",
 
 	"AC9232" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -45926,6 +46850,8 @@ var MacAndOrganization = map[string]string {
 
 	"ACA667" : "Electronic Systems Protection, Inc.",
 
+	"ACA88E" : "SHARP Corporation",
+
 	"ACA919" : "TrekStor GmbH",
 
 	"ACA9A0" : "Audioengine, Ltd.",
@@ -45940,7 +46866,11 @@ var MacAndOrganization = map[string]string {
 
 	"ACAFB9" : "Samsung Electronics Co.,Ltd",
 
+	"ACB1EE" : "SHENZHEN FENDA TECHNOLOGY CO., LTD",
+
 	"ACB313" : "ARRIS Group, Inc.",
+
+	"ACB3B5" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"ACB57D" : "Liteon Technology Corporation",
 
@@ -45954,6 +46884,8 @@ var MacAndOrganization = map[string]string {
 
 	"ACBD0B" : "IMAC CO.,LTD",
 
+	"ACBD70" : "Huawei Device Co., Ltd.",
+
 	"ACBE75" : "Ufine Technologies Co.,Ltd.",
 
 	"ACBEB6" : "Visualedge Technology Co., Ltd.",
@@ -45963,6 +46895,8 @@ var MacAndOrganization = map[string]string {
 	"ACC2EC" : "CLT INT'L IND. CORP.",
 
 	"ACC33A" : "Samsung Electronics Co.,Ltd",
+
+	"ACC358" : "Continental Automotive Czech Republic s.r.o.",
 
 	"ACC51B" : "Zhuhai Pantum Electronics Co., Ltd.",
 
@@ -46010,6 +46944,8 @@ var MacAndOrganization = map[string]string {
 
 	"ACD9D6" : "tci GmbH",
 
+	"ACDB48" : "ARRIS Group, Inc.",
+
 	"ACDBDA" : "Shenzhen Geniatech Inc, Ltd",
 
 	"ACDCE5" : "Procter & Gamble Company",
@@ -46023,6 +46959,8 @@ var MacAndOrganization = map[string]string {
 	"ACE215" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"ACE2D3" : "Hewlett Packard",
+
+	"ACE342" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"ACE348" : "MadgeTech, Inc",
 
@@ -46080,6 +47018,8 @@ var MacAndOrganization = map[string]string {
 
 	"ACFDEC" : "Apple, Inc.",
 
+	"ACFE05" : "ITEL MOBILE LIMITED",
+
 	"B00073" : "Wistron Neweb Corporation",
 
 	"B000B4" : "Cisco Systems, Inc",
@@ -46089,6 +47029,8 @@ var MacAndOrganization = map[string]string {
 	"B0027E" : "MULLER SERVICES",
 
 	"B00594" : "Liteon Technology Corporation",
+
+	"B00875" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"B008BF" : "Vital Connect, Inc.",
 
@@ -46154,6 +47096,8 @@ var MacAndOrganization = map[string]string {
 
 	"B03D96" : "Vision Valley FZ LLC",
 
+	"B03E51" : "BSkyB Ltd",
+
 	"B03EB0" : "MICRODIA Ltd.",
 
 	"B04089" : "Senient Systems LTD",
@@ -46186,6 +47130,8 @@ var MacAndOrganization = map[string]string {
 
 	"B04E26" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
+	"B04FC3" : "Shenzhen NVC Cloud Technology Co., Ltd.",
+
 	"B050BC" : "SHENZHEN BASICOM ELECTRONIC CO.,LTD.",
 
 	"B0518E" : "Holl technology CO.Ltd.",
@@ -46215,6 +47161,8 @@ var MacAndOrganization = map[string]string {
 	"B06563" : "Shanghai Railway Communication Factory",
 
 	"B065BD" : "Apple, Inc.",
+
+	"B065F1" : "WIO Manufacturing HK Limited",
 
 	"B0672F" : "Bowers & Wilkins",
 
@@ -46355,6 +47303,8 @@ var MacAndOrganization = map[string]string {
 	"B0B3AD" : "HUMAX Co., Ltd.",
 
 	"B0B448" : "Texas Instruments",
+
+	"B0B5E8" : "Ruroc LTD",
 
 	"B0B867" : "Hewlett Packard Enterprise",
 
@@ -46498,7 +47448,11 @@ var MacAndOrganization = map[string]string {
 
 	"B40142" : "GCI Science & Technology Co.,LTD",
 
+	"B40216" : "Cisco Systems, Inc",
+
 	"B40418" : "Smartchip Integrated Inc.",
+
+	"B4055D" : "Inspur Electronic Information Industry Co.,Ltd.",
 
 	"B40566" : "SP Best Corporation Co., LTD.",
 
@@ -46584,6 +47538,8 @@ var MacAndOrganization = map[string]string {
 
 	"B43934" : "Pen Generations, Inc.",
 
+	"B43939" : "Shenzhen TINNO Mobile Technology Corp.",
+
 	"B439D6" : "ProCurve Networking by HP",
 
 	"B43A28" : "Samsung Electronics Co.,Ltd",
@@ -46610,6 +47566,8 @@ var MacAndOrganization = map[string]string {
 
 	"B44F96" : "Zhejiang Xinzailing Technology co., ltd",
 
+	"B45062" : "EmBestor Technology Inc.",
+
 	"B451F9" : "NB Software",
 
 	"B45253" : "Seagate Technology",
@@ -46617,6 +47575,10 @@ var MacAndOrganization = map[string]string {
 	"B4527D" : "Sony Mobile Communications Inc",
 
 	"B4527E" : "Sony Mobile Communications Inc",
+
+	"B452A9" : "Texas Instruments",
+
+	"B45459" : "China Mobile (Hangzhou) Information Technology Co., Ltd.",
 
 	"B45570" : "Borea",
 
@@ -46627,6 +47589,8 @@ var MacAndOrganization = map[string]string {
 	"B45CA4" : "Thing-talk Wireless Communication Technologies Corporation Limited",
 
 	"B45D50" : "Aruba, a Hewlett Packard Enterprise Company",
+
+	"B46077" : "Sichuan Changhong Electric Ltd.",
 
 	"B461FF" : "Lumigon A/S",
 
@@ -46643,6 +47607,8 @@ var MacAndOrganization = map[string]string {
 	"B46921" : "Intel Corporate",
 
 	"B46BFC" : "Intel Corporate",
+
+	"B46C47" : "Panasonic Appliances Company",
 
 	"B46D35" : "Dalian Seasky Automation Co;Ltd",
 
@@ -46665,6 +47631,8 @@ var MacAndOrganization = map[string]string {
 	"B479C8" : "Ruckus Wireless",
 
 	"B47C29" : "Shenzhen Guzidi Technology Co.,Ltd",
+
+	"B47C59" : "Jiangsu Hengxin Technology Co.,Ltd.",
 
 	"B47C9C" : "Amazon Technologies Inc.",
 
@@ -46698,6 +47666,8 @@ var MacAndOrganization = map[string]string {
 
 	"B499BA" : "Hewlett Packard",
 
+	"B49A95" : "Shenzhen Boomtech Industrial Corporation",
+
 	"B49CDF" : "Apple, Inc.",
 
 	"B49D0B" : "BQ",
@@ -46707,6 +47677,10 @@ var MacAndOrganization = map[string]string {
 	"B49EAC" : "Imagik Int'l Corp",
 
 	"B49EE6" : "SHENZHEN TECHNOLOGY CO LTD",
+
+	"B4A2EB" : "IEEE Registration Authority",
+
+	"B4A305" : "XIAMEN YAXON NETWORK CO., LTD.",
 
 	"B4A382" : "Hangzhou Hikvision Digital Technology Co.,Ltd.",
 
@@ -46774,6 +47748,10 @@ var MacAndOrganization = map[string]string {
 
 	"B4C44E" : "VXL eTech Pvt Ltd",
 
+	"B4C476" : "Wuhan Maritime Communication Research Institute",
+
+	"B4C4FC" : "Xiaomi Communications Co Ltd",
+
 	"B4C62E" : "Molex CMS",
 
 	"B4C6F8" : "Axilspot Communication",
@@ -46809,6 +47787,8 @@ var MacAndOrganization = map[string]string {
 	"B4D8A9" : "BetterBots",
 
 	"B4D8DE" : "iota Computing, Inc.",
+
+	"B4DC09" : "Guangzhou Dawei Communication Co.,Ltd",
 
 	"B4DD15" : "ControlThings Oy Ab",
 
@@ -46848,6 +47828,8 @@ var MacAndOrganization = map[string]string {
 
 	"B4ED54" : "Wohler Technologies",
 
+	"B4EE25" : "Shenzhen Belon Technology CO.,LTD",
+
 	"B4EEB4" : "ASKEY COMPUTER CORP",
 
 	"B4EED4" : "Texas Instruments",
@@ -46865,6 +47847,8 @@ var MacAndOrganization = map[string]string {
 	"B4F2E8" : "ARRIS Group, Inc.",
 
 	"B4F323" : "PETATEL INC.",
+
+	"B4F58E" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"B4F61C" : "Apple, Inc.",
 
@@ -46892,6 +47876,8 @@ var MacAndOrganization = map[string]string {
 
 	"B80716" : "vivo Mobile Communication Co., Ltd.",
 
+	"B80756" : "Cisco Meraki",
+
 	"B808CF" : "Intel Corporate",
 
 	"B808D7" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -46899,6 +47885,8 @@ var MacAndOrganization = map[string]string {
 	"B8098A" : "Apple, Inc.",
 
 	"B80B9D" : "ROPEX Industrie-Elektronik GmbH",
+
+	"B810D4" : "Masimo Corporation",
 
 	"B813E9" : "Trace Live Network",
 
@@ -46915,6 +47903,8 @@ var MacAndOrganization = map[string]string {
 	"B81999" : "Nesys",
 
 	"B81DAA" : "LG Electronics (Mobile Communications)",
+
+	"B81F5E" : "Apption Labs Limited",
 
 	"B820E7" : "Guangzhou Horizontal Information & Network Integration Co. Ltd",
 
@@ -46960,6 +47950,8 @@ var MacAndOrganization = map[string]string {
 
 	"B83A08" : "Tenda Technology Co.,Ltd.Dongguan branch",
 
+	"B83A5A" : "Aruba, a Hewlett Packard Enterprise Company",
+
 	"B83A7B" : "Worldplay (Canada) Inc.",
 
 	"B83A9D" : "Alarm.com",
@@ -46978,6 +47970,8 @@ var MacAndOrganization = map[string]string {
 
 	"B847C6" : "SanJet Technology Corp.",
 
+	"B84DEE" : "Hisense broadband multimedia technology Co.,Ltd",
+
 	"B84FD5" : "Microsoft Corporation",
 
 	"B85001" : "Extreme Networks, Inc.",
@@ -46991,6 +47985,8 @@ var MacAndOrganization = map[string]string {
 	"B857D8" : "Samsung Electronics Co.,Ltd",
 
 	"B85810" : "NUMERA, INC.",
+
+	"B8599F" : "Mellanox Technologies, Inc.",
 
 	"B85A73" : "Samsung Electronics Co.,Ltd",
 
@@ -47015,6 +48011,8 @@ var MacAndOrganization = map[string]string {
 	"B86491" : "CK Telecom Ltd",
 
 	"B8653B" : "Bolymin, Inc.",
+
+	"B86685" : "Sagemcom Broadband SAS",
 
 	"B869C2" : "Sunitec Enterprise Co., Ltd.",
 
@@ -47086,6 +48084,8 @@ var MacAndOrganization = map[string]string {
 
 	"B88FB4" : "JABIL CIRCUIT ITALIA S.R.L",
 
+	"B891C9" : "Handreamnet",
+
 	"B8921D" : "BG T&A",
 
 	"B89436" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -47101,6 +48101,8 @@ var MacAndOrganization = map[string]string {
 	"B898F7" : "Gionee Communication Equipment Co,Ltd.ShenZhen",
 
 	"B89919" : "7signal Solutions, Inc",
+
+	"B899AE" : "Shenzhen MiaoMing  Intelligent Technology Co.,Ltd",
 
 	"B899B0" : "Cohere Technologies",
 
@@ -47123,6 +48125,8 @@ var MacAndOrganization = map[string]string {
 	"B8A3E0" : "BenRui Technology Co.,Ltd",
 
 	"B8A44F" : "Axis Communications AB",
+
+	"B8A58D" : "Axe Group Holdings Limited",
 
 	"B8A8AF" : "Logic S.p.A.",
 
@@ -47262,11 +48266,15 @@ var MacAndOrganization = map[string]string {
 
 	"B8F080" : "SPS, INC.",
 
+	"B8F12A" : "Apple, Inc.",
+
 	"B8F317" : "iSun Smasher Communications Private Limited",
 
 	"B8F4D0" : "Herrmann Ultraschalltechnik GmbH & Co. Kg",
 
 	"B8F5E7" : "WayTools, LLC",
+
+	"B8F653" : "Shenzhen Jingxun Software Telecommunication Technology Co.,Ltd",
 
 	"B8F6B1" : "Apple, Inc.",
 
@@ -47275,6 +48283,8 @@ var MacAndOrganization = map[string]string {
 	"B8F74A" : "RCNTEC",
 
 	"B8F828" : "Changshu Gaoshida Optoelectronic Technology Co. Ltd.",
+
+	"B8F853" : "Arcadyan Corporation",
 
 	"B8F883" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
@@ -47334,6 +48344,8 @@ var MacAndOrganization = map[string]string {
 
 	"BC22FB" : "RF Industries",
 
+	"BC2392" : "BYD Precision Manufacture Company Ltd.",
+
 	"BC25E0" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"BC25F0" : "3D Display Technologies Co., Ltd.",
@@ -47359,6 +48371,8 @@ var MacAndOrganization = map[string]string {
 	"BC2D98" : "ThinGlobal LLC",
 
 	"BC2E48" : "ARRIS Group, Inc.",
+
+	"BC2EF6" : "Huawei Device Co., Ltd.",
 
 	"BC2F3D" : "vivo Mobile Communication Co., Ltd.",
 
@@ -47456,6 +48470,8 @@ var MacAndOrganization = map[string]string {
 
 	"BC629F" : "Telenet Systems P. Ltd.",
 
+	"BC62D2" : "Genexis International B.V.",
+
 	"BC644B" : "ARRIS Group, Inc.",
 
 	"BC6641" : "IEEE Registration Authority",
@@ -47550,6 +48566,8 @@ var MacAndOrganization = map[string]string {
 
 	"BC9680" : "SHENZHEN GONGJIN ELECTRONICS CO.,LT",
 
+	"BC9740" : "IEEE Registration Authority",
+
 	"BC97E1" : "Broadcom Limited",
 
 	"BC9889" : "Fiberhome Telecommunication Technologies Co.,LTD",
@@ -47574,7 +48592,11 @@ var MacAndOrganization = map[string]string {
 
 	"BCA042" : "SHANGHAI FLYCO ELECTRICAL APPLIANCE CO.,LTD",
 
+	"BCA13A" : "SES-imagotag",
+
 	"BCA4E1" : "Nabto",
+
+	"BCA511" : "NETGEAR",
 
 	"BCA58B" : "Samsung Electronics Co.,Ltd",
 
@@ -47594,6 +48616,8 @@ var MacAndOrganization = map[string]string {
 
 	"BCAF91" : "TE Connectivity Sensor Solutions",
 
+	"BCB0E7" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"BCB181" : "SHARP CORPORATION",
 
 	"BCB1F3" : "Samsung Electronics Co.,Ltd",
@@ -47605,6 +48629,8 @@ var MacAndOrganization = map[string]string {
 	"BCB852" : "Cybera, Inc.",
 
 	"BCB863" : "Apple, Inc.",
+
+	"BCBAC2" : "Hangzhou Hikvision Digital Technology Co.,Ltd.",
 
 	"BCBAE1" : "AREC Inc.",
 
@@ -47618,7 +48644,7 @@ var MacAndOrganization = map[string]string {
 
 	"BCC23A" : "Thomson Video Networks",
 
-	"BCC31B" : "Kygo Life AS",
+	"BCC31B" : "Kygo Life A",
 
 	"BCC342" : "Panasonic Communications Co., Ltd.",
 
@@ -47664,6 +48690,8 @@ var MacAndOrganization = map[string]string {
 
 	"BCE63F" : "Samsung Electronics Co.,Ltd",
 
+	"BCE67C" : "Cambium Networks Limited",
+
 	"BCE767" : "Quanzhou  TDX Electronics Co., Ltd",
 
 	"BCE796" : "Wireless CCTV Ltd",
@@ -47704,7 +48732,7 @@ var MacAndOrganization = map[string]string {
 
 	"BCFFEB" : "Motorola Mobility LLC, a Lenovo Company",
 
-	"BEDDED" : "SPECTRA EMBEDDED SYSTEMS",
+	"BEDDED" : "EMBEDDED PERFORMANCE INC.",
 
 	"C0028D" : "WINSTAR Display CO.,Ltd",
 
@@ -47768,6 +48796,8 @@ var MacAndOrganization = map[string]string {
 
 	"C02E25" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
+	"C02E26" : "Private",
+
 	"C02FF1" : "Volta Networks",
 
 	"C0335E" : "Microsoft",
@@ -47779,6 +48809,8 @@ var MacAndOrganization = map[string]string {
 	"C035BD" : "Velocytech Aps",
 
 	"C035C5" : "Prosoft Systems LTD",
+
+	"C03656" : "Fiberhome Telecommunication Technologies Co.,LTD",
 
 	"C03896" : "Hon Hai Precision Ind. Co.,Ltd.",
 
@@ -47843,6 +48875,8 @@ var MacAndOrganization = map[string]string {
 	"C06394" : "Apple, Inc.",
 
 	"C064C6" : "Nokia Corporation",
+
+	"C064E4" : "Cisco Systems, Inc",
 
 	"C06599" : "Samsung Electronics Co.,Ltd",
 
@@ -47972,6 +49006,8 @@ var MacAndOrganization = map[string]string {
 
 	"C0B713" : "Beijing Xiaoyuer Technology Co. Ltd.",
 
+	"C0B883" : "Intel Corporate",
+
 	"C0B8B1" : "BitBox Ltd",
 
 	"C0BAE6" : "Application Solutions (Electronics and Vision) Ltd",
@@ -48004,6 +49040,8 @@ var MacAndOrganization = map[string]string {
 
 	"C0CB38" : "Hon Hai Precision Ind. Co.,Ltd.",
 
+	"C0CBF1" : "Mobiwire Mobiles (NingBo) Co., LTD",
+
 	"C0CCF8" : "Apple, Inc.",
 
 	"C0CECD" : "Apple, Inc.",
@@ -48032,11 +49070,15 @@ var MacAndOrganization = map[string]string {
 
 	"C0DC6A" : "Qingdao Eastsoft Communication Technology Co.,LTD",
 
+	"C0DCDA" : "Samsung Electronics Co.,Ltd",
+
 	"C0DF77" : "Conrad Electronic SE",
 
 	"C0E422" : "Texas Instruments",
 
 	"C0E42D" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
+	"C0E434" : "AzureWave Technology Inc.",
 
 	"C0E54E" : "ARIES Embedded GmbH",
 
@@ -48124,6 +49166,8 @@ var MacAndOrganization = map[string]string {
 
 	"C4198B" : "Dominion Voting Systems Corporation",
 
+	"C419D1" : "Telink Semiconductor (Shanghai) Co., Ltd.",
+
 	"C419EC" : "Qualisys AB",
 
 	"C41CFF" : "Vizio, Inc",
@@ -48147,6 +49191,8 @@ var MacAndOrganization = map[string]string {
 	"C4282D" : "Embedded Intellect Pty Ltd",
 
 	"C4291D" : "KLEMSAN ELEKTRIK ELEKTRONIK SAN.VE TIC.AS.",
+
+	"C42996" : "Signify B.V.",
 
 	"C42AD0" : "Apple, Inc.",
 
@@ -48172,6 +49218,8 @@ var MacAndOrganization = map[string]string {
 
 	"C4393A" : "SMC Networks Inc",
 
+	"C43A35" : "FN-LINK TECHNOLOGY LIMITED",
+
 	"C43A9F" : "Siconix Inc.",
 
 	"C43ABE" : "Sony Mobile Communications Inc",
@@ -48182,9 +49230,13 @@ var MacAndOrganization = map[string]string {
 
 	"C44044" : "RackTop Systems Inc.",
 
+	"C4411E" : "Belkin International Inc.",
+
 	"C44202" : "Samsung Electronics Co.,Ltd",
 
 	"C4438F" : "LG Electronics (Mobile Communications)",
+
+	"C4447D" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"C444A0" : "Cisco Systems, Inc",
 
@@ -48234,6 +49286,8 @@ var MacAndOrganization = map[string]string {
 
 	"C45976" : "Fugoo Coorporation",
 
+	"C45BF7" : "ants",
+
 	"C45DD8" : "HDMI Forum",
 
 	"C46044" : "Everex Electronics Limited",
@@ -48245,6 +49299,8 @@ var MacAndOrganization = map[string]string {
 	"C462EA" : "Samsung Electronics Co.,Ltd",
 
 	"C46354" : "U-Raku, Inc.",
+
+	"C463FB" : "Neatframe AS",
 
 	"C46413" : "Cisco Systems, Inc",
 
@@ -48320,9 +49376,13 @@ var MacAndOrganization = map[string]string {
 
 	"C488E5" : "Samsung Electronics Co.,Ltd",
 
+	"C48A5A" : "JFCONTROL",
+
 	"C48E8F" : "Hon Hai Precision Ind. Co.,Ltd.",
 
 	"C48F07" : "Shenzhen Yihao Hulian Science and Technology Co., Ltd.",
+
+	"C48FC1" : "DEEPTRACK S.L.U.",
 
 	"C4913A" : "Shenzhen Sanland Electronic Co., ltd.",
 
@@ -48364,7 +49424,11 @@ var MacAndOrganization = map[string]string {
 
 	"C4ABB2" : "vivo Mobile Communication Co., Ltd.",
 
+	"C4AC59" : "Murata Manufacturing Co., Ltd.",
+
 	"C4AD21" : "MEDIAEDGE Corporation",
+
+	"C4AD34" : "Routerboard.com",
 
 	"C4ADF1" : "GOPEACE Inc.",
 
@@ -48402,6 +49466,8 @@ var MacAndOrganization = map[string]string {
 
 	"C4C563" : "TECNO MOBILE LIMITED",
 
+	"C4C603" : "Cisco Systems, Inc",
+
 	"C4C755" : "Beijing HuaqinWorld Technology Co.,Ltd",
 
 	"C4C919" : "Energy Imports Ltd",
@@ -48430,7 +49496,11 @@ var MacAndOrganization = map[string]string {
 
 	"C4E032" : "IEEE 1904.1 Working Group",
 
+	"C4E0DE" : "Zhengzhou XindaJiean Information Technology Co.,Ltd.",
+
 	"C4E17C" : "U2S co.",
+
+	"C4E1A1" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"C4E39F" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
@@ -48439,6 +49509,8 @@ var MacAndOrganization = map[string]string {
 	"C4E510" : "Mechatro, Inc.",
 
 	"C4E7BE" : "SCSpro Co.,Ltd",
+
+	"C4E90A" : "D-Link International",
 
 	"C4E92F" : "AB Sciex",
 
@@ -48500,9 +49572,13 @@ var MacAndOrganization = map[string]string {
 
 	"C808E9" : "LG Electronics",
 
+	"C809A8" : "Intel Corporate",
+
 	"C80AA9" : "QUANTA COMPUTER INC.",
 
 	"C80CC8" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"C80D32" : "Holoplot GmbH",
 
 	"C80E14" : "AVM Audiovisuelles Marketing und Computersysteme GmbH",
 
@@ -48552,6 +49628,8 @@ var MacAndOrganization = map[string]string {
 
 	"C82A14" : "Apple, Inc.",
 
+	"C82B96" : "Espressif Inc.",
+
 	"C82C2B" : "IEEE Registration Authority",
 
 	"C82E47" : "Suzhou SmartChip Semiconductor Co., LTD",
@@ -48582,6 +49660,8 @@ var MacAndOrganization = map[string]string {
 
 	"C83DD4" : "CyberTAN Technology Inc.",
 
+	"C83DDC" : "Xiaomi Communications Co Ltd",
+
 	"C83DFC" : "Pioneer DJ Corporation",
 
 	"C83E99" : "Texas Instruments",
@@ -48608,7 +49688,11 @@ var MacAndOrganization = map[string]string {
 
 	"C84C75" : "Cisco Systems, Inc",
 
+	"C84F0E" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
+
 	"C84F86" : "Sophos Ltd",
+
+	"C850CE" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"C850E9" : "Raisecom Technology CO., LTD",
 
@@ -48622,13 +49706,19 @@ var MacAndOrganization = map[string]string {
 
 	"C85663" : "Sunflex Europe GmbH",
 
+	"C85A9F" : "zte corporation",
+
 	"C85B76" : "LCFC(HeFei) Electronics Technology co., ltd",
+
+	"C85D38" : "HUMAX Co., Ltd.",
 
 	"C86000" : "ASUSTek COMPUTER INC.",
 
 	"C86314" : "IEEE Registration Authority",
 
 	"C863F1" : "Sony Interactive Entertainment Inc.",
+
+	"C863FC" : "ARRIS Group, Inc.",
 
 	"C864C7" : "zte corporation",
 
@@ -48726,6 +49816,8 @@ var MacAndOrganization = map[string]string {
 
 	"C8A729" : "SYStronics Co., Ltd.",
 
+	"C8A776" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"C8A823" : "Samsung Electronics Co.,Ltd",
 
 	"C8A9FC" : "Goyoo Networks Inc.",
@@ -48741,6 +49833,8 @@ var MacAndOrganization = map[string]string {
 	"C8AF40" : "marco Systemanalyse und Entwicklung GmbH",
 
 	"C8AFE3" : "Hefei Radio Communication Technology Co., Ltd ",
+
+	"C8B1CD" : "Apple, Inc.",
 
 	"C8B1EE" : "Qorvo",
 
@@ -48807,6 +49901,8 @@ var MacAndOrganization = map[string]string {
 	"C8D590" : "FLIGHT DATA SYSTEMS",
 
 	"C8D5FE" : "Shenzhen Zowee Technology Co., Ltd",
+
+	"C8D69D" : "Arab International Optronics",
 
 	"C8D719" : "Cisco-Linksys, LLC",
 
@@ -48908,6 +50004,8 @@ var MacAndOrganization = map[string]string {
 
 	"CC051B" : "Samsung Electronics Co.,Ltd",
 
+	"CC0577" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"CC0677" : "Fiberhome Telecommunication Technologies Co.,LTD",
 
 	"CC07AB" : "Samsung Electronics Co.,Ltd",
@@ -48976,6 +50074,8 @@ var MacAndOrganization = map[string]string {
 
 	"CC3080" : "VAIO Corporation",
 
+	"CC32E5" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
 	"CC33BB" : "Sagemcom Broadband SAS",
 
 	"CC3429" : "TP-LINK TECHNOLOGIES CO.,LTD.",
@@ -49015,6 +50115,8 @@ var MacAndOrganization = map[string]string {
 	"CC4463" : "Apple, Inc.",
 
 	"CC4639" : "WAAV, Inc.",
+
+	"CC464E" : "Samsung Electronics Co.,Ltd",
 
 	"CC46D6" : "Cisco Systems, Inc",
 
@@ -49066,11 +50168,17 @@ var MacAndOrganization = map[string]string {
 
 	"CC61E5" : "Motorola Mobility LLC, a Lenovo Company",
 
+	"CC64A6" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"CC65AD" : "ARRIS Group, Inc.",
+
+	"CC660A" : "Apple, Inc.",
 
 	"CC66B2" : "Nokia",
 
 	"CC69B0" : "Global Traffic Technologies, LLC",
+
+	"CC6A10" : "The Chamberlain Group, Inc",
 
 	"CC6B98" : "Minetec Wireless Technologies",
 
@@ -49129,6 +50237,8 @@ var MacAndOrganization = map[string]string {
 	"CC8CE3" : "Texas Instruments",
 
 	"CC8E71" : "Cisco Systems, Inc",
+
+	"CC9070" : "Cisco Systems, Inc",
 
 	"CC9093" : "Hansong Tehnologies",
 
@@ -49238,6 +50348,8 @@ var MacAndOrganization = map[string]string {
 
 	"CCCC81" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"CCCCCC" : "Silicon Laboratories",
+
 	"CCCD64" : "SM-Electronic GmbH",
 
 	"CCCE1E" : "AVM Audiovisuelles Marketing und Computersysteme GmbH",
@@ -49274,6 +50386,8 @@ var MacAndOrganization = map[string]string {
 
 	"CCE17F" : "Juniper Networks",
 
+	"CCE194" : "Juniper Networks",
+
 	"CCE1D5" : "BUFFALO.INC",
 
 	"CCE798" : "My Social Stuff",
@@ -49287,6 +50401,8 @@ var MacAndOrganization = map[string]string {
 	"CCEDDC" : "MitraStar Technology Corp.",
 
 	"CCEED9" : "VAHLE Automation GmbH",
+
+	"CCEF03" : "Hunan Keyshare Communication Technology Co., Ltd.",
 
 	"CCEF48" : "Cisco Systems, Inc",
 
@@ -49356,6 +50472,8 @@ var MacAndOrganization = map[string]string {
 
 	"D0154A" : "zte corporation",
 
+	"D015A6" : "Aruba, a Hewlett Packard Enterprise Company",
+
 	"D016B4" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"D0176A" : "Samsung Electronics Co.,Ltd",
@@ -49396,6 +50514,8 @@ var MacAndOrganization = map[string]string {
 
 	"D03742" : "Yulong Computer Telecommunication Scientific (Shenzhen) Co.,Ltd",
 
+	"D03745" : "TP-LINK TECHNOLOGIES CO.,LTD.",
+
 	"D03761" : "Texas Instruments",
 
 	"D03972" : "Texas Instruments",
@@ -49403,6 +50523,8 @@ var MacAndOrganization = map[string]string {
 	"D039B3" : "ARRIS Group, Inc.",
 
 	"D039EA" : "NetApp",
+
+	"D03D52" : "Vaion Limited",
 
 	"D03DC3" : "AQ Corporation",
 
@@ -49421,6 +50543,8 @@ var MacAndOrganization = map[string]string {
 	"D04CC1" : "SINTRONES Technology Corp.",
 
 	"D04D2C" : "Roku, Inc.",
+
+	"D04E50" : "Mobiwire Mobiles (NingBo) Co., LTD",
 
 	"D04F7E" : "Apple, Inc.",
 
@@ -49471,6 +50595,8 @@ var MacAndOrganization = map[string]string {
 	"D05BA8" : "zte corporation",
 
 	"D05C7A" : "Sartura d.o.o.",
+
+	"D05F64" : "IEEE Registration Authority",
 
 	"D05FB8" : "Texas Instruments",
 
@@ -49646,13 +50772,21 @@ var MacAndOrganization = map[string]string {
 
 	"D0C5F3" : "Apple, Inc.",
 
+	"D0C637" : "Intel Corporate",
+
+	"D0C65B" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"D0C789" : "Cisco Systems, Inc",
 
 	"D0C7C0" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
+	"D0C857" : "IEEE Registration Authority",
+
 	"D0CDE1" : "Scientech Electronics",
 
 	"D0CF5E" : "Energy Micro AS",
+
+	"D0D003" : "Samsung Electronics Co.,LTD",
 
 	"D0D04B" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -49677,6 +50811,8 @@ var MacAndOrganization = map[string]string {
 	"D0D94F" : "IEEE Registration Authority",
 
 	"D0DB32" : "Nokia Corporation",
+
+	"D0DD49" : "Juniper Networks",
 
 	"D0DF9A" : "Liteon Technology Corporation",
 
@@ -49824,7 +50960,7 @@ var MacAndOrganization = map[string]string {
 
 	"D43B04" : "Intel Corporate",
 
-	"D43D39" : "FCI. Inc",
+	"D43D39" : "Dialog Semiconductor",
 
 	"D43D67" : "Carma Industries Inc.",
 
@@ -49844,6 +50980,8 @@ var MacAndOrganization = map[string]string {
 
 	"D44B5E" : "TAIYO YUDEN CO., LTD.",
 
+	"D44BB6" : "Zhejiang Tmall Technology Co., Ltd.",
+
 	"D44C24" : "Vuppalamritha Magnetic Components LTD",
 
 	"D44C9C" : "Shenzhen YOOBAO Technology Co.Ltd",
@@ -49851,6 +50989,8 @@ var MacAndOrganization = map[string]string {
 	"D44CA7" : "Informtekhnika & Communication, LLC",
 
 	"D44DA4" : "Murata Manufacturing Co., Ltd.",
+
+	"D44F68" : "Eidetic Communications Inc",
 
 	"D44F80" : "Kemper Digital GmbH",
 
@@ -49896,6 +51036,8 @@ var MacAndOrganization = map[string]string {
 
 	"D461FE" : "Hangzhou H3C Technologies Co., Limited",
 
+	"D462EA" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"D463C6" : "Motorola Mobility LLC, a Lenovo Company",
 
 	"D463FE" : "Arcadyan Corporation",
@@ -49926,6 +51068,8 @@ var MacAndOrganization = map[string]string {
 
 	"D46AA8" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"D46BA6" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"D46CBF" : "Goodrich ISR",
 
 	"D46CDA" : "CSM GmbH",
@@ -49947,6 +51091,8 @@ var MacAndOrganization = map[string]string {
 	"D4741B" : "Beijing HuaDa ZhiBao Electronic System Co.,Ltd.",
 
 	"D476EA" : "zte corporation",
+
+	"D4772B" : "Nanjing Ztlink Network Technology Co.,Ltd",
 
 	"D47856" : "Avaya Inc",
 
@@ -50054,6 +51200,8 @@ var MacAndOrganization = map[string]string {
 
 	"D4AD71" : "Cisco Systems, Inc",
 
+	"D4ADBD" : "Cisco Systems, Inc",
+
 	"D4AE05" : "Samsung Electronics Co.,Ltd",
 
 	"D4AE52" : "Dell Inc.",
@@ -50069,6 +51217,8 @@ var MacAndOrganization = map[string]string {
 	"D4B761" : "Sichuan AI-Link Technology Co., Ltd.",
 
 	"D4B8FF" : "Home Control Singapore Pte Ltd",
+
+	"D4B92F" : "Technicolor CH USA Inc.",
 
 	"D4BBC8" : "vivo Mobile Communication Co., Ltd.",
 
@@ -50154,7 +51304,7 @@ var MacAndOrganization = map[string]string {
 
 	"D4EE07" : "HIWIFI Co., Ltd.",
 
-	"D4F027" : "Navetas Energy Management",
+	"D4F027" : "Trust Power Ltd.",
 
 	"D4F057" : "Nintendo Co.,Ltd",
 
@@ -50171,6 +51321,8 @@ var MacAndOrganization = map[string]string {
 	"D4F513" : "Texas Instruments",
 
 	"D4F527" : "SIEMENS AG",
+
+	"D4F5EF" : "Hewlett Packard Enterprise",
 
 	"D4F63F" : "IEA S.R.L.",
 
@@ -50194,6 +51346,8 @@ var MacAndOrganization = map[string]string {
 
 	"D809C3" : "Cercacor Labs",
 
+	"D80B9A" : "Samsung Electronics Co.,Ltd",
+
 	"D80CCF" : "C.G.V. S.A.S.",
 
 	"D80D17" : "TP-LINK TECHNOLOGIES CO.,LTD.",
@@ -50201,6 +51355,8 @@ var MacAndOrganization = map[string]string {
 	"D80DE3" : "FXI TECHNOLOGIES AS",
 
 	"D80F99" : "Hon Hai Precision Ind. Co.,Ltd.",
+
+	"D81265" : "CHONGQING FUGUI ELECTRONICS CO.,LTD.",
 
 	"D81399" : "Hui Zhou Gaoshengda Technology Co.,LTD",
 
@@ -50254,6 +51410,8 @@ var MacAndOrganization = map[string]string {
 
 	"D82916" : "Ascent Communication Technology",
 
+	"D82918" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"D82986" : "Best Wish Technology LTD",
 
 	"D82A15" : "Leitner SpA",
@@ -50264,7 +51422,11 @@ var MacAndOrganization = map[string]string {
 
 	"D82DE1" : "Tricascade Inc.",
 
+	"D82FE6" : "Zhejiang Tmall Technology Co., Ltd.",
+
 	"D83062" : "Apple, Inc.",
+
+	"D83134" : "Roku, Inc",
 
 	"D831CF" : "Samsung Electronics Co.,Ltd",
 
@@ -50404,6 +51566,8 @@ var MacAndOrganization = map[string]string {
 
 	"D88A3B" : "UNIT-EM",
 
+	"D88ADC" : "Huawei Device Co., Ltd.",
+
 	"D88B4C" : "KingTing Tech.",
 
 	"D88D5C" : "Elentec",
@@ -50434,6 +51598,8 @@ var MacAndOrganization = map[string]string {
 
 	"D8977C" : "Grey Innovation",
 
+	"D89790" : "Commonwealth Scientific and Industrial Research Organisation",
+
 	"D897BA" : "PEGATRON CORPORATION",
 
 	"D89A34" : "Beijing SHENQI Technology Co., Ltd.",
@@ -50448,6 +51614,8 @@ var MacAndOrganization = map[string]string {
 
 	"D89E3F" : "Apple, Inc.",
 
+	"D89E61" : "Huawei Device Co., Ltd.",
+
 	"D89EF3" : "Dell Inc.",
 
 	"D8A01D" : "Espressif Inc.",
@@ -50455,6 +51623,8 @@ var MacAndOrganization = map[string]string {
 	"D8A105" : "Syslane, Co., Ltd.",
 
 	"D8A25E" : "Apple, Inc.",
+
+	"D8A315" : "vivo Mobile Communication Co., Ltd.",
 
 	"D8A534" : "Spectronix Corporation",
 
@@ -50469,6 +51639,8 @@ var MacAndOrganization = map[string]string {
 	"D8AE90" : "Itibia Technologies",
 
 	"D8AF3B" : "Hangzhou Bigbright Integrated communications system Co.,Ltd",
+
+	"D8AF81" : "   ZAO NPK Rotek",
 
 	"D8AFF1" : "Panasonic Appliances Company",
 
@@ -50499,6 +51671,8 @@ var MacAndOrganization = map[string]string {
 	"D8BC59" : "Shenzhen DAPU Microelectronics Co., Ltd",
 
 	"D8BF4C" : "Victory Concept Electronics Limited",
+
+	"D8BFC0" : "Espressif Inc.",
 
 	"D8C068" : "Netgenetech.co.,ltd.",
 
@@ -50540,6 +51714,8 @@ var MacAndOrganization = map[string]string {
 
 	"D8D43C" : "Sony Corporation",
 
+	"D8D4E6" : "Hytec Inter Co., Ltd.",
+
 	"D8D5B9" : "Rainforest Automation, Inc.",
 
 	"D8D67E" : "GSK CNC EQUIPMENT CO.,LTD",
@@ -50576,7 +51752,7 @@ var MacAndOrganization = map[string]string {
 
 	"D8E56D" : "TCT mobile ltd",
 
-	"D8E72B" : "NetScout Systems, Inc.",
+	"D8E72B" : "NetAlly",
 
 	"D8E743" : "Wush, Inc",
 
@@ -50704,6 +51880,8 @@ var MacAndOrganization = map[string]string {
 
 	"DC309C" : "Heyrex Limited",
 
+	"DC31D1" : "vivo Mobile Communication Co., Ltd.",
+
 	"DC330D" : "QING DAO HAIER TELECOM CO.,LTD.",
 
 	"DC3350" : "TechSAT GmbH",
@@ -50719,6 +51897,8 @@ var MacAndOrganization = map[string]string {
 	"DC37D2" : "Hunan HKT Electronic Technology Co., Ltd",
 
 	"DC38E1" : "Juniper Networks",
+
+	"DC396F" : "AVM Audiovisuelles Marketing und Computersysteme GmbH",
 
 	"DC3979" : "Cisco Systems, Inc",
 
@@ -50764,6 +51944,8 @@ var MacAndOrganization = map[string]string {
 
 	"DC537C" : "Compal Broadband Networks, Inc.",
 
+	"DC54D7" : "Amazon Technologies Inc.",
+
 	"DC5583" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"DC56E6" : "Shenzhen Bococom Technology Co.,LTD",
@@ -50805,6 +51987,8 @@ var MacAndOrganization = map[string]string {
 	"DC7137" : "zte corporation",
 
 	"DC7144" : "SAMSUNG ELECTRO MECHANICS CO., LTD.",
+
+	"DC7196" : "Intel Corporate",
 
 	"DC729B" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -50857,6 +52041,8 @@ var MacAndOrganization = map[string]string {
 	"DCA4CA" : "Apple, Inc.",
 
 	"DCA5F4" : "Cisco Systems, Inc",
+
+	"DCA632" : "Raspberry Pi Trading Ltd",
 
 	"DCA6BD" : "Beijing Lanbo Technology Co., Ltd.",
 
@@ -50912,6 +52098,8 @@ var MacAndOrganization = map[string]string {
 
 	"DCCBA8" : "Explora Technologies Inc",
 
+	"DCCC8D" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
+
 	"DCCE41" : "FE GLOBAL HONG KONG LIMITED",
 
 	"DCCEBC" : "Shenzhen JSR Technology Co.,Ltd.",
@@ -50953,6 +52141,8 @@ var MacAndOrganization = map[string]string {
 	"DCDE4F" : "Gionee Communication Equipment Co Ltd ",
 
 	"DCDECA" : "Akyllor",
+
+	"DCDFD6" : "zte corporation",
 
 	"DCE026" : "Patrol Tag, Inc",
 
@@ -51006,6 +52196,8 @@ var MacAndOrganization = map[string]string {
 
 	"DCF858" : "Lorent Networks, Inc.",
 
+	"DCF8B9" : "zte corporation",
+
 	"DCFAD5" : "STRONG Ges.m.b.H.",
 
 	"DCFB02" : "BUFFALO.INC",
@@ -51017,6 +52209,8 @@ var MacAndOrganization = map[string]string {
 	"DCFE18" : "TP-LINK TECHNOLOGIES CO.,LTD.",
 
 	"DE8111" : "		35764 Sinn  Hessen  DE811177977",
+
+	"E00084" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"E002A5" : "ABB Robotics",
 
@@ -51054,6 +52248,8 @@ var MacAndOrganization = map[string]string {
 
 	"E0191D" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"E01954" : "zte corporation",
+
 	"E019D8" : "BH TECHNOLOGIES",
 
 	"E01AEA" : "Allied Telesis, Inc.",
@@ -51073,6 +52269,8 @@ var MacAndOrganization = map[string]string {
 	"E02202" : "ARRIS Group, Inc.",
 
 	"E0247F" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"E02481" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"E02538" : "Titan Pet Products",
 
@@ -51194,7 +52392,7 @@ var MacAndOrganization = map[string]string {
 
 	"E06678" : "Apple, Inc.",
 
-	"E067B3" : "C-Data Technology Co., Ltd",
+	"E067B3" : "Shenzhen C-Data Technology Co., Ltd",
 
 	"E0686D" : "Raybased AB",
 
@@ -51282,7 +52480,7 @@ var MacAndOrganization = map[string]string {
 
 	"E0AA96" : "Samsung Electronics Co.,Ltd",
 
-	"E0AAB0" : "GENERAL VISION ELECTRONICS CO. LTD.",
+	"E0AAB0" : "Suntaii Enterprise Co., Ltd.",
 
 	"E0AADB" : "Nanjing PANENG Technology Development Co.,Ltd",
 
@@ -51334,6 +52532,8 @@ var MacAndOrganization = map[string]string {
 
 	"E0C3F3" : "zte corporation",
 
+	"E0C63C" : "SICHUAN TIANYI COMHEART TELECOMCO., LTD",
+
 	"E0C6B3" : "MilDef AB",
 
 	"E0C767" : "Apple, Inc.",
@@ -51365,6 +52565,8 @@ var MacAndOrganization = map[string]string {
 	"E0CEC3" : "ASKEY COMPUTER CORP",
 
 	"E0CF2D" : "Gemintek Corporation",
+
+	"E0D083" : "Samsung Electronics Co.,Ltd",
 
 	"E0D10A" : "Katoudenkikougyousyo co ltd",
 
@@ -51408,7 +52610,11 @@ var MacAndOrganization = map[string]string {
 
 	"E0E7BB" : "Nureva, Inc.",
 
+	"E0E8E6" : "Shenzhen C-Data Technology Co., Ltd.",
+
 	"E0E8E8" : "Olive Telecommunication Pvt. Ltd",
+
+	"E0EB62" : "Shanghai Hulu Devices Co., Ltd",
 
 	"E0ED1A" : "vastriver Technology Co., Ltd",
 
@@ -51444,6 +52650,8 @@ var MacAndOrganization = map[string]string {
 
 	"E40439" : "TomTom Software Ltd",
 
+	"E405F8" : "Delta Innovation Technology Co., Ltd.",
+
 	"E40EEE" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"E4115B" : "Hewlett Packard",
@@ -51454,9 +52662,13 @@ var MacAndOrganization = map[string]string {
 
 	"E41289" : "topsystem Systemhaus GmbH",
 
+	"E415F6" : "Texas Instruments",
+
 	"E417D8" : "8BITDO TECHNOLOGY HK LIMITED",
 
 	"E4186B" : "Zyxel Communications Corporation",
+
+	"E419C1" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"E41A2C" : "ZPE Systems, Inc.",
 
@@ -51552,6 +52764,10 @@ var MacAndOrganization = map[string]string {
 
 	"E4509A" : "HW Communications Ltd",
 
+	"E450EB" : "Apple, Inc.",
+
+	"E454E8" : "Dell Inc.",
+
 	"E455EA" : "Dedicated Computing",
 
 	"E45614" : "Suttle Apparatus",
@@ -51579,6 +52795,8 @@ var MacAndOrganization = map[string]string {
 	"E46251" : "HAO CHENG GROUP LIMITED",
 
 	"E46449" : "ARRIS Group, Inc.",
+
+	"E4671E" : "SHEN ZHEN NUO XIN CHENG TECHNOLOGY co., Ltd.",
 
 	"E467BA" : "Danish Interpretation Systems A/S",
 
@@ -51616,6 +52834,8 @@ var MacAndOrganization = map[string]string {
 
 	"E47E66" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"E47E9A" : "zte corporation",
+
 	"E47FB2" : "FUJITSU LIMITED",
 
 	"E48184" : "Nokia",
@@ -51644,6 +52864,8 @@ var MacAndOrganization = map[string]string {
 
 	"E4907E" : "Motorola Mobility LLC, a Lenovo Company",
 
+	"E4922A" : "DBG HOLDINGS LIMITED",
+
 	"E492E7" : "Gridlink Tech. Co.,Ltd.",
 
 	"E492FB" : "Samsung Electronics Co.,Ltd",
@@ -51653,6 +52875,8 @@ var MacAndOrganization = map[string]string {
 	"E496AE" : "ALTOGRAPHICS Inc.",
 
 	"E497F0" : "Shanghai VLC Technologies Ltd. Co.",
+
+	"E498BB" : "Phyplus Microelectronics Limited",
 
 	"E498D1" : "Microsoft Mobile Oy",
 
@@ -51688,7 +52912,11 @@ var MacAndOrganization = map[string]string {
 
 	"E4AA5D" : "Cisco Systems, Inc",
 
+	"E4AAEA" : "Liteon Technology Corporation",
+
 	"E4AB46" : "UAB Selteka",
+
+	"E4AB89" : "MitraStar Technology Corp.",
 
 	"E4AD7D" : "SCL Elements",
 
@@ -51709,6 +52937,8 @@ var MacAndOrganization = map[string]string {
 	"E4BD4B" : "zte corporation",
 
 	"E4BEED" : "Netcore Technology Inc.",
+
+	"E4C0CC" : "China Mobile Group Device Co.,Ltd.",
 
 	"E4C146" : "Objetivos y Servicios de Valor A",
 
@@ -51733,6 +52963,8 @@ var MacAndOrganization = map[string]string {
 	"E4CA12" : "zte corporation",
 
 	"E4CB59" : "Beijing Loveair Science and Technology Co. Ltd.",
+
+	"E4CC9D" : "Integrated Device Technology (Malaysia) Sdn. Bhd.",
 
 	"E4CE02" : "WyreStorm Technologies Ltd",
 
@@ -51809,6 +53041,8 @@ var MacAndOrganization = map[string]string {
 	"E4FB8F" : "MOBIWIRE MOBILES (NINGBO) CO.,LTD",
 
 	"E4FC82" : "Juniper Networks",
+
+	"E4FDA1" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"E4FED9" : "EDMI Europe Ltd",
 
@@ -51998,6 +53232,8 @@ var MacAndOrganization = map[string]string {
 
 	"E86D6E" : "voestalpine SIGNALING Fareham Ltd.",
 
+	"E86F38" : "CHONGQING FUGUI ELECTRONICS CO.,LTD.",
+
 	"E86FF2" : "Actiontec Electronics, Inc",
 
 	"E8718D" : "Elsys Equipamentos Eletronicos Ltda",
@@ -52074,6 +53310,8 @@ var MacAndOrganization = map[string]string {
 
 	"E8ABFA" : "Shenzhen Reecam Tech.Ltd.",
 
+	"E8ACAD" : "zte corporation",
+
 	"E8ADA6" : "Sagemcom Broadband SAS",
 
 	"E8B1FC" : "Intel Corporate",
@@ -52127,6 +53365,8 @@ var MacAndOrganization = map[string]string {
 	"E8CE06" : "SkyHawke Technologies, LLC.",
 
 	"E8D099" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
+	"E8D0B9" : "Taicang T&W Electronics",
 
 	"E8D0FA" : "MKS Instruments Deutschland GmbH",
 
@@ -52250,6 +53490,8 @@ var MacAndOrganization = map[string]string {
 
 	"EC1A59" : "Belkin International Inc.",
 
+	"EC1BBD" : "Silicon Laboratories",
+
 	"EC1D7F" : "zte corporation",
 
 	"EC1D8B" : "Cisco Systems, Inc",
@@ -52299,6 +53541,8 @@ var MacAndOrganization = map[string]string {
 	"EC3C5A" : "SHEN ZHEN HENG SHENG HUI DIGITAL TECHNOLOGY CO.,LTD",
 
 	"EC3C88" : "MCNEX Co.,Ltd.",
+
+	"EC3CBB" : "Huawei Device Co., Ltd.",
 
 	"EC3DFD" : "SHENZHEN BILIAN ELECTRONIC CO.，LTD",
 
@@ -52398,6 +53642,8 @@ var MacAndOrganization = map[string]string {
 
 	"EC8193" : "Logitech, Inc",
 
+	"EC8263" : "zte corporation",
+
 	"EC8350" : "Microsoft Corporation",
 
 	"EC836C" : "RM Tech Co., Ltd.",
@@ -52458,6 +53704,8 @@ var MacAndOrganization = map[string]string {
 
 	"ECA29B" : "Kemppi Oy",
 
+	"ECA5DE" : "ONYX WIFI Inc",
+
 	"ECA86B" : "Elitegroup Computer Systems Co.,Ltd.",
 
 	"ECA9FA" : "GUANGDONG GENIUS TECHNOLOGY CO., LTD.",
@@ -52495,6 +53743,8 @@ var MacAndOrganization = map[string]string {
 	"ECBD09" : "FUSION Electronics Ltd",
 
 	"ECBD1D" : "Cisco Systems, Inc",
+
+	"ECBEDD" : "Sagemcom Broadband SAS",
 
 	"ECC06A" : "PowerChord Group Limited",
 
@@ -52578,6 +53828,8 @@ var MacAndOrganization = map[string]string {
 
 	"ECFA03" : "FCA",
 
+	"ECFA5C" : "Beijing Xiaomi Electronics Co., Ltd.",
+
 	"ECFAAA" : "The IMS Company",
 
 	"ECFABC" : "Espressif Inc.",
@@ -52601,6 +53853,8 @@ var MacAndOrganization = map[string]string {
 	"F008F1" : "Samsung Electronics Co.,Ltd",
 
 	"F00D5C" : "JinQianMao  Technology Co.,Ltd.",
+
+	"F00DF5" : "ACOMA Medical Industry Co,. Ltd.",
 
 	"F00E1D" : "Megafone Limited",
 
@@ -52652,7 +53906,7 @@ var MacAndOrganization = map[string]string {
 
 	"F02624" : "WAFA TECHNOLOGIES CO., LTD.",
 
-	"F0264C" : "Dr. Sigrist AG",
+	"F0264C" : "Sigrist-Photometer AG",
 
 	"F0272D" : "Amazon Technologies Inc.",
 
@@ -52687,6 +53941,8 @@ var MacAndOrganization = map[string]string {
 	"F03E90" : "Ruckus Wireless",
 
 	"F03EBF" : "GOGORO TAIWAN LIMITED",
+
+	"F03F95" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"F03FF8" : "R L Drake",
 
@@ -52728,6 +53984,8 @@ var MacAndOrganization = map[string]string {
 
 	"F05C19" : "Aruba, a Hewlett Packard Enterprise Company",
 
+	"F05C77" : "Google, Inc.",
+
 	"F05D89" : "Dycon Limited",
 
 	"F05DC8" : "Duracell Powermat",
@@ -52747,6 +54005,8 @@ var MacAndOrganization = map[string]string {
 	"F065DD" : "Primax Electronics Ltd.",
 
 	"F06853" : "Integrated Corporation",
+
+	"F06865" : "Taicang T&W Electronics",
 
 	"F06BCA" : "Samsung Electronics Co.,Ltd",
 
@@ -52802,6 +54062,8 @@ var MacAndOrganization = map[string]string {
 
 	"F085C1" : "SHENZHEN RF-LINK TECHNOLOGY CO.,LTD.",
 
+	"F08620" : "Arcadyan Corporation",
+
 	"F08A28" : "JIANGSU HENGSION ELECTRONIC S and T CO.,LTD",
 
 	"F08A76" : "Samsung Electronics Co.,Ltd",
@@ -52827,6 +54089,8 @@ var MacAndOrganization = map[string]string {
 	"F09838" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"F0989D" : "Apple, Inc.",
+
+	"F09919" : "Garmin International",
 
 	"F099B6" : "Apple, Inc.",
 
@@ -52904,6 +54168,8 @@ var MacAndOrganization = map[string]string {
 
 	"F0C27C" : "Mianyang Netop Telecom Equipment Co.,Ltd.",
 
+	"F0C371" : "Apple, Inc.",
+
 	"F0C77F" : "Texas Instruments",
 
 	"F0C850" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -52962,6 +54228,8 @@ var MacAndOrganization = map[string]string {
 
 	"F0E3DC" : "Tecon MT, LLC",
 
+	"F0E4A2" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"F0E5C3" : "Drägerwerk AG & Co. KG aA",
 
 	"F0E77E" : "Samsung Electronics Co.,Ltd",
@@ -52977,6 +54245,8 @@ var MacAndOrganization = map[string]string {
 	"F0EE58" : "PACE Telematics GmbH",
 
 	"F0EEBB" : "VIPAR GmbH",
+
+	"F0EF86" : "Google, Inc.",
 
 	"F0EFD2" : "TF PAYMENT SERVICE CO., LTD",
 
@@ -53042,6 +54312,8 @@ var MacAndOrganization = map[string]string {
 
 	"F40B93" : "BlackBerry RTS",
 
+	"F40E01" : "Apple, Inc.",
+
 	"F40E11" : "IEEE Registration Authority",
 
 	"F40E22" : "Samsung Electronics Co.,Ltd",
@@ -53063,6 +54335,8 @@ var MacAndOrganization = map[string]string {
 	"F417B8" : "AirTies Wireless Networks",
 
 	"F41BA1" : "Apple, Inc.",
+
+	"F41D6B" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"F41E26" : "Simon-Kaloi Engineering",
 
@@ -53096,6 +54370,8 @@ var MacAndOrganization = map[string]string {
 
 	"F4323D" : "Sichuan tianyi kanghe communications co., LTD",
 
+	"F43328" : "CIMCON Lighting Inc.",
+
 	"F436E1" : "Abilis Systems SARL",
 
 	"F437B7" : "Apple, Inc.",
@@ -53107,6 +54383,8 @@ var MacAndOrganization = map[string]string {
 	"F43D80" : "FAG Industrial Services GmbH",
 
 	"F43E61" : "SHENZHEN GONGJIN ELECTRONICS CO.,LT",
+
+	"F43E66" : "Bee Computing (HK) Limited",
 
 	"F43E9D" : "Benu Networks, Inc.",
 
@@ -53206,6 +54484,8 @@ var MacAndOrganization = map[string]string {
 
 	"F473CA" : "Conversion Sound Inc.",
 
+	"F47488" : "New H3C Technologies Co., Ltd",
+
 	"F47626" : "Viltechmeda UAB ",
 
 	"F47960" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -53262,7 +54542,11 @@ var MacAndOrganization = map[string]string {
 
 	"F49651" : "NAKAYO Inc",
 
+	"F497C2" : "Nebulon Inc",
+
 	"F499AC" : "WEBER Schraubautomaten GmbH",
+
+	"F49C12" : "Structab AB",
 
 	"F49EEF" : "Taicang T&W Electronics",
 
@@ -53292,6 +54576,12 @@ var MacAndOrganization = map[string]string {
 
 	"F4B549" : "Xiamen Yeastar Information Technology Co., Ltd.",
 
+	"F4B5AA" : "zte corporation",
+
+	"F4B5BB" : "CERAGON NETWORKS",
+
+	"F4B688" : "PLANTRONICS, INC.",
+
 	"F4B6E5" : "TerraSem Co.,Ltd",
 
 	"F4B72A" : "TIME INTERCONNECT LTD",
@@ -53309,6 +54599,8 @@ var MacAndOrganization = map[string]string {
 	"F4BCDA" : "Shenzhen Jingxun Software Telecommunication Technology Co.,Ltd",
 
 	"F4BD7C" : "Chengdu jinshi communication Co., LTD",
+
+	"F4BD9E" : "Cisco Systems, Inc",
 
 	"F4BF80" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
@@ -53338,6 +54630,8 @@ var MacAndOrganization = map[string]string {
 
 	"F4CD90" : "Vispiron Rotec GmbH",
 
+	"F4CE36" : "Nordic Semiconductor ASA",
+
 	"F4CE46" : "Hewlett Packard",
 
 	"F4CFE2" : "Cisco Systems, Inc",
@@ -53347,6 +54641,8 @@ var MacAndOrganization = map[string]string {
 	"F4D108" : "Intel Corporate",
 
 	"F4D261" : "SEMOCON Co., Ltd",
+
+	"F4D620" : "GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD",
 
 	"F4D7B2" : "LGS Innovations, LLC",
 
@@ -53377,6 +54673,8 @@ var MacAndOrganization = map[string]string {
 	"F4E3FB" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"F4E4AD" : "zte corporation",
+
+	"F4E5F2" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
 	"F4E6D7" : "Solar Power Technologies, Inc.",
 
@@ -53439,6 +54737,8 @@ var MacAndOrganization = map[string]string {
 	"F8042E" : "SAMSUNG ELECTRO-MECHANICS(THAILAND)",
 
 	"F8051C" : "DRS Imaging and Targeting Solutions",
+
+	"F8084F" : "Sagemcom Broadband SAS",
 
 	"F80BBE" : "ARRIS Group, Inc.",
 
@@ -53540,6 +54840,8 @@ var MacAndOrganization = map[string]string {
 
 	"F83880" : "Apple, Inc.",
 
+	"F83CBF" : "BOTATO ELECTRONICS SDN BHD",
+
 	"F83D4E" : "Softlink Automation System Co., Ltd",
 
 	"F83DFF" : "HUAWEI TECHNOLOGIES CO.,LTD",
@@ -53568,6 +54870,8 @@ var MacAndOrganization = map[string]string {
 
 	"F84ABF" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"F84D33" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
 	"F84DFC" : "Hangzhou Hikvision Digital Technology Co.,Ltd.",
 
 	"F84F57" : "Cisco Systems, Inc",
@@ -53583,6 +54887,8 @@ var MacAndOrganization = map[string]string {
 	"F852DF" : "VNL Europe AB",
 
 	"F854AF" : "ECI Telecom Ltd.",
+
+	"F854B8" : "Amazon Technologies Inc.",
 
 	"F8572E" : "Core Brands, LLC",
 
@@ -53601,6 +54907,8 @@ var MacAndOrganization = map[string]string {
 	"F85E3C" : "SHENZHEN ZHIBOTONG ELECTRONICS CO.,LTD",
 
 	"F85F2A" : "Nokia Corporation",
+
+	"F860F0" : "Aruba, a Hewlett Packard Enterprise Company",
 
 	"F86214" : "Apple, Inc.",
 
@@ -53636,6 +54944,8 @@ var MacAndOrganization = map[string]string {
 
 	"F87588" : "HUAWEI TECHNOLOGIES CO.,LTD",
 
+	"F875A4" : "LCFC(HeFei) Electronics Technology co., ltd",
+
 	"F8769B" : "Neopis Co., Ltd.",
 
 	"F877B8" : "Samsung Electronics Co.,Ltd",
@@ -53657,6 +54967,10 @@ var MacAndOrganization = map[string]string {
 	"F88479" : "Yaojin Technology(Shenzhen)Co.,Ltd",
 
 	"F884F2" : "Samsung Electronics Co.,Ltd",
+
+	"F887F1" : "Apple, Inc.",
+
+	"F8893C" : "Inventec Appliances Corp.",
 
 	"F88A3C" : "IEEE Registration Authority",
 
@@ -53704,6 +55018,8 @@ var MacAndOrganization = map[string]string {
 
 	"F89DBB" : "Tintri",
 
+	"F89E28" : "Cisco Meraki",
+
 	"F89FB8" : "YAZAKI Energy System Corporation",
 
 	"F8A03D" : "Dinstar Technologies Co., Ltd.",
@@ -53722,6 +55038,8 @@ var MacAndOrganization = map[string]string {
 
 	"F8A5C5" : "Cisco Systems, Inc",
 
+	"F8A763" : "Zhejiang Tmall Technology Co., Ltd.",
+
 	"F8A963" : "COMPAL INFORMATION (KUNSHAN) CO., LTD. ",
 
 	"F8A9D0" : "LG Electronics (Mobile Communications)",
@@ -53734,9 +55052,17 @@ var MacAndOrganization = map[string]string {
 
 	"F8AC6D" : "Deltenna Ltd",
 
+	"F8ADCB" : "HMD Global Oy",
+
+	"F8AE27" : "John Deere Electronic Solutions",
+
+	"F8AFDB" : "Fiberhome Telecommunication Technologies Co.,LTD",
+
 	"F8B156" : "Dell Inc.",
 
 	"F8B2F3" : "GUANGZHOU BOSMA TECHNOLOGY CO.,LTD",
+
+	"F8B46A" : "Hewlett Packard",
 
 	"F8B568" : "IEEE Registration Authority",
 
@@ -53771,6 +55097,8 @@ var MacAndOrganization = map[string]string {
 	"F8C397" : "NZXT Corp. Ltd.",
 
 	"F8C39E" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"F8C4F3" : "Shanghai Infinity Wireless Technologies Co.,Ltd.",
 
 	"F8C678" : "Carefusion",
 
@@ -53837,6 +55165,8 @@ var MacAndOrganization = map[string]string {
 	"F8E61A" : "Samsung Electronics Co.,Ltd",
 
 	"F8E71E" : "Ruckus Wireless",
+
+	"F8E7A0" : "vivo Mobile Communication Co., Ltd.",
 
 	"F8E7B5" : "µTech Tecnologia LTDA",
 
@@ -53940,6 +55270,8 @@ var MacAndOrganization = map[string]string {
 
 	"FC1BFF" : "V-ZUG AG",
 
+	"FC1D43" : "Apple, Inc.",
+
 	"FC1D59" : "I Smart Cities HK Ltd",
 
 	"FC1D84" : "Autobase",
@@ -53957,6 +55289,8 @@ var MacAndOrganization = map[string]string {
 	"FC253F" : "Apple, Inc.",
 
 	"FC27A2" : "TRANS ELECTRIC CO., LTD.",
+
+	"FC29F3" : "McPay Co.,LTD.",
 
 	"FC2A54" : "Connected Data, Inc.",
 
@@ -54034,6 +55368,8 @@ var MacAndOrganization = map[string]string {
 
 	"FC55DC" : "Baltic Latvian Universal Electronics LLC",
 
+	"FC589A" : "Cisco Systems, Inc",
+
 	"FC58FA" : "Shen Zhen Shi Xin Zhong Xin Technology Co.,Ltd.",
 
 	"FC5A1D" : "Hitron Technologies. Inc",
@@ -54084,6 +55420,8 @@ var MacAndOrganization = map[string]string {
 
 	"FC7CE7" : "FCI USA LLC",
 
+	"FC7D6C" : "HYESUNG TECHWIN Co., Ltd",
+
 	"FC7F56" : "CoSyst Control Systems GmbH",
 
 	"FC8329" : "Trei technics",
@@ -54110,6 +55448,8 @@ var MacAndOrganization = map[string]string {
 
 	"FC923B" : "Nokia Corporation",
 
+	"FC9435" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
 	"FC946C" : "UBIVELOX",
 
 	"FC94CE" : "zte corporation",
@@ -54135,6 +55475,8 @@ var MacAndOrganization = map[string]string {
 	"FCA22A" : "PT. Callysta Multi Engineering",
 
 	"FCA386" : "SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LTD",
+
+	"FCA47A" : "IEEE Registration Authority",
 
 	"FCA621" : "Samsung Electronics Co.,Ltd",
 
@@ -54182,9 +55524,13 @@ var MacAndOrganization = map[string]string {
 
 	"FCBC9C" : "Vimar Spa",
 
+	"FCBCD1" : "HUAWEI TECHNOLOGIES CO.,LTD",
+
+	"FCBD67" : "Arista Networks",
+
 	"FCBE7B" : "vivo Mobile Communication Co., Ltd.",
 
-	"FCC233" : "Private",
+	"FCC233" : "ASUSTek COMPUTER INC.",
 
 	"FCC23D" : "Atmel Corporation",
 
@@ -54284,6 +55630,6 @@ var MacAndOrganization = map[string]string {
 
 	"FaceCa" : "Beijing FaceCam Technology Co., Ltd.",
 
-	"bedded" : "Embedded Wireless GmbH",
+	"bedded" : "Artesyn Embedded Technologies",
 
 }
