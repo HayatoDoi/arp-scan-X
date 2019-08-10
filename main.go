@@ -24,6 +24,7 @@ func main() {
 		Backoff       float64 `short:"b" long:"backoff" default:"1.5" description:"Set timeout backoff factor\nThe per-host timeout is multiplied by this factor                                                     \nafter each timeout. So, if the number of retries\nis 3, the initial per-host timeout is 500ms and the\nbackoff factor is 1.5, then the first timeout will be\n500ms, the second 750ms and the third 1125ms."`
 	}
 
+
 	opts.Version = func() {
 		fmt.Println(versionMSG)
 		os.Exit(0)
@@ -35,7 +36,7 @@ func main() {
 
 	_, err := flags.Parse(&opts)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "See the output of arp-scan-X -h for a summary of options.\n")
+		fmt.Fprintf(os.Stderr, "See the output of arp-scan-X -h for a summary of options.")
 		os.Exit(1)
 	}
 	// end opt parse
@@ -44,7 +45,8 @@ func main() {
 
 	interfaces, err := arp.IfaceToName(opts.InterfaceName)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "%s\n", err)
+		slog.Errorln("%s", err)
+
 		os.Exit(1)
 	}
 
@@ -58,13 +60,13 @@ func main() {
 		}
 		a, err := arp.New(config)
 		if err != nil {
-			slog.Error(fmt.Sprintf("Error(%s) : %s\n", interface_, err))
+			slog.Debugln("Error(%s) : %s", interface_, err)
 			continue
 		}
-		fmt.Printf("Interface: %s, Network range: %v\n", interface_,a.Addr)
+		slog.Println("Interface: %s, Network range: %v", interface_,a.Addr)
 		arpTables, err := a.Scan()
 		if err != nil {
-			slog.Error(fmt.Sprintf("Error(%s) : %s\n", interface_, err))
+			slog.Debugln("Error(%s) : %s", interface_, err)
 			continue
 		}
 		for _, arpTable := range arpTables {
@@ -73,12 +75,12 @@ func main() {
 			if ok != true{
 				organization = "unknown"
 			}
-			fmt.Printf("%-15v %-20v %s\n", arpTable.IP, arpTable.HardwareAddr, organization)
+			slog.Println("%-15v %-20v %s", arpTable.IP, arpTable.HardwareAddr, organization)
 		}
 		success = true
 	}
 	if success == false {
-		fmt.Fprintf(os.Stderr, "No valid ip address configuration.\n")
+		slog.Errorln("No valid ip address configuration.")
 		os.Exit(1)
 	}
 }
