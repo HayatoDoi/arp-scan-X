@@ -36,7 +36,7 @@ func main() {
 
 	_, err := flags.Parse(&opts)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "See the output of arp-scan-X -h for a summary of options.")
+		fmt.Fprintf(os.Stderr, "See the output of arp-scan-X -h for a summary of options.\n")
 		os.Exit(1)
 	}
 	// end opt parse
