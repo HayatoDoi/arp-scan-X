@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:ee5c1cf480b412a3211800d975e624b5eb23c9bec5b4b303a3ab8434f881b706"
+  digest = "1:7f4a1262a7b322e29c5fadfe25c8d2c47b5a73fb903db701b58b676e381dc75e"
   name = "github.com/google/gopacket"
   packages = [
     ".",
@@ -10,8 +10,8 @@
     "pcap",
   ]
   pruneopts = "UT"
-  revision = "7f3fc6cbbb499248dca53da7fe3ed6c25a78d22f"
-  version = "v1.1.16"
+  revision = "6d3e2615da4ed2ed2a349918fe74e7e6d03482fa"
+  version = "v1.1.17"
 
 [[projects]]
   digest = "1:a2cff208d4759f6ba1b1cd228587b0a1869f95f22542ec9cd17fff64430113c7"
