@@ -2,12 +2,12 @@
 
 arp-scan on X-platform.
 
-| | |
+| OS | Support |
 | --- | --- |
-| o | Linux |
-| o | BSD |
-| o | MacOS |
-| x | windows |
+| Linux | o |
+| BSD | o |
+| MacOS | o |
+| windows10 | o |
 
 
 
