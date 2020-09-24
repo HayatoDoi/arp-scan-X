@@ -28,9 +28,10 @@ type arpTable struct {
 type arpTables []arpTable
 
 type arpStruct struct {
-	config Config
-	iface  *net.Interface
-	Addr   *net.IPNet
+	config  Config
+	iface   *net.Interface
+	Addr    *net.IPNet
+	IfaceID string
 }
 
 /*
@@ -80,6 +81,9 @@ func New(config Config) (arpStruct, error) {
 	}
 	a.iface = iface
 
+	// Set interface id.
+	a.IfaceID = getInterfaceID(iface.Name)
+
 	// look for IPv4 addresses.
 	var addr *net.IPNet
 	addrs, err := a.iface.Addrs()
@@ -119,7 +123,7 @@ func (a arpStruct) Scan() (arpTables, error) {
 	var at arpTables
 
 	// Open up a pcap handle for packet reads/writes.
-	handle, err := pcap.OpenLive(a.iface.Name, 65536, true, pcap.BlockForever)
+	handle, err := pcap.OpenLive(a.IfaceID, 65536, true, pcap.BlockForever)
 	if err != nil {
 		return at, err
 	}
